@@ -1,0 +1,159 @@
+{
+    "settings": {
+        "formspreeURL": "https://formspree.io/f/myyqbpqq",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        }
+    },
+    "header": {
+        "logo": {
+            "text": "IOIT MUN",
+            "url": "img/hero/mun.png",
+            "url2": "img/hero/ioitmun.png",
+            "url3": "img/hero/mun2.png",
+            "url4": "img/hero/ioitmun2.png",
+            "accent": ""
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": [
+                    
+                ]
+            },
+            {
+                "label": "Committees",
+                "link": "#.",
+                "children": [
+                    {
+                        "label": "UNSC",
+                        "link": "/unsc"
+                    },
+                    {
+                        "label": "UNDP",
+                        "link": "/undp"
+                    },
+                    {
+                        "label": "G20",
+                        "link": "/g20"
+                    },
+                    {
+                        "label": "AIPPM",
+                        "link": "/aippm"
+                    },
+                    {
+                        "label": "UNHRC",
+                        "link": "/unhrc"
+                    },
+                    {
+                        "label": "IP",
+                        "link": "/ip"
+                    }
+                ]
+            },
+            {
+                "label": "Secretariat",
+                "link": "/secretariat",
+                "children": [
+                    
+                ]
+            },
+            {
+                "label": "Contact",
+                "link": "/contact",
+                "children": 0
+            },
+            {
+                "label": "Gallery",
+                "link": "/portfolio",
+                "children": 0
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "text": "AISSMS IOIT",
+            "accent": " MUN' 23",
+            "image1": "img/hero/ioitAcm.png",
+            "image2": "img/hero/ioit25.png"
+        },
+        "description": "",
+        "menu": [
+            {
+                "label": "Homepage",
+                "link": "/"
+            },
+            {
+                "label": "Secretariat",
+                "link": "/secretariat"
+            },
+            {
+                "label": "Gallery",
+                "link": "/portfolio"
+            },
+            {
+                "label": "Contact",
+                "link": "contact"
+            }
+        ],
+        "links": [
+            {
+                "label": "Terms",
+                "link": "#."
+            },
+            {
+                "label": "Careers",
+                "link": "#."
+            },
+            {
+                "label": "Privacy Policy",
+                "link": "#."
+            },
+            {
+                "label": "Help Center",
+                "link": "#."
+            }
+        ],
+        "copy": "© 2023 IOIT MUN. All Rights Reserved.",
+        "dev": "Developed by: Students of ACM IOIT ",
+        "bg_image": "/img/hero/1.jpg",
+        "instagram": {
+            "images": [
+                "img/content/instagram-2/1.jpg",
+                "img/content/instagram-2/2.jpg",
+                "img/content/instagram-2/3.jpg",
+                "img/content/instagram-2/4.jpg",
+                "img/content/instagram-2/5.jpg",
+                "img/content/instagram-2/6.jpg"
+            ],
+            "button": {
+                "label": "Our Instagram",
+                "link": "https://www.instagram.com/ioit_mun"
+            }
+        }
+    },
+    "contacts": {
+        "email": "ioitmun@gmail.com",
+        "tel": "+91 9322123945",
+        "name": "Atharva Navale"
+    },
+    "social": [
+        {
+            "link": "https://www.linkedin.com/company/ioit-mun/",
+            "icon": "fab fa-linkedin-in",
+            "title": "Facebook"
+        },
+        {
+            "link": "https://twitter.com/IOIT_MUN",
+            "icon": "fab fa-twitter",
+            "title": "Twitter"
+        },
+        {
+            "link": "https://www.instagram.com/ioit_mun",
+            "icon": "fab fa-instagram",
+            "title": "Instagram"
+        }
+    ]
+}

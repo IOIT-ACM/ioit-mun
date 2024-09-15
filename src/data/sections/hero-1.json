@@ -1,0 +1,29 @@
+{
+    "bg_image": "img/hero/1.jpg",
+    "subtitle": "AISSMS IOIT Welcomes You To",
+    "title": { "before": "IOIT", "accent": "MUN", "after": "UNITY THROUGH DIPLOMACY" },
+    "description": "",
+    "image": "img/hero/home-bg.jpg",
+    "partners": [
+        {
+            "image": "img/partners/kick.svg",
+            "link": "https://kickev.com/",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/TransGlobe.png",
+            "link": "https://transglobeedu.com/pune/foreign-education-consultancy-in-pune/",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/budhanibros.png",
+            "link": "https://www.budhanibros.com/",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/Chitale Bandhu.png",
+            "link": "https://www.chitalebandhu.in/",
+            "alt": "logo"
+        }
+    ]
+}

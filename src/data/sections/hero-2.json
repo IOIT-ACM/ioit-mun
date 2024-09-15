@@ -1,0 +1,62 @@
+{
+    "title": "A Word From Our Secretary General",
+    "button1": {
+        "label": "Register For MUN",
+        "link": "/portfolio"
+    },
+    "image": {
+        "url": "img/team/Harshiv.png",
+        "alt": "Image"
+    },
+    "rotateText": "Scroll down - Scroll down - ",
+    "lineText": [
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "team of smm specialists",
+            "separator": ""
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "bg_image": "img/content/3.jpg",
+    "items": [
+        {
+            "num": "01",
+            "title": "AIPPM",
+            "icon": "img/com/AIPPM.png",
+            "text": "All India Political Parties Meet ",
+            "id": "/aippm"
+        },
+        {
+            "num": "02",
+            "title": "G20",
+            "icon": "img/com/G20.png",
+            "text": "G20",
+            "id": "/g20"
+        },
+        {
+            "num": "03",
+            "title": "UNDP",
+            "icon": "img/com/UNDP.png",
+            "text": "United Nations Development Programme",
+            "id": "/undp"
+        },
+        {
+            "num": "04",
+            "title": "UNHRC",
+            "icon": "img/com/UNHRC.png",
+            "text": "United Nations Human Rights Council",
+            "id": "/unhrc"
+        },
+        {
+            "num": "05",
+            "title": "UNSC",
+            "icon": "img/com/UNSC.png",
+            "text": "United Nations Security Council",
+            "id": "/unsc"
+        },
+        {
+            "num": "06",
+            "title": "IP",
+            "icon": "img/com/IP.png",
+            "text": "United Nations Security Council",
+            "id": "/ip"
+        }
+    ]
+}

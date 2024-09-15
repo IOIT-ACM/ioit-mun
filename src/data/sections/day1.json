@@ -1,0 +1,52 @@
+[
+    {
+        "logo": "img/com/arrival.png",
+        "timings": "08:15AM",
+        "events": "Arrival"
+    },
+    {
+        "logo": "img/com/breakfast.png",
+        "timings": "08:30AM - 09:00AM",
+        "events": "Breakfast"
+    },
+    {
+        "logo": "img/com/openingceremony.png",
+        "timings": "09:00AM - 10:00AM",
+        "events": "Opening Ceremony"
+    },
+    {
+        "logo": "img/com/committee.png",
+        "timings": "10:00AM - 12:30PM",
+        "events": "Committee Session 1"
+    },
+    {
+        "logo": "img/com/Lunch.png",
+        "timings": "12:30PM - 01:30PM",
+        "events": "Lunch"
+    },
+    {
+        "logo": "img/com/committee.png",
+        "timings": "01:30AM - 03:30AM",
+        "events": "Committee Session 2"
+    },
+    {
+        "logo": "img/com/Tea2.png",
+        "timings": "03:30AM - 04:00AM",
+        "events": "High Tea"
+    },
+    {
+        "logo": "img/com/committee.png",
+        "timings": "04:00PM - 05:30PM",
+        "events": "Committee Session 3"
+    },
+    {
+        "logo": "img/com/dispersal.png",
+        "timings": "05:30AM",
+        "events": "Dispersals"
+    },
+    {
+        "logo": "img/com/garba.png",
+        "timings": "06:45PM onwards",
+        "events": "Garba Socials"
+    }
+]

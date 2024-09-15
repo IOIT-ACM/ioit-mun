@@ -1,0 +1,12 @@
+{
+  "debug": true,
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@library/*": ["./src/lib/*"],
+      "@data/*": ["./src/data/*"],
+    }
+  }
+}
