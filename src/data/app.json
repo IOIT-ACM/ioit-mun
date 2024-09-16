@@ -52,21 +52,21 @@
         ]
       },
       {
-        "label": "Secretariat",
-        "link": "/secretariat",
-        "children": []
-      },
-      {
         "label": "Register",
         "link": "https://docs.google.com/forms/d/e/1FAIpQLSfUOPqs-ihdtc0w9bwz5Ho8JbeFnGzmQJJW8WT2_VrfrL7FZw/viewform",
         "children": 0
+      },
+      {
+        "label": "TENET 2024",
+        "link": "https://www.ioittenet.com/",
+        "children": []
       }
     ]
   },
   "footer": {
     "logo": {
       "text": "AISSMS IOIT",
-      "accent": " MUN' 23",
+      "accent": " MUN' 24",
       "image1": "img/hero/ioitAcm.png",
       "image2": "img/hero/ioit25.png"
     },
@@ -103,7 +103,7 @@
         "link": "#."
       }
     ],
-    "copy": "© 2023 IOIT MUN. All Rights Reserved.",
+    "copy": "© 2024 IOIT MUN. All Rights Reserved.",
     "dev": "Developed by: students of IOIT ACM Student Chapter",
     "bg_image": "/img/hero/1.jpg",
     "instagram": {
