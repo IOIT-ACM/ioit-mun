@@ -19,8 +19,8 @@ const ProjectsSlider = dynamic( () => import("@components/sliders/Projects"), { 
 const Home3 = (props) => {
   return (
     <Layouts invert>
-      <HeroThreeSection Event = "UNDP"/>
-      <AboutFourSection Event = "UNDP"/>
+      <HeroThreeSection Event = "UNODC"/>
+      <AboutFourSection Event = "UNODC"/>
       {/* <CountersSection />
       <ProjectsSlider projects={props.projects} />
       <PartnersSlider />

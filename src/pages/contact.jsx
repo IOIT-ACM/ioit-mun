@@ -12,7 +12,7 @@ const Contact = () => {
       {
         "icon": "img/icons/4.svg",
         "label": "Support email",
-        "value": "ioitmun@gmail.com"
+        "value": "ioit.mun@aissmsioit.org"
       },
       {
         "icon": "img/icons/7.svg",

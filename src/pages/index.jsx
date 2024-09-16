@@ -28,8 +28,8 @@ const Home1 = (props) => {
         <AboutSection />
         {/* <AboutTwoSection /> */}
         {/* <TeamSection /> */}
-        <Schedule />
-        <VideoSection />
+        {/*<Schedule /> */}
+        {/*<VideoSection /> */}
         {/* <TestimonialSlider /> */}
         {/* <LatestPostsSection posts={props.posts} />
         <SubscribeSection /> */}
