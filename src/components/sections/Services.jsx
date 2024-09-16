@@ -8,7 +8,7 @@ const ServicesSection = () => {
 
             {/* background image */}
             <div className="mil-just-image mil-section-bg mil-scale-img" data-value-1="1" data-value-2="1.1" style={{ height: "150%" }}>
-                <Image src={Data.bg_image} alt="image" fill/>
+                <Image src={Data.bg_image} alt="image" fill style={{ filter: "blur(90px)"}}/>
             </div>
             <div className="mil-gradient-overlay"></div>
 
