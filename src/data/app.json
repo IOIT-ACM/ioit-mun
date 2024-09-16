@@ -31,11 +31,11 @@
           },
           {
             "label": "UNCSW",
-            "link": "/unscw"
+            "link": "/uncsw"
           },
           {
-            "label": "G20",
-            "link": "/g20"
+            "label": "UNHRC",
+            "link": "/unhrc"
           },
           {
             "label": "AIPPM",
@@ -57,8 +57,8 @@
         "children": []
       },
       {
-        "label": "Gallery",
-        "link": "/portfolio",
+        "label": "Register",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSfUOPqs-ihdtc0w9bwz5Ho8JbeFnGzmQJJW8WT2_VrfrL7FZw/viewform",
         "children": 0
       }
     ]
