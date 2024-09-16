@@ -2,6 +2,7 @@ import { useState } from 'react';
 import 'react-modal-video/css/modal-video.css'
 import Data from "@data/sections/video.json";
 import ModalVideo from 'react-modal-video'
+import Image from 'next/image';
 
 const VideoSection = () => {
     const [isOpen, setOpen] = useState(false);
@@ -10,7 +11,7 @@ const VideoSection = () => {
         <>
             <a data-fancybox data-no-swup onClick={() => setOpen(true)} className="mil-video-section mil-word-1-trigger mil-accent-trigger" style={{ "cursor" : "pointer" }}>
                 <div className="mil-image-frame">
-                    <img src="img/mockmun.png" alt="" />
+                    <Image src="/img/mockmun.png" alt='mockmun' fill/>
                 </div>
                 <div className="mil-overlay-80" />
 

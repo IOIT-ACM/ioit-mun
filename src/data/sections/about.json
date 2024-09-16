@@ -7,8 +7,8 @@
         "link": "https://in.linkedin.com/in/abhay-vaidya-8105576"
     },
     "image": {
-        "front": "img/content/AbhayVaidya.jpeg",
-        "back": "img/content/1.jpg",
+        "front": "/img/content/AbhayVaidya.jpeg",
+        "back": "/img/content/1.jpg",
         "alt": "image",
         "badgeText": "Cheif Guest - Cheif Guest - Cheif Guest - "
     }

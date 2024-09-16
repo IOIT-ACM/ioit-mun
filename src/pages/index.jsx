@@ -18,8 +18,8 @@ const Home1 = (props) => {
         <ServicesSection />
         {/* <AboutSection /> */}
         {/* <TeamSection /> */}
-        {/*<Schedule /> */}
-        {/*<VideoSection /> */}
+        {/*<Schedule />*/}
+        <VideoSection />
       </Layouts>
     </div>
   );

@@ -9,10 +9,10 @@
   "header": {
     "logo": {
       "text": "IOIT MUN",
-      "url": "img/hero/mun.png",
-      "url2": "img/hero/ioitmun.png",
-      "url3": "img/hero/mun2.png",
-      "url4": "img/hero/ioitmun2.png",
+      "url": "/img/hero/mun.png",
+      "url2": "/img/hero/ioitmun.png",
+      "url3": "/img/hero/mun2.png",
+      "url4": "/img/hero/ioitmun2.png",
       "accent": ""
     },
     "menu": [
@@ -67,8 +67,8 @@
     "logo": {
       "text": "AISSMS IOIT",
       "accent": " MUN' 24",
-      "image1": "img/hero/ioitAcm.png",
-      "image2": "img/hero/ioit25.png"
+      "image1": "/img/hero/ioitAcm.png",
+      "image2": "/img/hero/ioit25.png"
     },
     "description": "",
     "menu": [
@@ -108,12 +108,12 @@
     "bg_image": "/img/hero/1.jpg",
     "instagram": {
       "images": [
-        "img/content/instagram-2/1.jpg",
-        "img/content/instagram-2/2.jpg",
-        "img/content/instagram-2/3.jpg",
-        "img/content/instagram-2/4.jpg",
-        "img/content/instagram-2/5.jpg",
-        "img/content/instagram-2/6.jpg"
+        "/img/content/instagram-2/1.jpg",
+        "/img/content/instagram-2/2.jpg",
+        "/img/content/instagram-2/3.jpg",
+        "/img/content/instagram-2/4.jpg",
+        "/img/content/instagram-2/5.jpg",
+        "/img/content/instagram-2/6.jpg"
       ],
       "button": {
         "label": "Our Instagram",

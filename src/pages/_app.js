@@ -3,6 +3,9 @@ import Head from "next/head";
 
 import '../styles/scss/style.scss';
 import "../styles/globals.css";
+import '../../public/css/plugins/bootstrap-grid.css';
+import '../../public/css/plugins/font-awesome.min.css';
+import '../../public/css/plugins/swiper.min.css';
 
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements

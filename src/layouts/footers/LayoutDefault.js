@@ -1,17 +1,19 @@
 import Link from "next/link";
 import appData from "@data/app.json";
+import Image from "next/image";
 
 const DefaultFooter = ( { bg, instagram, extraClass } ) => {
   return (
     <footer className="mil-footer-1 mil-light-trigger">
         <div className="mil-image-frame">
-            <img 
+            <Image 
               src={bg ? bg : appData.footer.bg_image}
               alt="img" 
               className="mil-scale-img" 
               data-value-1="1" 
               data-value-2="1.2" 
               style={{filter: 'grayscale(100%)'}}
+              fill
             />
             <div className="mil-overay"></div>
         </div>
@@ -25,8 +27,8 @@ const DefaultFooter = ( { bg, instagram, extraClass } ) => {
                         </h4>
                         <p className="mil-mb-30">{appData.footer.description}</p>
                         <div style={{display:"flex", justifyContent:"space-around"}}>
-                        <img src={appData.footer.logo.image2} alt="logo" className="mil-mb-0" style={{width: "45%"}} />
-                        <img src={appData.footer.logo.image1} alt="logo" className="mil-mb-0" style={{width: "35%"}} />
+                        <Image src={appData.footer.logo.image2} alt="logo" className="mil-mb-0 pt-2" width={130} height={110}/>
+                        <Image src={appData.footer.logo.image1} alt="logo" className="mil-mb-0" width={140} height={130}/>
                         </div>
                     </div>
                     <div className="col-lg-12 col-xl-8">
@@ -78,7 +80,7 @@ const DefaultFooter = ( { bg, instagram, extraClass } ) => {
                     <div className="mil-instagram mil-footer-instagram">
                         {appData.footer.instagram.images.map((item, key) => (
                         <div className="mil-instagram-item" key={`instagram-item-${key}`}>
-                            <img src={item} alt="instagram" />
+                            <Image src={item} alt="instagram" fill/>
                         </div>
                         ))}
                     </div>

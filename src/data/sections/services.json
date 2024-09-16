@@ -1,45 +1,45 @@
 {
-  "bg_image": "img/content/3.jpg",
+  "bg_image": "/img/content/3.jpg",
   "items": [
     {
       "num": "01",
       "title": "UNSC",
-      "icon": "img/com/UNSC.png",
+      "icon": "/img/com/UNSC.png",
       "text": "United Nations Security Council",
       "id": "/unsc"
     },
     {
       "num": "02",
       "title": "UNHRC",
-      "icon": "img/com/UNHRC.png",
+      "icon": "/img/com/UNHRC.png",
       "text": "United Nations Human Rights Council",
       "id": "/unhrc"
     },
     {
       "num": "03",
       "title": "UNCSW",
-      "icon": "img/com/uncsw.png",
+      "icon": "/img/com/uncsw.png",
       "text": "United Nations Commission on the Status of Women",
       "id": "/uncsw"
     },
     {
       "num": "04",
       "title": "UNODC",
-      "icon": "img/com/UNODC.png",
+      "icon": "/img/com/UNODC.png",
       "text": "United Nations Office on Drugs and Crime",
       "id": "/unodc"
     },
     {
       "num": "05",
       "title": "AIPPM",
-      "icon": "img/com/AIPPM.png",
+      "icon": "/img/com/AIPPM.png",
       "text": "All India Political Parties Meet",
       "id": "/aippm"
     },
     {
       "num": "06",
       "title": "IP",
-      "icon": "img/com/IP.png",
+      "icon": "/img/com/IP.png",
       "text": "International Press",
       "id": "/ip"
     }

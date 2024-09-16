@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import appData from "@data/app.json";
+import Image from "next/image";
 
 const DefaultHeader = ({ transparent, invert, extraClass }) => {
   const [toggle, setToggle] = useState(false);
@@ -23,7 +24,7 @@ const DefaultHeader = ({ transparent, invert, extraClass }) => {
                 <Link href="/" legacyBehavior>
                   <a className="mil-logo mil-scale-down-trigger mil-accent-trigger">
                       <div className="mil-h5">
-                        <span> <img src={invert ? appData.header.logo.url3 : appData.header.logo.url} style={{width: "50%"}}  /> </span> <span className="mil-accent">{appData.header.logo.accent}</span>
+                        <span> <Image src={invert ? appData.header.logo.url3 : appData.header.logo.url} width={170} height={60} alt="logo" /> </span> <span className="mil-accent">{appData.header.logo.accent}</span>
                       </div>
                   </a>
                 </Link>

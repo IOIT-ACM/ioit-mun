@@ -1,6 +1,6 @@
 {
   "avatar": {
-    "image": "img/hero/4.png",
+    "image": "/img/hero/4.png",
     "name": "Emma Freeman"
   },
   "title": "Freelance Digital Marketing Expert",
@@ -14,49 +14,49 @@
     "link": "https://docs.google.com/forms/d/e/1FAIpQLSfUOPqs-ihdtc0w9bwz5Ho8JbeFnGzmQJJW8WT2_VrfrL7FZw/viewform"
   },
   "image": {
-    "url": "img/hero/mun12.png",
+    "url": "/img/hero/mun12.png",
     "alt": "image"
   },
   "UNSC": {
     "title": "United Nations Security Council",
     "description": "The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations (UN) and is charged with ensuring international peace and security, recommending the admission of new UN members to the General Assembly, and approving any changes to the UN Charter. The UNSC is the only UN body with the authority to issue binding resolutions on member states. The Security Council was created after World War II to address the failings of the League of Nations in maintaining world peace. The Security Council consists of fifteen members, of which five are permanent: China, France, Russia, the United Kingdom, and the United States.",
     "Agenda": "Assessing global export controls and technology transfer under the Wassenaar Arrangement",
-    "logo": "img/com/UNSC.png",
+    "logo": "/img/com/UNSC.png",
     "link": "#"
   },
   "IP": {
     "title": "International Press",
     "description": "The International Press consists of a body of news agencies, broadcasters, and the like, who has their form of liberty in informing, and deliberating about events occurring in the United Nations. The International Press endeavors in promoting awareness and to wake up the conscious of the human mind to the reality and authenticity about the events occurring in the world. It works tirelessly and with diligence in providing the truth, disclosing and elucidating on the debate among the delegates of the notable committee.",
     "Agenda": "Reporting, Journalism, Photography",
-    "logo": "img/com/IP.png",
+    "logo": "/img/com/IP.png",
     "link": "#"
   },
   "AIPPM": {
     "title": "All India Political Parties Meet",
     "description": "All India Political Party Meet is a non-technical but powerful committee. It is a meeting between all the political parties of the nation. Typically called before the session of the Parliament or before the introduction of a bill, this committee aims to arrive at a consensus before the sessions begin. It is a supplementary body to the Parliament without any legislative provisions. The purpose of the meetings is to provide a forum for unbounded political debate and to foster consensus on key national issues.",
     "Agenda": "Deliberating on the introduction of the Aparajita Bill and the demand for a Central Protection Act",
-    "logo": "img/com/AIPPM.png",
+    "logo": "/img/com/AIPPM.png",
     "link": "#"
   },
   "UNODC": {
     "title": "United Nations Office on Drugs and Crime",
     "description": "The United Nations Office on Drugs and Crime (UNODC) is a UN office that addresses issues related to drug control, crime prevention, and international terrorism. It supports countries in their struggle against illicit drugs, crime, and terrorism through research, advocacy, and operational support. The office implements international drug conventions and formulates policies for crime prevention and control.",
     "Agenda": "Addressing the challenges of money and drug laundering in Special Economic Zones, with special emphasis on the Golden Triangle SEZ",
-    "logo": "img/com/UNODC.png",
+    "logo": "/img/com/UNODC.png",
     "link": "#"
   },
   "UNCSW": {
     "title": "United Nations Commission on the Status of Women",
     "description": "The United Nations Commission on the Status of Women (UNCSW) is a functional commission of the United Nations Economic and Social Council (ECOSOC). It is dedicated to promoting gender equality and empowering women worldwide. The Commission plays a crucial role in shaping global standards for gender equality and fostering international cooperation to address women's rights issues.",
     "Agenda": "Implications of human rights violations on women, with emphasis on religion-driven nations",
-    "logo": "img/com/UNCSW.png",
+    "logo": "/img/com/UNCSW.png",
     "link": "#"
   },
   "UNHRC": {
     "title": "United Nations Human Rights Council",
     "description": "The United Nations Human Rights Council (UNHRC) is a United Nations body whose mission is to promote and protect human rights around the world. The Council consists of 47 members and addresses thematic human rights issues such as freedom of expression, belief, and assembly, as well as the rights of marginalized groups including women, the LGBTQIA+ community, and racial and ethnic minorities.",
     "Agenda": "Discussing the role of state and non-state actors in the Venezuelan crisis, with emphasis on the humanitarian emergency following the presidential elections",
-    "logo": "img/com/UNHRC.png",
+    "logo": "/img/com/UNHRC.png",
     "link": "#"
   }
 }
