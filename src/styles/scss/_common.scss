@@ -658,7 +658,7 @@ link
     position: relative;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: $link;
+    font-size: $link + 1;
     font-family: $link-font;
     font-weight: 600;
 

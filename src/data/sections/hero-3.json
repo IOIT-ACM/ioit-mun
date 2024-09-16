@@ -11,7 +11,7 @@
   },
   "button2": {
     "label": "Register",
-    "link": "#"
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfUOPqs-ihdtc0w9bwz5Ho8JbeFnGzmQJJW8WT2_VrfrL7FZw/viewform"
   },
   "image": {
     "url": "img/hero/mun12.png",
@@ -19,43 +19,43 @@
   },
   "UNSC": {
     "title": "United Nations Security Council",
-    "description": "The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations (UN) and is charged with ensuring international peace and security, recommending the admission of new UN members to the General Assembly, and approving any changes to the UN Charter. The UNSC is the only UN body with the authority to issue binding resolutions on member states. The Security Council was created after World War II to address the failings of the League of Nations in maintaining world peace. It held its first session on 17 January 1946 but was largely paralyzed in the following decades by the Cold War between the United States and the Soviet Union (and their allies). The Security Council consists of fifteen members, of which five are permanent: China, France, Russia, the United Kingdom, and the United States.",
-    "Agenda": "Strengthening International Cooperation in Cybersecurity",
+    "description": "The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations (UN) and is charged with ensuring international peace and security, recommending the admission of new UN members to the General Assembly, and approving any changes to the UN Charter. The UNSC is the only UN body with the authority to issue binding resolutions on member states. The Security Council was created after World War II to address the failings of the League of Nations in maintaining world peace. The Security Council consists of fifteen members, of which five are permanent: China, France, Russia, the United Kingdom, and the United States.",
+    "Agenda": "Assessing global export controls and technology transfer under the Wassenaar Arrangement",
     "logo": "img/com/UNSC.png",
     "link": "#"
   },
   "IP": {
     "title": "International Press",
     "description": "The International Press consists of a body of news agencies, broadcasters, and the like, who has their form of liberty in informing, and deliberating about events occurring in the United Nations. The International Press endeavors in promoting awareness and to wake up the conscious of the human mind to the reality and authenticity about the events occurring in the world. It works tirelessly and with diligence in providing the truth, disclosing and elucidating on the debate among the delegates of the notable committee.",
-    "Agenda": "",
+    "Agenda": "Reporting, Journalism, Photography",
     "logo": "img/com/IP.png",
-    "link": "https://firebasestorage.googleapis.com/v0/b/acm-ioit.appspot.com/o/IOIT%20STUDY%20GUIDE-IP.pdf?alt=media&token=bf04513e-9651-4df7-95d7-4f42225ca735"
+    "link": "#"
   },
   "AIPPM": {
-    "title": "All India Political Parties Meet ",
-    "description": "All India Political Party Meet is a non-technical but powerful committee. It is a meeting between all the political parties of the nation. Typically called before the session of the Parliament or before the introduction of a bill, this committee aims to arrive at a consensus before the sessions begin.It is a supplementary body to the Parliament without any legislative provisions. The purpose of the meetings was initially to be a forum for unbounded political debate which may not be allowed in the Parliament due to time constraints, but these bodies now aid in providing a better insight into national issues. They help provide a diverse viewpoint before the actual legislative process.",
-    "Agenda": "Deliberating on Women's Reservation Bill and Political Empowerment",
+    "title": "All India Political Parties Meet",
+    "description": "All India Political Party Meet is a non-technical but powerful committee. It is a meeting between all the political parties of the nation. Typically called before the session of the Parliament or before the introduction of a bill, this committee aims to arrive at a consensus before the sessions begin. It is a supplementary body to the Parliament without any legislative provisions. The purpose of the meetings is to provide a forum for unbounded political debate and to foster consensus on key national issues.",
+    "Agenda": "Deliberating on the introduction of the Aparajita Bill and the demand for a Central Protection Act",
     "logo": "img/com/AIPPM.png",
     "link": "#"
   },
   "UNODC": {
-    "title": "UNODC",
-    "description": "The G20 or Group of 20 is an intergovernmental forum comprising 19 sovereign countries, the European Union (EU), and the African Union (AU). The G20 was founded in 1999 in response to several world economic crises. Since 2008, it has convened at least once a year, with summits involving each member's head of government or state, finance minister, or foreign minister, and other high-ranking officials; the EU is represented by the European Commission and the European Central Bank. It works to address major issues related to the global economy, such as international financial stability, climate change mitigation and sustainable development.",
-    "Agenda": "Discussing Prime Minister Narendra Modi's vision for the expansion of the United Nations Security Council.",
-    "logo": "img/com/unodc.png",
+    "title": "United Nations Office on Drugs and Crime",
+    "description": "The United Nations Office on Drugs and Crime (UNODC) is a UN office that addresses issues related to drug control, crime prevention, and international terrorism. It supports countries in their struggle against illicit drugs, crime, and terrorism through research, advocacy, and operational support. The office implements international drug conventions and formulates policies for crime prevention and control.",
+    "Agenda": "Addressing the challenges of money and drug laundering in Special Economic Zones, with special emphasis on the Golden Triangle SEZ",
+    "logo": "img/com/UNODC.png",
     "link": "#"
   },
   "UNCSW": {
-    "title": "UNCSW",
-    "description": "The G20 or Group of 20 is an intergovernmental forum comprising 19 sovereign countries, the European Union (EU), and the African Union (AU). The G20 was founded in 1999 in response to several world economic crises. Since 2008, it has convened at least once a year, with summits involving each member's head of government or state, finance minister, or foreign minister, and other high-ranking officials; the EU is represented by the European Commission and the European Central Bank. It works to address major issues related to the global economy, such as international financial stability, climate change mitigation and sustainable development.",
-    "Agenda": "Discussing Prime Minister Narendra Modi's vision for the expansion of the United Nations Security Council.",
-    "logo": "img/com/unsc.png",
+    "title": "United Nations Commission on the Status of Women",
+    "description": "The United Nations Commission on the Status of Women (UNCSW) is a functional commission of the United Nations Economic and Social Council (ECOSOC). It is dedicated to promoting gender equality and empowering women worldwide. The Commission plays a crucial role in shaping global standards for gender equality and fostering international cooperation to address women's rights issues.",
+    "Agenda": "Implications of human rights violations on women, with emphasis on religion-driven nations",
+    "logo": "img/com/UNCSW.png",
     "link": "#"
   },
   "UNHRC": {
     "title": "United Nations Human Rights Council",
-    "description": "The United Nations Human Rights Council (UNHRC)[a] is a United Nations body whose mission is to promote and protect human rights around the world. The Council has 47 members elected for staggered three-year terms on a regional group basis. The headquarters of the Council are at the United Nations Office at Geneva in Switzerland. The Council investigates allegations of breaches of human rights in United Nations member states and addresses thematic human rights issues like freedom of association and assembly, freedom of expression, freedom of belief and religion, women's rights, LGBT rights, and the rights of racial and ethnic minorities.",
-    "Agenda": "Marginalization of the LGBTQIA+ community.",
+    "description": "The United Nations Human Rights Council (UNHRC) is a United Nations body whose mission is to promote and protect human rights around the world. The Council consists of 47 members and addresses thematic human rights issues such as freedom of expression, belief, and assembly, as well as the rights of marginalized groups including women, the LGBTQIA+ community, and racial and ethnic minorities.",
+    "Agenda": "Discussing the role of state and non-state actors in the Venezuelan crisis, with emphasis on the humanitarian emergency following the presidential elections",
     "logo": "img/com/UNHRC.png",
     "link": "#"
   }
