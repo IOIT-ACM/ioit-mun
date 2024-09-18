@@ -6,6 +6,7 @@ import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
 
 import HeroThreeSection from "@components/sections/HeroThree";
+import ExecutiveBoard from "@components/sections/ExecutiveBoard";
 import AwardsSection from "@components/sections/Awards";
 import AboutFourSection from "@components/sections/AboutFour";
 import CountersSection from "@components/sections/Counters";
@@ -16,11 +17,28 @@ const InstagramSlider = dynamic( () => import("@components/sliders/Instagram"), 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 const ProjectsSlider = dynamic( () => import("@components/sliders/Projects"), { ssr: false } );
 
+const AIPPM = {
+  "items": [
+    {
+      "image": "img/team/Saksham.jpg",
+      "name": "Saksham Sharma",
+      "role": "Moderator, AIPPM"
+    },
+    {
+      "image": "img/team/YashC.jpg",
+      "name": "Yash Chavhan",
+      "role": "Deputy Moderator, AIPPM"
+    }
+  ]
+};
+
+
 const Home3 = (props) => {
   return (
     <Layouts invert>
       <HeroThreeSection Event = "AIPPM"/>
       <AboutFourSection Event = "AIPPM"/>
+      <ExecutiveBoard Content={AIPPM} />
       {/* <CountersSection />
       <ProjectsSlider projects={props.projects} />
       <PartnersSlider />
