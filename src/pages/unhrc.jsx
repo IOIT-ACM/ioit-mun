@@ -38,7 +38,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "UNHRC"/>
       <AboutFourSection Event = "UNHRC"/>
-      <ExecutiveBoard Content={UNHRC} />
+      {/* <ExecutiveBoard Content={UNHRC} /> */}
       {/* <CountersSection />
       <ProjectsSlider projects={props.projects} />
       <PartnersSlider />

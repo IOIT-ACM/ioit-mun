@@ -38,7 +38,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "IP"/>
       <AboutFourSection Event = "IP"/>
-      <ExecutiveBoard Content={IP} />
+      {/* <ExecutiveBoard Content={IP} /> */}
       {/* <CountersSection />
       <ProjectsSlider projects={props.projects} />
       <PartnersSlider />
