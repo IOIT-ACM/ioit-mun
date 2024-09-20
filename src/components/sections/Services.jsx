@@ -1,5 +1,6 @@
 import Data from "@data/sections/services.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const ServicesSection = () => {
     return (
@@ -7,7 +8,7 @@ const ServicesSection = () => {
 
             {/* background image */}
             <div className="mil-just-image mil-section-bg mil-scale-img" data-value-1="1" data-value-2="1.1" style={{ height: "150%" }}>
-                <img src={Data.bg_image} alt="image" />
+                <Image src={Data.bg_image} alt="image" fill style={{ filter: "blur(90px)"}}/>
             </div>
             <div className="mil-gradient-overlay"></div>
 
@@ -23,19 +24,13 @@ const ServicesSection = () => {
                                 {/* icon */}
                                 <div className="mil-mb-10"></div>
                                 <div className="d-flex justify-content-center align-items-center" >
-                                    <img src={item.icon} alt={item.title} style={{
-                                        paddingTop: "10%",
-                                        width: "60%",
-                                        height: "100%",
-                                        // Additional styles for different screen widths
-                                        // '@media (max-width: 848)': {
-                                        //     width: "40%",
-                                        //     height: "100%",
-                                        // },
-                                        // '@media (max-width: 576px)': {
-                                        //     width: "40%",
-                                        //     height: "40%",
-                                        // },
+                                    <Image src={item.icon} alt={item.title} 
+                                      width={300}
+                                      height={300}
+                                      layout="responsive"
+                                      objectFit="contain"
+                                    style={{
+                                        padding: "30% 10% 10% 10%",
                                     }} />
                                 </div>
                                 {/* number */}

@@ -1,5 +1,6 @@
 import Data from "@data/sections/hero-3.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const HeroThree = ({Event}) => {
     return (
@@ -51,7 +52,7 @@ const HeroThree = ({Event}) => {
                                     </g>
                                 </svg>
                                 <div className="" />
-                                <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"  style={{filter: "invert(60%)"}}/>
+                                <Image src={Data[Event].logo} alt="Event Logo" className="mil-photo"  style={{filter: "invert(60%)", paddingTop: "25%"}} fill/>
                                 {/* <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"/> */}
                             </div>
 

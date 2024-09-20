@@ -1,41 +1,41 @@
 [
     {
-        "logo": "img/com/arrival.png",
+        "logo": "/img/com/arrival.png",
         "timings": "09:00AM",
         "events": "Arrival"
     },
     {
-        "logo": "img/com/breakfast.png",
+        "logo": "/img/com/breakfast.png",
         "timings": "09:15AM - 09:45AM",
         "events": "Breakfast"
     },
     {
-        "logo": "img/com/committee.png",
+        "logo": "/img/com/committee.png",
         "timings": "09:45AM - 12:30PM",
         "events": "Committee Session 4"
     },
     {
-        "logo": "img/com/Lunch.png",
+        "logo": "/img/com/Lunch.png",
         "timings": "12:30PM - 01:30PM",
         "events": "Lunch"
     },
     {
-        "logo": "img/com/committee.png",
+        "logo": "/img/com/committee.png",
         "timings": "01:30PM - 03:30PM",
         "events": "Committee Session 5"
     },
     {
-        "logo": "img/com/Tea2.png",
+        "logo": "/img/com/Tea2.png",
         "timings": "03:30PM - 03:45PM",
         "events": "High-Tea"
     },
     {
-        "logo": "img/com/closingceremony.png",
+        "logo": "/img/com/closingceremony.png",
         "timings": "03:45PM - 04:30PM",
         "events": "Closing Ceremony"
     },
     {
-        "logo": "img/com/dispersal.png",
+        "logo": "/img/com/dispersal.png",
         "timings": "04:30PM",
         "events": "Dispersals"
     }

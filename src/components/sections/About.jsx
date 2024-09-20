@@ -1,5 +1,6 @@
 import Data from "@data/sections/about.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const AboutSection = () => {
     return (
@@ -53,22 +54,24 @@ const AboutSection = () => {
                       <div className="mil-image-1 mil-appearance">
                           <div className="mil-just-image mil-image-square">
                               {/* back image */}
-                              <img 
+                              <Image
                                 src={Data.image.back} 
                                 alt={Data.image.alt} 
                                 className="mil-scale-img" 
                                 data-value-1="1" 
-                                data-value-2="1.2" 
+                                data-value-2="1.2"
+                                fill
                               />
                           </div>
                       </div>
                       <div className="mil-image-2 mil-appearance">
                           <div className="mil-just-image">
                               {/* front image */}
-                              <img 
+                              <Image
                                 src={Data.image.front} 
                                 alt={Data.image.alt}
                                 style={{'objectPosition': 'right'}}
+                                fill
                               />
                           </div>
                       </div>

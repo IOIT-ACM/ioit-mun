@@ -1,5 +1,5 @@
 import Data from "@data/sections/hero-2.json";
-import Link from "next/link";
+import Image from "next/image";
 
 const HeroTwo = () => {
     return (
@@ -53,7 +53,7 @@ const HeroTwo = () => {
                                     </g>
                                 </svg>
                                 <div className="mil-bg" style={{ backgroundColor: "#03456D" }} />
-                                <img src={Data.image.url} alt="Secretariat" className="mil-photo-secretariat" />
+                                <Image src={Data.image.url} alt="Secretariat" className="mil-photo-secretariat" fill />
                                 {/* <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"/> */}
                             </div>
 

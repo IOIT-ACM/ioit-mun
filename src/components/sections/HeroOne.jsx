@@ -1,21 +1,21 @@
 import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Data from "@data/sections/hero-1.json";
-import Link from "next/link";
-
+import Image from "next/image";
 const HeroOne = () => {
     return (
         <header>
             <div className="mil-hero-1">
 
                 <div className="mil-image-frame">
-                    <img 
+                    <Image
                         src={Data.bg_image}
                         alt="img" 
                         className="mil-scale-img" 
                         data-value-1=".5" 
                         data-value-2="1.2" 
                         style={{filter: 'grayscale(100%)'}}
+                        fill
                     />
                     <div className="mil-overay" />
                 </div>
@@ -55,13 +55,14 @@ const HeroOne = () => {
 
                             <div className="mil-appearance">
                                 <div className="mil-just-image">
-                                    <img 
+                                    <Image
                                         src={Data.image} 
                                         alt="img" 
                                         className="mil-scale-img" 
                                         data-value-1="1" 
                                         data-value-2="1.15" 
                                         style={{'objectPosition': 'center 25%'}}
+                                        fill
                                     />
                                 </div>
                             </div>
@@ -82,11 +83,11 @@ const HeroOne = () => {
                                 {Data.partners.map((item, key) => (
                                 <SwiperSlide key={`hero1-item-${key}`} className="swiper-slide">
                                     <a href={item.link} target="_blank" className="mil-partner-frame mil-hidden-trigger">
-                                        <img 
+                                        <Image
                                             src={item.image} 
                                             alt={item.alt}
-                                            className=""
-                                            style={{width: "60%"}}
+                                            width={200}
+                                            height={100}
                                         />
                                     </a>
                                 </SwiperSlide>

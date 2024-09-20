@@ -3,6 +3,7 @@ import day2Data from "@data/sections/day2.json"
 import Link from "next/link"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
+import Image from "next/image";
 
 const Schedule = () => {
     return (
@@ -28,7 +29,7 @@ const Schedule = () => {
                     <table className="mil-mb-30">
                         {day1Data.map((item, index) => (
                             <tr key={index}>
-                                <td style={{ width: "20%", padding: "10px 10px" }}><img src={item.logo} alt="logo" style={{ width: "50%", }} /></td>
+                                <td style={{ width: "20%", padding: "10px 10px" }}><Image src={item.logo} alt="logo" width={50} height={50}/></td>
                                 <td className='a-80' style={{ padding: "10px 0px" }}>{item.timings}</td>
                                 <td className='a-80' style={{ padding: "10px 0px" }}>{item.events}</td>
                             </tr>
@@ -48,7 +49,7 @@ const Schedule = () => {
                     <table className='mil-mb-30'>
                         {day2Data.map((item, index) => (
                             <tr key={index}>
-                                <td style={{ width: "20%", padding: "10px 10px" }}><img src={item.logo} alt="logo" style={{ width: "50%", }} /></td>
+                                <td style={{ width: "20%", padding: "10px 10px" }}><Image src={item.logo} alt="logo" width={50} height={50} /></td>
                                 <td className='a-80' style={{ padding: "10px 0px" }}>{item.timings}</td>
                                 <td className='a-80' style={{ padding: "10px 0px" }}>{item.events}</td>
                             </tr>
