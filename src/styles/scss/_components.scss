@@ -562,7 +562,7 @@ textarea {
     color: $dark;
     border-bottom: solid 1px $gs-20;
 
-    ~ span {
+    ~span {
         display: block;
         width: 0;
         height: 1px;
@@ -576,32 +576,32 @@ textarea {
     &:focus {
         outline: 0;
 
-        ~ label {
+        ~label {
             @extend %label-movement;
         }
 
-        ~ span {
+        ~span {
             width: 100%;
         }
     }
 
-    &:valid ~ label {
+    &:valid~label {
         @extend %label-movement;
     }
 
-    &:valid ~ span {
+    &:valid~span {
         width: 100%;
     }
 
     &.mil-keep {
-        ~ label {
+        ~label {
             @extend %label-movement;
         }
     }
 }
 
 textarea {
-    ~ span {
+    ~span {
         bottom: 8px;
     }
 }
@@ -740,6 +740,7 @@ accordion
     .mil-accordion-minus {
         opacity: 1;
     }
+
     .mil-accordion-plus {
         opacity: 0;
     }
