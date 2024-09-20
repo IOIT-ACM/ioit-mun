@@ -32,6 +32,7 @@ Content
             }
         }
     }
+
     ol {
         padding: 0;
         margin: 0;
@@ -44,7 +45,20 @@ Content
             list-style-type: none;
         }
     }
-    p, ul, ol, h1, h2, h3, h4, h5, h6, iframe, table, object, blockquote {
+
+    p,
+    ul,
+    ol,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    iframe,
+    table,
+    object,
+    blockquote {
         margin-bottom: 30px;
 
         &:last-child {
@@ -53,7 +67,7 @@ Content
     }
 }
 
-.mil-content-frame + .single-post-text > p:first-child {
+.mil-content-frame+.single-post-text>p:first-child {
     &::first-letter {
         color: $dark;
         font-weight: $titles-font-weight;
@@ -71,7 +85,8 @@ swiper
 
 ***************************/
 
-.mil-content .swiper, .mil-content .swiper-container {
+.mil-content .swiper,
+.mil-content .swiper-container {
     overflow: visible;
 }
 
