@@ -1,5 +1,6 @@
 import Data from "@data/sections/services.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const ServicesSection = () => {
     return (
