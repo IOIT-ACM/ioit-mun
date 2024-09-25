@@ -68,7 +68,7 @@
       "text": "AISSMS IOIT",
       "accent": " MUN' 24",
       "image1": "/img/hero/ioitAcm.png",
-      "image2": "/img/hero/ioit25.png"
+      "image2": "/img/hero/mun12.png"
     },
     "description": "",
     "menu": [
@@ -82,7 +82,7 @@
       },
       {
         "label": "Gallery",
-        "link": "/portfolio"
+        "link": "/gallery"
       }
     ],
     "links": [
