@@ -8,12 +8,12 @@ import AboutFourSection from "@components/sections/AboutFour";
 const UNSC = {
   "items": [
     {
-      "image": "img/team/Aashay.jpg",
+      "image": "/img/team/Aashay.jpg",
       "name": "Aashay Inamdar",
       "role": "President, UNSC"
     },
     {
-      "image": "img/team/YashB.jpg",
+      "image": "/img/team/YashB.jpg",
       "name": "Yash Borkar",
       "role": "Vice President, UNSC"
     }
@@ -26,7 +26,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "UNSC"/>
       <AboutFourSection Event = "UNSC"/>
-      {/* <ExecutiveBoard Content={UNSC} /> */}
+      <ExecutiveBoard Content={UNSC} />
     </Layouts>
   );
 };

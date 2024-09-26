@@ -8,12 +8,12 @@ import AboutFourSection from "@components/sections/AboutFour";
 const AIPPM = {
   "items": [
     {
-      "image": "img/team/Saksham.jpg",
+      "image": "/img/team/Saksham.jpg",
       "name": "Saksham Sharma",
       "role": "Moderator, AIPPM"
     },
     {
-      "image": "img/team/YashC.jpg",
+      "image": "/img/team/YashC.jpg",
       "name": "Yash Chavhan",
       "role": "Deputy Moderator, AIPPM"
     }

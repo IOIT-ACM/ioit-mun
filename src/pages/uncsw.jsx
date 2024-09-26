@@ -8,12 +8,12 @@ import AboutFourSection from "@components/sections/AboutFour";
 const UNCSW = {
   "items": [
     {
-      "image": "img/team/Chinmay.jpg",
+      "image": "/img/team/Chinmay.jpg",
       "name": "Chinmay Bambarkar",
       "role": "Chairperson, UNCSW"
     },
     {
-      "image": "img/team/Jitisha.jpg",
+      "image": "/img/team/Jitisha.jpg",
       "name": "Jitisha Hiremath",
       "role": "Rapporteur, UNCSW"
     }
@@ -26,7 +26,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "UNCSW"/>
       <AboutFourSection Event = "UNCSW"/>
-      {/* <ExecutiveBoard Content={UNCSW} /> */}
+      <ExecutiveBoard Content={UNCSW} />
     </Layouts>
   );
 };

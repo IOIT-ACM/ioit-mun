@@ -10,7 +10,7 @@ import Schedule from "@components/sections/Schedule";
 
 
 
-const Home1 = (props) => {
+const Page = (props) => {
   return (
     <div style={{width: "100vw", overflowX: "hidden"}}>
       <Layouts transparent>
@@ -24,5 +24,5 @@ const Home1 = (props) => {
     </div>
   );
 };
-export default Home1;
+export default Page;
 

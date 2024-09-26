@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function ExecutiveBoard({Content}) {
   return (
@@ -13,15 +14,7 @@ function ExecutiveBoard({Content}) {
             <div className="mil-cover mil-long">
                 <div className="mil-image-frame">
                    {/*  Place Holder for Image */}
-                   {/*  <img src={item.image} alt={item.name} style={{'objectPosition': 'top' }} /> */}
-                </div>
-            </div>
-            <div className="mil-overlay mil-with-bg mil-text-center">
-                <div className="mil-description">
-                    {/* name */}
-                    <h5>{item.name}</h5>
-                    {/* post */}
-                    <span className="mil-link mil-softened-50">{item.role}</span>
+                   <Image src={item.image} alt={item.name} style={{'objectPosition': 'top' }} fill />
                 </div>
             </div>
         </div>
