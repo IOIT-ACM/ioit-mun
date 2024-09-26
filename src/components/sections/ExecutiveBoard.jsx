@@ -4,7 +4,7 @@ import Image from 'next/image'
 function ExecutiveBoard({Content}) {
   return (
 
-<div className="container mil-content-frame mil-appearance mil-p-90">
+<div className="container mil-content-frame mil-appearance mil-p-90" style={{overflow: "hidden"}}>
 <div className="row">
       {Content.items.map((item, key) => (
         <div className="col-xl-3 col-lg-4 col-md-6" key={`team-item-${key}`}>
