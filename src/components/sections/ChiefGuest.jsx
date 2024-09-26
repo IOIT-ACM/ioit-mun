@@ -1,8 +1,8 @@
-import Data from "@data/sections/about.json";
+import Data from "@data/sections/chief-guest.json";
 import Link from "next/link";
 import Image from "next/image";
 
-const AboutSection = () => {
+const ChiefGuest = () => {
     return (
       <div className="container mil-p-120-0">
           <div className="row justify-content-between align-items-center">
@@ -84,4 +84,4 @@ const AboutSection = () => {
     );
 };
 
-export default AboutSection;
+export default ChiefGuest;
