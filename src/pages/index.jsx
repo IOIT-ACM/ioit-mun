@@ -18,7 +18,7 @@ const Page = (props) => {
         <ServicesSection />
         {/* <AboutSection /> */}
         {/* <TeamSection /> */}
-        {/*<Schedule />*/}
+        <Schedule />
         <VideoSection />
       </Layouts>
     </div>
