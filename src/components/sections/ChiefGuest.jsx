@@ -60,6 +60,7 @@ const ChiefGuest = () => {
                                 className="mil-scale-img" 
                                 data-value-1="1" 
                                 data-value-2="1.2"
+                                style={{filter: "blur(10px)"}}
                                 fill
                               />
                           </div>

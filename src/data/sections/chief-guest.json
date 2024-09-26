@@ -8,7 +8,7 @@
     },
     "image": {
         "front": "/img/content/ChiefGuest.jpg",
-        "back": "",
+        "back": "/img/content/ChiefGuest.jpg",
         "alt": "image",
         "badgeText": "Cheif Guest - Cheif Guest - Cheif Guest - "
     }
