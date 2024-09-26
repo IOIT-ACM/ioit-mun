@@ -8,12 +8,12 @@ import AboutFourSection from "@components/sections/AboutFour";
 const UNODC = {
   "items": [
     {
-      "image": "img/team/Aaryan.jpg",
+      "image": "/img/team/UNODC_Aaryan.png",
       "name": "Aaryan Gaur",
       "role": "Co-Chairperson, UNODC"
     },
     {
-      "image": "img/team/Yashveer.jpg",
+      "image": "/img/team/UNODC_Yashveer.png",
       "name": "Yashveer Tiwari",
       "role": "Co-Chairperson, UNODC"
     }
@@ -26,7 +26,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "UNODC"/>
       <AboutFourSection Event = "UNODC"/>
-      {/* <ExecutiveBoard Content={UNODC} /> */}
+      <ExecutiveBoard Content={UNODC} />
     </Layouts>
   );
 };
