@@ -11,7 +11,7 @@ function ExecutiveBoard({Content}) {
 
 {/* team card */}
 <div className="mil-card-1 mil-scale-down-trigger mil-accent-trigger mil-appearance mil-mb-30">
-    <div className="mil-cover mil-long" style={{ height: '400px', width: '300px' }}>
+    <div className="mil-cover mil-long border-dark" style={{ height: '400px', width: '300px' }}>
         <div className="mil-image-frame">
            {/*  Place Holder for Image */}
            <Image 
