@@ -8,12 +8,12 @@ import AboutFourSection from "@components/sections/AboutFour";
 const UNCSW = {
   "items": [
     {
-      "image": "/img/team/Chinmay.jpg",
+      "image": "/img/team/UNCSW_Chinmay.png",
       "name": "Chinmay Bambarkar",
       "role": "Chairperson, UNCSW"
     },
     {
-      "image": "/img/team/Jitisha.jpg",
+      "image": "/img/team/UNCSW_Jitisha.png",
       "name": "Jitisha Hiremath",
       "role": "Rapporteur, UNCSW"
     }

@@ -8,12 +8,12 @@ import AboutFourSection from "@components/sections/AboutFour";
 const UNHRC = {
   "items": [
     {
-      "image": "/img/team/Rakeysh.jpg",
+      "image": "/img/team/UNHRC_Rakeysh.png",
       "name": "Rakeysh Gupta",
       "role": "Chairperson, UNHRC"
     },
     {
-      "image": "/img/team/Rushil.jpg",
+      "image": "/img/team/UNHRC_Rushil.png",
       "name": "Rushil Pujari",
       "role": "Vice Chairperson, UNHRC"
     }

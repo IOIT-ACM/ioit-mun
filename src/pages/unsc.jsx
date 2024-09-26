@@ -8,12 +8,12 @@ import AboutFourSection from "@components/sections/AboutFour";
 const UNSC = {
   "items": [
     {
-      "image": "/img/team/Aashay.jpg",
+      "image": "/img/team/UNSC_Aashay.png",
       "name": "Aashay Inamdar",
       "role": "President, UNSC"
     },
     {
-      "image": "/img/team/YashB.jpg",
+      "image": "/img/team/UNSC_Yash.png",
       "name": "Yash Borkar",
       "role": "Vice President, UNSC"
     }
