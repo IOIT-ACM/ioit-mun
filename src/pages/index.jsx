@@ -2,7 +2,7 @@ import React from "react";
 import Layouts from "@layouts/Layouts";
 
 import HeroOneSection from "@components/sections/HeroOne";
-//import AboutSection from "@components/sections/About";
+import ChiefGuest from "@/src/components/sections/ChiefGuest";
 import ServicesSection from "@components/sections/Services";
 //import TeamSection from "@components/sections/Team";
 import VideoSection from "@components/sections/Video";
@@ -16,7 +16,7 @@ const Page = (props) => {
       <Layouts transparent>
         <HeroOneSection />
         <ServicesSection />
-        {/* <AboutSection /> */}
+        <ChiefGuest />
         {/* <TeamSection /> */}
         <Schedule />
         <VideoSection />
