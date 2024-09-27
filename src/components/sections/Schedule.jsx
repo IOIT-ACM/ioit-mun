@@ -20,7 +20,7 @@ const Schedule = () => {
       <div className="mil-mb-0"></div>
 
       <div className="row">
-        <h3 className="mil-mb-30 mil-appearance a-80" style={{ color: "white", marginTop: "40px" }}>Schedule</h3>
+        <h3 className="mil-mb-30 mil-appearance" style={{ color: "white", marginTop: "40px" }}>Schedule</h3>
       </div>
 
       <div className="row">
@@ -58,7 +58,7 @@ const Schedule = () => {
           <table className='mil-mb-30'>
             {day2Data.map((item, index) => (
               <tr key={index}>
-                <td style={{ width: "20%", padding: "10px 10px" }}>
+                <td style={{ width: "20%", padding: "10px 10px"  }}>
                   {isMounted && <Image src={item.logo} alt="logo" width={50} height={50} />}
                 </td>
                 <td className='a-80' style={{ padding: "10px 0px"}}>{item.timings}</td>
