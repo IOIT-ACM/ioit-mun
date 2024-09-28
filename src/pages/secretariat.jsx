@@ -13,90 +13,45 @@ const Home2 = (props) => {
     "description": "",
     "items": [
       {
-        "image": "/img/team/Anshika.jpg",
-        "name": "Anshika Singh",
+        "image": "/img/secretariat/Aditya_Sarade.jpg",
+        "name": "Aditya Sarade",
         "role": "Deputy Secretary General"
       },
       {
-        "image": "/img/team/Sharvin.jpg",
-        "name": "Sharvin Shah",
-        "role": "Chief of GA affairs and Conference Management"
+        "image": "/img/secretariat/Atharv_Pednekar.jpg",
+        "name": "Atharva Pednekar",
+        "role": "USG Technical"
       },
       {
-        "image": "/img/team/Avinash.jpg",
-        "name": "Avinash Patil",
-        "role": "Chief of Economic and Social Affiars"
+        "image": "/img/secretariat/Chinmay_Nakwa.jpg",
+        "name": "Chinmay Nakwa",
+        "role": "USG Delegate Affairs"
       },
       {
-        "image": "/img/team/Anushka.jpg",
-        "name": "Anushka Mane",
-        "role": "USG Sponsors"
-      },
-      {
-        "image": "/img/team/Devang.jpg",
+        "image": "/img/secretariat/Devang_Gandhi.jpg",
         "name": "Devang Gandhi",
-        "role": "Finance Head"
+        "role": "USG Finance"
       },
       {
-        "image": "/img/team/Aarya.png",
-        "name": "Aarya Patil",
-        "role": "USG for Global Communications"
+        "image": "/img/secretariat/Sajal_Gulati.jpg",
+        "name": "Sajal Gulati",
+        "role": "Chief Advisor"
       },
       {
-        "image": "/img/team/Atharva.jpg",
-        "name": "Atharva Nawale",
-        "role": "USG Marketing"
+        "image": "/img/secretariat/Sejal_Barshikar.jpg",
+        "name": "Sejal Barshikar",
+        "role": "USG Global Communications"
       },
       {
-        "image": "/img/team/Chaitali.jpg",
-        "name": "Chaitali Khachane",
+        "image": "/img/secretariat/Shriya_Naphade.jpg",
+        "name": "Shriya Naphade",
         "role": "USG Delegate Affairs"
       },
       {
-        "image": "/img/team/Yash.jpg",
-        "name": "Yash Chavhan",
-        "role": "USG Delegate Affairs"
-      },
-      {
-        "image": "/img/team/Nidhi.jpg",
-        "name": "Nidhi Warishe",
-        "role": "USG Creative"
-      },
-      {
-        "image": "/img/team/Khushi.jpg",
-        "name": "Khushi Chauhan",
+        "image": "/img/secretariat/Tanisha_Londhe.jpg",
+        "name": "Tanisha Londhe",
         "role": "USG Management"
       },
-      {
-        "image": "/img/team/Ankita.png",
-        "name": "Ankita Kamat",
-        "role": "Head IP"
-      },
-      {
-        "image": "/img/team/Gargi.jpg",
-        "name": "Gargi Bharshankar",
-        "role": "Chief in editor"
-      },
-      {
-        "image": "/img/team/Kartik.jpg",
-        "name": "Kartik Yeole",
-        "role": "Website Head"
-      },
-      {
-        "image": "/img/team/Hariom.jpg",
-        "name": "Hariom Malode",
-        "role": "Documentation Head"
-      },
-      {
-        "image": "/img/team/Prajwal.jpg",
-        "name": "Prajwal Wazade",
-        "role": "Technical Head"
-      },
-      {
-        "image": "/img/team/Laukik.jpg",
-        "name": "Laukik Patil",
-        "role": "Material Acquisition Head"
-      }
     ]
   }
 

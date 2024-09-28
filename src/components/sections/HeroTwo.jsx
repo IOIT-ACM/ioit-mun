@@ -52,7 +52,7 @@ const HeroTwo = () => {
                                         <path id="Path_7024" data-name="Path 7024" d="M116.478,29.331C320.56,4.556,676.039-18.468,839.536,40.994,1043.9,115.322,141,298.727,132.336,325.755s690.746,90.258,707.2,161.208C852.7,543.722,62.831,616.3,42.841,632.241s734.1,132.716,717.025,199.334S132.109,899.146,135.5,956.582,514.8,1095.1,514.8,1095.1" transform="translate(2222.807 322.827) rotate(-20)" fill="none" stroke="#000" strokeLinecap="round" strokeWidth="110" />
                                     </g>
                                 </svg>
-                                <div className="mil-bg" style={{ backgroundColor: "#03456D" }} />
+                                {/* <div className="mil-bg" style={{ backgroundColor: "#03456D" }} /> */}
                                 <Image src={Data.image.url} alt="Secretariat" className="mil-photo-secretariat" fill />
                                 {/* <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"/> */}
                             </div>
