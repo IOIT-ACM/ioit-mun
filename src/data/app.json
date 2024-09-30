@@ -52,6 +52,16 @@
         ]
       },
       {
+        "label": "Newsletter",
+        "link": "#.",
+        "children": [
+          {
+            "label": "2023",
+            "link": "https://drive.google.com/file/d/13lmwCpRqGLJcrz9oigoFa30jJRpMsgIO/view?usp=share_link"
+          }
+        ]
+      },
+      {
         "label": "Register",
         "link": "https://forms.gle/Yhzr1nftHeL18Jaf6",
         "children": 0
@@ -83,6 +93,10 @@
       {
         "label": "Gallery",
         "link": "/gallery"
+      },
+      {
+        "label": "TENET 2024",
+        "link": "https://ioittenet.com/"
       }
     ],
     "links": [

@@ -9,25 +9,30 @@
   "description": "",
   "image": "https://hosteze-little-boy.s3.ap-south-1.amazonaws.com/assets/static/tenet/mun.jpeg",
   "partners": [
-    {
-      "image": "/img/partners/kick.svg",
-      "link": "https://kickev.com/",
-      "alt": "logo"
-    },
-    {
-      "image": "/img/partners/TransGlobe.png",
-      "link": "https://transglobeedu.com/pune/foreign-education-consultancy-in-pune/",
-      "alt": "logo"
-    },
-    {
-      "image": "/img/partners/budhanibros.png",
-      "link": "https://www.budhanibros.com/",
-      "alt": "logo"
-    },
-    {
-      "image": "/img/partners/Chitale Bandhu.png",
-      "link": "https://www.chitalebandhu.in/",
-      "alt": "logo"
-    }
-  ]
+  {
+    "image": "/img/partners/abhibus.png",
+    "link": "https://www.abhibus.com/",
+    "alt": "AbhiBus logo"
+  },
+  {
+    "image": "/img/partners/colgate.png",
+    "link": "https://www.colgate.com/",
+    "alt": "Colgate logo"
+  },
+  {
+    "image": "/img/partners/edwise.jpg",
+    "link": "https://www.edwise.com/",
+    "alt": "Edwise logo"
+  },
+  {
+    "image": "/img/partners/Evara_3.png",
+    "link": "https://evara3.com/",
+    "alt": "Evara 3 logo"
+  },
+  {
+    "image": "/img/partners/tata crucible.png",
+    "link": "https://www.tatacrucible.com/",
+    "alt": "Tata Crucible logo"
+  }
+]
 }
