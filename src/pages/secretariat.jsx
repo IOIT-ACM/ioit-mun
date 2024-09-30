@@ -13,42 +13,42 @@ const Home2 = (props) => {
     "description": "",
     "items": [
       {
-        "image": "/img/secretariat/Aditya_Sarade.jpg",
-        "name": "Aditya Sarade",
-        "role": "Deputy Secretary General"
-      },
-      {
-        "image": "/img/secretariat/Atharv_Pednekar.jpg",
-        "name": "Atharva Pednekar",
-        "role": "USG Technical"
-      },
-      {
-        "image": "/img/secretariat/Chinmay_Nakwa.jpg",
-        "name": "Chinmay Nakwa",
-        "role": "USG Delegate Affairs"
-      },
-      {
-        "image": "/img/secretariat/Devang_Gandhi.jpg",
-        "name": "Devang Gandhi",
-        "role": "USG Finance"
-      },
-      {
-        "image": "/img/secretariat/Sajal_Gulati.jpg",
-        "name": "Sajal Gulati",
-        "role": "Chief Advisor"
-      },
-      {
-        "image": "/img/secretariat/Sejal_Barshikar.jpg",
+        "image": "/img/secretariat/Sejal_Barshikar.jpeg",
         "name": "Sejal Barshikar",
         "role": "USG Global Communications"
       },
       {
-        "image": "/img/secretariat/Shriya_Naphade.jpg",
+        "image": "/img/secretariat/Aditya_Sarade.jpeg",
+        "name": "Aditya Sarade",
+        "role": "Deputy Secretary General"
+      },
+      {
+        "image": "/img/secretariat/Atharv_Pednekar.jpeg",
+        "name": "Atharva Pednekar",
+        "role": "USG Technical"
+      },
+      {
+        "image": "/img/secretariat/Chinmay_Nakwa.jpeg",
+        "name": "Chinmay Nakwa",
+        "role": "USG Delegate Affairs"
+      },
+      {
+        "image": "/img/secretariat/Devang_Gandhi.jpeg",
+        "name": "Devang Gandhi",
+        "role": "USG Finance"
+      },
+      {
+        "image": "/img/secretariat/Sajal_Gulati.jpeg",
+        "name": "Sajal Gulati",
+        "role": "Chief Advisor"
+      },
+      {
+        "image": "/img/secretariat/Shriya_Naphade.jpeg",
         "name": "Shriya Naphade",
         "role": "USG Delegate Affairs"
       },
       {
-        "image": "/img/secretariat/Tanisha_Londhe.jpg",
+        "image": "/img/secretariat/Tanisha_Londhe.jpeg",
         "name": "Tanisha Londhe",
         "role": "USG Management"
       },

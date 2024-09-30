@@ -20,7 +20,7 @@ const Schedule = () => {
       <div className="mil-mb-0"></div>
 
       <div className="row">
-        <h3 className="mil-mb-30 mil-appearance" style={{ color: "white", marginTop: "40px" }}>Schedule</h3>
+        <h3 className="mil-mb-30 mil-appearance" style={{ color: "white", marginTop: "40px" }}>Itinerary</h3>
       </div>
 
       <div className="row">
