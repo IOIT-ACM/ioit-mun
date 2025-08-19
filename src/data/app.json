@@ -42,8 +42,8 @@
             "link": "/aippm"
           },
           {
-            "label": "UNODC",
-            "link": "/unodc"
+            "label": "WTO",
+            "link": "/wto"
           },
           {
             "label": "IP",
@@ -63,7 +63,7 @@
       },
       {
         "label": "Register",
-        "link": "https://forms.gle/Yhzr1nftHeL18Jaf6",
+        "link": "https://forms.gle/2eQvXreJDHapQRgQ6",
         "children": 0
       },
       {
@@ -76,7 +76,7 @@
   "footer": {
     "logo": {
       "text": "AISSMS IOIT",
-      "accent": " MUN' 24",
+      "accent": " MUN' 25",
       "image1": "/img/hero/ioitAcm.png",
       "image2": "/img/hero/mun12.png"
     },
@@ -117,7 +117,7 @@
         "link": "#."
       }
     ],
-    "copy": "© 2024 IOIT MUN. All Rights Reserved.",
+    "copy": "© 2025 IOIT MUN. All Rights Reserved.",
     "dev": "Developed by: IOIT ACM Student Chapter",
     "bg_image": "/img/hero/1.jpg",
     "instagram": {
@@ -137,8 +137,8 @@
   },
   "contacts": {
     "email": "ioit.mun@aissmsioit.org",
-    "tel": "+91 8451025156",
-    "name": "Aditya Sarade"
+    "tel": "+91 9987830026",
+    "name": "Aum Patil"
   },
   "social": [
     {

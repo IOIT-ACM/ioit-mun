@@ -26,7 +26,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "UNCSW"/>
       <AboutFourSection Event = "UNCSW"/>
-      <ExecutiveBoard Content={UNCSW} />
+      {/* <ExecutiveBoard Content={UNCSW} /> */}
     </Layouts>
   );
 };

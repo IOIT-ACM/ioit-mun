@@ -11,7 +11,7 @@
   },
   "button2": {
     "label": "Register",
-    "link": "https://forms.gle/Yhzr1nftHeL18Jaf6"
+    "link": "https://forms.gle/2eQvXreJDHapQRgQ6"
   },
   "image": {
     "url": "/img/hero/mun12.png",
@@ -38,11 +38,11 @@
     "logo": "/img/com/AIPPM.png",
     "link": "#"
   },
-  "UNODC": {
-    "title": "United Nations Office on Drugs and Crime",
-    "description": "The United Nations Office on Drugs and Crime (UNODC) is a UN office that addresses issues related to drug control, crime prevention, and international terrorism. It supports countries in their struggle against illicit drugs, crime, and terrorism through research, advocacy, and operational support. The office implements international drug conventions and formulates policies for crime prevention and control.",
-    "Agenda": "Addressing the challenges of money and drug laundering in Special Economic Zones, with special emphasis on the Golden Triangle SEZ",
-    "logo": "/img/com/UNODC.png",
+  "WTO": {
+    "title": "World Trade Organization",
+    "description": "The World Trade Organization (WTO) is an intergovernmental organization that regulates international trade. It provides a framework for negotiating trade agreements, resolving disputes, and ensuring that trade flows as smoothly, predictably, and freely as possible. The WTO aims to reduce barriers to trade, promote fair competition, and foster global economic cooperation.",
+    "Agenda": "Reforming global trade rules to address supply chain disruptions, trade protectionism, and sustainable development in the 21st century",
+    "logo": "/img/com/WTO.png",
     "link": "#"
   },
   "UNCSW": {
