@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 
 class MyDocument extends Document {
@@ -53,6 +54,20 @@ class MyDocument extends Document {
           <link rel="icon" href="/img/favicon.ico" />
           <link rel="apple-touch-icon" href="/img/logo.png" />
           <meta name="theme-color" content="#00274D" />
+
+          {/* Google tag (gtag.js) */}
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-5DSYN8WKPN"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5DSYN8WKPN');
+            `}
+          </Script>
 
           {/* JSON-LD Structured Data (Event) */}
           <script
