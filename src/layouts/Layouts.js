@@ -1,12 +1,12 @@
-import { useEffect } from "react";
-import { scrollAnimation } from "../common/scrollAnims";
-import { countersAnimation } from "../common/counters";
-import { navigation } from "../common/navigation";
-import { formInputs } from "../common/utilits";
+import { useEffect } from 'react';
+import { scrollAnimation } from '../common/scrollAnims';
+import { countersAnimation } from '../common/counters';
+import { navigation } from '../common/navigation';
+import { formInputs } from '../common/utilits';
 
-import Footer from "./footers/Index";
-import Header from "./headers/Index";
-import Cursor from "./cursor/Index";
+import Footer from './footers/Index';
+import Header from './headers/Index';
+import Cursor from './cursor/Index';
 
 const Layouts = ({
   children,
@@ -29,7 +29,7 @@ const Layouts = ({
   return (
     <div id="smooth-wrapper" className="mil-wrapper">
       <Cursor />
-      
+
       {!noHeader && (
         <Header
           layout={header}
@@ -44,8 +44,10 @@ const Layouts = ({
           {children}
         </div>
       </div>
-      
-      {!noFooter && <Footer layout={footer} bg={footerBg} instagram={footerInst} />}
+
+      {!noFooter && (
+        <Footer layout={footer} bg={footerBg} instagram={footerInst} />
+      )}
     </div>
   );
 };

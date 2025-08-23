@@ -1,48 +1,48 @@
-import Layouts from "@layouts/Layouts";
-import { Gallery, Item } from "react-photoswipe-gallery";
+import Layouts from '@layouts/Layouts';
+import { Gallery, Item } from 'react-photoswipe-gallery';
 
-import "photoswipe/dist/photoswipe.css";
+import 'photoswipe/dist/photoswipe.css';
 
 const projects = [
   {
-    image: "/img/gallery/1.jpg",
-    alt: "Mock MUN 2023 Opening Ceremony",
+    image: '/img/gallery/1.jpg',
+    alt: 'Mock MUN 2023 Opening Ceremony',
   },
   {
-    image: "/img/gallery/2.jpg",
-    alt: "Delegates in committee session",
+    image: '/img/gallery/2.jpg',
+    alt: 'Delegates in committee session',
   },
   {
-    image: "/img/gallery/3.jpg",
-    alt: "Speakers addressing the house",
+    image: '/img/gallery/3.jpg',
+    alt: 'Speakers addressing the house',
   },
   {
-    image: "/img/gallery/4.jpg",
-    alt: "Team discussion in progress",
+    image: '/img/gallery/4.jpg',
+    alt: 'Team discussion in progress',
   },
   {
-    image: "/img/gallery/5.jpg",
-    alt: "Closing remarks of Mock MUN 2023",
+    image: '/img/gallery/5.jpg',
+    alt: 'Closing remarks of Mock MUN 2023',
   },
   {
-    image: "/img/gallery/6.jpg",
-    alt: "Delegates networking after event",
+    image: '/img/gallery/6.jpg',
+    alt: 'Delegates networking after event',
   },
   {
-    image: "/img/gallery/7.jpg",
-    alt: "Organizers on stage",
+    image: '/img/gallery/7.jpg',
+    alt: 'Organizers on stage',
   },
   {
-    image: "/img/gallery/8.jpg",
-    alt: "Panel discussion snapshot",
+    image: '/img/gallery/8.jpg',
+    alt: 'Panel discussion snapshot',
   },
   {
-    image: "/img/gallery/9.jpg",
-    alt: "Delegates raising placards",
+    image: '/img/gallery/9.jpg',
+    alt: 'Delegates raising placards',
   },
   {
-    image: "/img/gallery/10.jpg",
-    alt: "Final group photograph",
+    image: '/img/gallery/10.jpg',
+    alt: 'Final group photograph',
   },
 ];
 
@@ -70,7 +70,7 @@ const Portfolio = () => {
           {projectsGrid.map((row, row_i) => (
             <div
               className={
-                row_i % 2 === 0 ? "row m-0" : "row m-0 flex-row-reverse"
+                row_i % 2 === 0 ? 'row m-0' : 'row m-0 flex-row-reverse'
               }
               key={`portfolio-row-${row_i}`}
             >
@@ -83,7 +83,7 @@ const Portfolio = () => {
                     {col.map((item, key) => (
                       <div
                         className={
-                          col_i === 0 ? "col-lg-12 p-0" : "col-lg-6 p-0"
+                          col_i === 0 ? 'col-lg-12 p-0' : 'col-lg-6 p-0'
                         }
                         key={`portfolio-row-${row_i}-col-${col_i}-item-${key}`}
                       >
@@ -105,7 +105,7 @@ const Portfolio = () => {
                                 ref={ref}
                                 onClick={open}
                                 className="mil-zoom-icon mil-hidden-trigger"
-                                style={{ cursor: "pointer" }}
+                                style={{ cursor: 'pointer' }}
                               >
                                 <img src="/img/icons/zoom.svg" alt="zoom" />
                               </a>
