@@ -6,15 +6,6 @@ const DefaultFooter = ( { bg, instagram, extraClass } ) => {
   return (
     <footer className="mil-footer-1 mil-light-trigger">
         <div className="mil-image-frame">
-            <Image 
-              src={bg ? bg : appData.footer.bg_image}
-              alt="img" 
-              className="mil-scale-img" 
-              data-value-1="1" 
-              data-value-2="1.2" 
-              style={{filter: 'grayscale(100%)'}}
-              fill
-            />
             <div className="mil-overay"></div>
         </div>
         <div className="container">

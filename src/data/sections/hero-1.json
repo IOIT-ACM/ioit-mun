@@ -1,5 +1,4 @@
 {
-  "bg_image": "/img/hero/1.jpg",
   "subtitle": "AISSMS IOIT Welcomes You To",
   "title": {
     "before": "IOIT",
@@ -7,7 +6,7 @@
     "after": "UNITY THROUGH DIPLOMACY"
   },
   "description": "",
-  "image": "https://hosteze-little-boy.s3.ap-south-1.amazonaws.com/assets/static/tenet/mun.jpeg",
+  "image": "/img/content/mun.jpg",
   "partners": [
   {
     "image": "/img/partners/abhibus.png",

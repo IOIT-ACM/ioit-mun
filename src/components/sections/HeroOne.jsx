@@ -8,15 +8,6 @@ const HeroOne = () => {
             <div className="mil-hero-1">
 
                 <div className="mil-image-frame">
-                    <Image
-                        src={Data.bg_image}
-                        alt="img" 
-                        className="mil-scale-img" 
-                        data-value-1=".5" 
-                        data-value-2="1.2" 
-                        style={{filter: 'grayscale(100%)'}}
-                        fill
-                    />
                     <div className="mil-overay" />
                 </div>
 

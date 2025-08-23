@@ -8,52 +8,42 @@ import HeroTwoSection from "@components/sections/HeroTwo"
 const Home2 = (props) => {
 
   const Content = {
-    "subtitle": "Team Members",
-    "title": "Meet Our Team",
-    "description": "",
-    "items": [
+    subtitle: "Team Members",
+    title: "Meet Our Team",
+    description: "",
+    items: [
       {
-        "image": "/img/secretariat/Sejal_Barshikar.jpeg",
-        "name": "Sejal Barshikar",
-        "role": "USG Global Communications"
+        image: "/img/secretariat/Chinmay_Nakwa.jpeg",
+        name: "Chinmay Nakwa",
+        role: "Director General"
       },
       {
-        "image": "/img/secretariat/Aditya_Sarade.jpeg",
-        "name": "Aditya Sarade",
-        "role": "Deputy Secretary General"
+        image: "/img/secretariat/Aum_Patil.jpeg",
+        name: "Aum Patil",
+        role: "Deputy Secretary General"
       },
       {
-        "image": "/img/secretariat/Atharv_Pednekar.jpeg",
-        "name": "Atharva Pednekar",
-        "role": "USG Technical"
+        image: "/img/secretariat/Mugdha_Bhaviskar.jpeg",
+        name: "Mugdha Bhaviskar",
+        role: "USG Delegate Affairs"
       },
       {
-        "image": "/img/secretariat/Chinmay_Nakwa.jpeg",
-        "name": "Chinmay Nakwa",
-        "role": "USG Delegate Affairs"
+        image: "/img/secretariat/Jeevika_Agrawal.jpeg",
+        name: "Jeevika Agrawal",
+        role: "USG Management"
       },
       {
-        "image": "/img/secretariat/Devang_Gandhi.jpeg",
-        "name": "Devang Gandhi",
-        "role": "USG Finance"
+        image: "/img/secretariat/Shreyas_Nalle.jpeg",
+        name: "Shreyas Nalle",
+        role: "USG Marketing"
       },
       {
-        "image": "/img/secretariat/Sajal_Gulati.jpeg",
-        "name": "Sajal Gulati",
-        "role": "Chief Advisor"
-      },
-      {
-        "image": "/img/secretariat/Shriya_Naphade.jpeg",
-        "name": "Shriya Naphade",
-        "role": "USG Delegate Affairs"
-      },
-      {
-        "image": "/img/secretariat/Tanisha_Londhe.jpeg",
-        "name": "Tanisha Londhe",
-        "role": "USG Management"
-      },
+        image: "/img/secretariat/Anurag_Chavan.jpeg",
+        name: "Anurag Chavan",
+        role: "USG Technical"
+      }
     ]
-  }
+  };
 
 
 
