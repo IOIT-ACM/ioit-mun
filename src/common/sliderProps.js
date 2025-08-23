@@ -13,7 +13,7 @@ import SwiperCore, {
   Scrollbar,
   Thumbs,
   Virtual,
-} from 'swiper';
+} from "swiper";
 
 SwiperCore.use([
   Mousewheel,
@@ -33,9 +33,9 @@ SwiperCore.use([
   A11y,
 ]);
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export const sliderProps = {
   milInstagramSlider: {
@@ -44,19 +44,19 @@ export const sliderProps = {
     speed: 3000,
     autoplay: true,
     autoplay: {
-      delay: 0,
+        delay: 0,
     },
     loop: true,
     freeMode: true,
     breakpoints: {
-      992: {
-        slidesPerView: 6,
-      },
-      768: {
-        slidesPerView: 3,
-      },
+        992: {
+            slidesPerView: 6,
+        },
+        768: {
+            slidesPerView: 3,
+        },
     },
-    wrapperClass: 'mil-instagram',
+    wrapperClass: "mil-instagram",
   },
   milInfinitySlider: {
     slidesPerView: 2,
@@ -64,16 +64,16 @@ export const sliderProps = {
     speed: 3000,
     autoplay: true,
     autoplay: {
-      delay: 0,
+        delay: 0,
     },
     loop: true,
     freeMode: true,
     breakpoints: {
-      992: {
-        slidesPerView: 4,
-      },
+        992: {
+            slidesPerView: 4,
+        },
     },
-    wrapperClass: 'mil-partners mil-partners-slider mil-partners-with-hover',
+    wrapperClass: "mil-partners mil-partners-slider mil-partners-with-hover",
   },
   milReviSlider: {
     slidesPerView: 1,
@@ -82,44 +82,44 @@ export const sliderProps = {
     touchStartPreventDefault: false,
     longSwipes: true,
     pagination: {
-      el: '.mil-slider-pagination',
-      clickable: true,
+        el: ".mil-slider-pagination",
+        clickable: true,
     },
     breakpoints: {
-      992: {
-        slidesPerView: 2,
-      },
+        992: {
+            slidesPerView: 2,
+        },
     },
-    wrapperClass: 'swiper-wrapper mil-icon-1-trigger',
+    wrapperClass: "swiper-wrapper mil-icon-1-trigger",
   },
   milPortfolioSlider: {
     slidesPerView: 1,
     spaceBetween: 30,
     speed: 450,
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     touchStartPreventDefault: false,
     longSwipes: true,
     navigation: {
-      prevEl: '.mil-about-prev',
-      nextEl: '.mil-about-next',
+        prevEl: '.mil-about-prev',
+        nextEl: '.mil-about-next',
     },
     breakpoints: {
-      992: {
-        slidesPerView: 2,
-      },
+        992: {
+            slidesPerView: 2,
+        },
     },
   },
   milGallerySlider: {
     slidesPerView: 1,
     spaceBetween: 30,
     speed: 450,
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     touchStartPreventDefault: false,
     longSwipes: true,
     breakpoints: {
-      992: {
-        slidesPerView: 2,
-      },
+        992: {
+            slidesPerView: 2,
+        },
     },
-  },
+  }
 };

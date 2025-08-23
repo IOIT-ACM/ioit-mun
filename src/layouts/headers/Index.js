@@ -1,4 +1,4 @@
-import HeaderLayoutDefault from './LayoutDefault';
+import HeaderLayoutDefault from "./LayoutDefault";
 
 const Header = ({ layout, transparent, invert, extraClass }) => {
   switch (layout) {
