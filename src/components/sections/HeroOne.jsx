@@ -2,6 +2,7 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Data from "@data/sections/hero-1.json";
 import Image from "next/image";
+import Link from "next/link";
 const HeroOne = () => {
     return (
         <header>
@@ -27,11 +28,11 @@ const HeroOne = () => {
 
                             
 
-                                {/* <p className="mil-text-lg mi-suptitle mil-appearance mil-mt-55 mil-mb-60" >
-                                <Link href="https://docs.google.com/forms/d/e/1FAIpQLScKBr0OO-J1FD396iBeOQKHenTP3Q803khfvRXfjCEa-gCWnA/viewform?usp=sf_link" className="mil-mb-20 mil-button mil-button-rounded mil-button-md mil-scale-down-trigger mil-buttons-space">
-                                        <span style={{fontSize: "15px"}}>Register Has been Closed</span>
+                                <p className="mil-text-lg mi-suptitle mil-appearance mil-mt-55 mil-mb-60" >
+                                <Link href="https://forms.gle/2eQvXreJDHapQRgQ6" className="mil-mb-20 mil-button mil-button-rounded mil-button-md mil-scale-down-trigger mil-buttons-space">
+                                        <span style={{fontSize: "15px"}}>Register Now</span>
                                 </Link>
-                                </p> */}
+                                </p>
 
                             <div className="mil-scroll-animation-1 mil-appearance mil-mb-60">
                                 <i className="fas fa-chevron-down" />

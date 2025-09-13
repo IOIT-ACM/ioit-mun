@@ -30,10 +30,6 @@
             "link": "/unsc"
           },
           {
-            "label": "UNCSW",
-            "link": "/uncsw"
-          },
-          {
             "label": "UNHRC",
             "link": "/unhrc"
           },
@@ -67,7 +63,7 @@
         "children": 0
       },
       {
-        "label": "TENET 2024",
+        "label": "TENET 2025",
         "link": "https://www.ioittenet.com/",
         "children": []
       }
@@ -95,7 +91,7 @@
         "link": "/gallery"
       },
       {
-        "label": "TENET 2024",
+        "label": "TENET 2025",
         "link": "https://ioittenet.com/"
       }
     ],
@@ -144,11 +140,6 @@
       "link": "https://www.linkedin.com/company/ioit-mun/",
       "icon": "fab fa-linkedin-in",
       "title": "Facebook"
-    },
-    {
-      "link": "https://twitter.com/IOIT_MUN",
-      "icon": "fab fa-twitter",
-      "title": "Twitter"
     },
     {
       "link": "https://www.instagram.com/ioit_mun",
