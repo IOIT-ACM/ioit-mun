@@ -2,11 +2,12 @@ import React from "react";
 import Layouts from "@layouts/Layouts";
 
 import HeroOneSection from "@components/sections/HeroOne";
-import ChiefGuest from "@/src/components/sections/ChiefGuest";
+// import Stats from "@/components/sections/Stats";
+// import ChiefGuest from "@/src/components/sections/ChiefGuest";
 import ServicesSection from "@components/sections/Services";
-//import TeamSection from "@components/sections/Team";
+// import TeamSection from "@components/sections/Team";
 import VideoSection from "@components/sections/Video";
-import Schedule from "@components/sections/Schedule";
+// import Schedule from "@components/sections/Schedule";
 
 
 
@@ -20,6 +21,7 @@ const Page = (props) => {
         {/* <TeamSection /> */}
         {/* <Schedule /> */}
         <VideoSection />
+        {/* <Stats /> */}
       </Layouts>
     </div>
   );

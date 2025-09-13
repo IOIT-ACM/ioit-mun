@@ -2,7 +2,7 @@ import Link from "next/link";
 import appData from "@data/app.json";
 import Image from "next/image";
 
-const DefaultFooter = ( { bg, instagram, extraClass } ) => {
+const DefaultFooter = ( { instagram } ) => {
   return (
     <footer className="mil-footer-1 mil-light-trigger">
         <div className="mil-image-frame">
@@ -86,8 +86,7 @@ const DefaultFooter = ( { bg, instagram, extraClass } ) => {
         <div className="mil-footer-bottom">
             <div className="container">
                 {/* copyright */}
-                <p className="mil-text-sm mil-softened-60">{appData.footer.copy}</p>
-                <p className="mil-text-sm mil-softened-60" dangerouslySetInnerHTML={{__html : appData.footer.dev}} />
+                <p className="mil-text-xs mil-softened-20">{appData.footer.copy}</p>
             </div>
         </div>
     </footer>

@@ -9,17 +9,17 @@
     },
     {
       "num": "02",
+      "title": "MUN",
+      "icon": "/img/hero/mun12.png",
+      "text": "Model United Nations",
+      "id": "/"
+    },
+    {
+      "num": "03",
       "title": "UNHRC",
       "icon": "/img/com/UNHRC.png",
       "text": "United Nations Human Rights Council",
       "id": "/unhrc"
-    },
-    {
-      "num": "03",
-      "title": "UNCSW",
-      "icon": "/img/com/UNCSW.png",
-      "text": "United Nations Commission on the Status of Women",
-      "id": "/uncsw"
     },
     {
       "num": "04",
