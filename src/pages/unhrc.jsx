@@ -8,14 +8,14 @@ import AboutFourSection from "@components/sections/AboutFour";
 const UNHRC = {
   "items": [
     {
-      "image": "/img/team/UNHRC_Rakeysh.png",
-      "name": "Rakeysh Gupta",
-      "role": "Chairperson, UNHRC"
+      "image": "/img/team/unhrc-yash.jpg",
+      "name": "Yash Borkar",
+      "role": "Chair, UNHRC"
     },
     {
-      "image": "/img/team/UNHRC_Rushil.png",
+      "image": "/img/team/unhrc-rushil.jpg",
       "name": "Rushil Pujari",
-      "role": "Vice Chairperson, UNHRC"
+      "role": "Vice Chair, UNHRC"
     }
   ]
 };
@@ -26,7 +26,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "UNHRC"/>
       <AboutFourSection Event = "UNHRC"/>
-      {/* <ExecutiveBoard Content={UNHRC} /> */}
+      <ExecutiveBoard Content={UNHRC} />
     </Layouts>
   );
 };

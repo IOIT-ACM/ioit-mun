@@ -8,14 +8,14 @@ import AboutFourSection from "@components/sections/AboutFour";
 const WTO = {
   "items": [
     {
-      "image": "/img/team/UNODC_Aaryan.png",
-      "name": "Aaryan Gaur",
-      "role": "Co-Chairperson, UNODC"
+      "image": "/img/team/wto-ayush.jpg",
+      "name": "Ayush Kumar",
+      "role": "Co-Chairperson, WTO"
     },
     {
-      "image": "/img/team/UNODC_Yashveer.png",
-      "name": "Yashveer Tiwari",
-      "role": "Co-Chairperson, UNODC"
+      "image": "/img/team/wto-aakhya.jpg",
+      "name": "Aakhya Tiwari",
+      "role": "Co-Chairperson, WTO"
     }
   ]
 };
@@ -26,7 +26,7 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "WTO"/>
       <AboutFourSection Event = "WTO"/>
-      {/* <ExecutiveBoard Content={WTO} /> */}
+      <ExecutiveBoard Content={WTO} />
     </Layouts>
   );
 };

@@ -13,34 +13,24 @@ const Home2 = (props) => {
     description: "",
     items: [
       {
-        image: "/img/secretariat/Chinmay_Nakwa.jpeg",
-        name: "Chinmay Nakwa",
-        role: "Director General"
-      },
-      {
-        image: "/img/secretariat/Aum_Patil.jpeg",
+        image: "/img/secretariat/aum.jpg",
         name: "Aum Patil",
         role: "Deputy Secretary General"
       },
       {
-        image: "/img/secretariat/Mugdha_Bhaviskar.jpeg",
+        image: "/img/secretariat/mugdha.jpg",
         name: "Mugdha Bhaviskar",
         role: "USG Delegate Affairs"
       },
       {
-        image: "/img/secretariat/Jeevika_Agrawal.jpeg",
+        image: "/img/secretariat/jeevika.jpg",
         name: "Jeevika Agrawal",
         role: "USG Management"
       },
       {
-        image: "/img/secretariat/Shreyas_Nalle.jpeg",
+        image: "/img/secretariat/shreyas.jpg",
         name: "Shreyas Nalle",
         role: "USG Marketing"
-      },
-      {
-        image: "/img/secretariat/Anurag_Chavan.jpeg",
-        name: "Anurag Chavan",
-        role: "USG Technical"
       }
     ]
   };
