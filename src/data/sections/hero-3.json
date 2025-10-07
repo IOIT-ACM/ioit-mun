@@ -20,9 +20,9 @@
   "UNSC": {
     "title": "United Nations Security Council",
     "description": "The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations (UN) and is charged with ensuring international peace and security, recommending the admission of new UN members to the General Assembly, and approving any changes to the UN Charter. The UNSC is the only UN body with the authority to issue binding resolutions on member states. The Security Council was created after World War II to address the failings of the League of Nations in maintaining world peace. The Security Council consists of fifteen members, of which five are permanent: China, France, Russia, the United Kingdom, and the United States.",
-    "Agenda": "Assessing global export controls and technology transfer under the Wassenaar Arrangement",
+    "Agenda": "The situation in the Red Sea and the Gulf of Aden.",
     "logo": "/img/com/UNSC.png",
-    "link": "#"
+    "link": "https://raw.githubusercontent.com/IOIT-ACM/static-assets/ca53dcf6525a34bd75264e0173a3da1a301abaca/TENET25/mun-unsc-guide.pdf"
   },
   "IP": {
     "title": "International Press",
@@ -34,16 +34,16 @@
   "AIPPM": {
     "title": "All India Political Parties Meet",
     "description": "All India Political Party Meet is a non-technical but powerful committee. It is a meeting between all the political parties of the nation. Typically called before the session of the Parliament or before the introduction of a bill, this committee aims to arrive at a consensus before the sessions begin. It is a supplementary body to the Parliament without any legislative provisions. The purpose of the meetings is to provide a forum for unbounded political debate and to foster consensus on key national issues.",
-    "Agenda": "Deliberating on the introduction of the Aparajita Bill and the demand for a Central Protection Act",
+    "Agenda": "Deliberating on the implementation of the Uniform Civil Code in India.",
     "logo": "/img/com/AIPPM.png",
-    "link": "#"
+    "link": "https://raw.githubusercontent.com/IOIT-ACM/static-assets/ca53dcf6525a34bd75264e0173a3da1a301abaca/TENET25/mun-aippm-guide.pdf"
   },
   "WTO": {
     "title": "World Trade Organization",
     "description": "The World Trade Organization (WTO) is an intergovernmental organization that regulates international trade. It provides a framework for negotiating trade agreements, resolving disputes, and ensuring that trade flows as smoothly, predictably, and freely as possible. The WTO aims to reduce barriers to trade, promote fair competition, and foster global economic cooperation.",
-    "Agenda": "Reforming global trade rules to address supply chain disruptions, trade protectionism, and sustainable development in the 21st century",
+    "Agenda": "Building trade capacity of least developed countries with additional emphasis on the effect of tariff competition between countries.",
     "logo": "/img/com/WTO.png",
-    "link": "#"
+    "link": "https://raw.githubusercontent.com/IOIT-ACM/static-assets/ca53dcf6525a34bd75264e0173a3da1a301abaca/TENET25/mun-wto-guide.pdf"
   },
   "UNCSW": {
     "title": "United Nations Commission on the Status of Women",
@@ -55,8 +55,8 @@
   "UNHRC": {
     "title": "United Nations Human Rights Council",
     "description": "The United Nations Human Rights Council (UNHRC) is a United Nations body whose mission is to promote and protect human rights around the world. The Council consists of 47 members and addresses thematic human rights issues such as freedom of expression, belief, and assembly, as well as the rights of marginalized groups including women, the LGBTQIA+ community, and racial and ethnic minorities.",
-    "Agenda": "Discussing the role of state and non-state actors in the Venezuelan crisis, with emphasis on the humanitarian emergency following the presidential elections",
+    "Agenda": "Promoting and ensuring the respect for bodily autonomy, human dignity, and freedom of choice as fundamental principles of human rights and gender equality.",
     "logo": "/img/com/UNHRC.png",
-    "link": "#"
+    "link": "https://raw.githubusercontent.com/IOIT-ACM/static-assets/ca53dcf6525a34bd75264e0173a3da1a301abaca/TENET25/mun-unhrc-guide.pdf"
   }
 }

@@ -24,7 +24,7 @@ const UNSC = {
 const Home3 = (props) => {
   return (
     <Layouts invert>
-      <HeroThreeSection Event = "UNSC"/>
+      <HeroThreeSection Event="UNSC" />
       <AboutFourSection Event = "UNSC"/>
       <ExecutiveBoard Content={UNSC} />
     </Layouts>
