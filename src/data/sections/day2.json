@@ -1,43 +1,33 @@
 [
     {
         "logo": "/img/com/breakfast.png",
-        "timings": "9:00 AM - 10:00 AM",
+        "timings": "9:30 AM - 10:30 AM",
         "events": "Breakfast and Reporting"
     },
     {
         "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNSC Committee Session"
+        "timings": "10:30 AM - 11:00 PM",
+        "events": "Committe Photographs"
     },
 
     {
         "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNHRC Committee Session"
-    },
-    {
-        "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "AIPPM Committee Session"
-    },
-    {
-        "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNCSW Committee Session"
-    },
-    {
-        "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNODC Committee Session"
+        "timings": "11:00 AM - 1:30 PM",
+        "events": "Committee Session 3"
     },
     {
         "logo": "/img/com/Lunch.png",
-        "timings": "1:00 PM - 2:00 PM",
+        "timings": "1:30 AM - 2:30 PM",
         "events": "Lunch"
     },
     {
+        "logo": "/img/com/committee.png",
+        "timings": "2:30 AM - 5:00 PM",
+        "events": "Committee Session 4"
+    },
+    {
         "logo": "/img/com/Tea2.png",
-        "timings": "4:00 PM - 5:00 PM",
-        "events": "High-Tea and Closing Ceremony"
+        "timings": "5:00 PM - 6:30 PM",
+        "events": "High Tea & Closing Ceremony"
     }
 ]

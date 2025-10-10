@@ -7,7 +7,7 @@ import HeroOneSection from "@components/sections/HeroOne";
 import ServicesSection from "@components/sections/Services";
 // import TeamSection from "@components/sections/Team";
 import VideoSection from "@components/sections/Video";
-// import Schedule from "@components/sections/Schedule";
+import Schedule from "@components/sections/Schedule";
 
 
 
@@ -19,7 +19,7 @@ const Page = (props) => {
         <ServicesSection />
         {/* <ChiefGuest /> */}
         {/* <TeamSection /> */}
-        {/* <Schedule /> */}
+        <Schedule />
         <VideoSection />
         {/* <Stats /> */}
       </Layouts>
