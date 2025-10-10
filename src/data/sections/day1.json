@@ -1,49 +1,34 @@
 [
     {
         "logo": "/img/com/breakfast.png",
-        "timings": "8:00 AM - 9:00 AM",
+        "timings": "8:30 AM - 9:30 AM",
         "events": "Breakfast and Reporting"
     },
     {
         "logo": "/img/com/openingceremony.png",
-        "timings": "9:00 AM - 11:00 AM",
+        "timings": "9:30 AM - 10:30 AM",
         "events": "Opening Ceremony"
     },
     {
         "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNSC Committee Session"
+        "timings": "11:00 AM - 1:30 PM",
+        "events": "Committee Session 1"
     },
 
-    {
-        "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNHRC Committee Session"
-    },
-
-    {
-        "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "AIPPM Committee Session"
-    },
-    {
-        "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNCSW Committee Session"
-    },
-    {
-        "logo": "/img/com/committee.png",
-        "timings": "11:00 AM - 5:00 PM",
-        "events": "UNDOC Committee Session"
-    },
     {
         "logo": "/img/com/Lunch.png",
-        "timings": "2:00 PM - 3:00 PM",
+        "timings": "01:30 AM - 2:30 PM",
         "events": "Lunch"
+    },
+
+    {
+        "logo": "/img/com/committee.png",
+        "timings": "2:30 AM - 5:00 PM",
+        "events": "Committee Session 2"
     },
     {
         "logo": "/img/com/Tea2.png",
-        "timings": "5:00 PM - 5:30 PM",
-        "events": "High Tea"
+        "timings": "6:00 PM - 8:00 PM",
+        "events": "High Tea & Socials"
     }
 ]
