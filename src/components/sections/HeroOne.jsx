@@ -6,7 +6,7 @@ import Link from "next/link";
 const HeroOne = () => {
     return (
         <header>
-            <div className="mil-hero-1">
+            <div className="mil-hero-1" style={{backgroundColor: "white"}}>
 
                 <div className="mil-image-frame">
                     <div className="mil-overay" />
@@ -65,26 +65,34 @@ const HeroOne = () => {
 
                             {/* partners */}
 
-                            <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-10 d-flex justify-content-center align-items-center pt-5" style={{fontSize: 24}}>Our Partners</h3>
+                            <div style={{  padding: '60px 0', paddingTop: '60px', borderTop: '1px solid rgba(255, 255, 255, 0.0)'}}>
+                                <h3 className="mil-appearance mil-mb-40 d-flex justify-content-center align-items-center" style={{fontSize: 28, fontWeight: 400, letterSpacing: '3px', textTransform: 'uppercase', color: '#212c33'}}>Our Partners</h3>
 
-                            <Swiper
-                                {...sliderProps.milInfinitySlider}
-                                className="swiper-container mil-infinite-show"
-                                style={{backgroundColor: ""}}
-                            >
-                                {Data.partners.map((item, key) => (
-                                <SwiperSlide key={`hero1-item-${key}`} className="swiper-slide">
-                                    <a href={item.link} target="_blank" className="mil-partner-frame mil-hidden-trigger">
-                                        <Image
-                                            src={item.image} 
-                                            alt={item.alt}
-                                            width={200}
-                                            height={100}
-                                        />
-                                    </a>
-                                </SwiperSlide>
-                                ))}
-                            </Swiper>
+                                <Swiper
+                                    {...sliderProps.milInfinitySlider}
+                                    className="swiper-container mil-infinite-show"
+                                >
+                                    {Data.partners.map((item, key) => (
+                                    <SwiperSlide key={`hero1-item-${key}`} className="swiper-slide">
+                                        <a href={item.link} target="_blank" className="mil-partner-frame mil-hidden-trigger" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '120px'}}>
+                                            <Image
+                                                src={item.image} 
+                                                alt={item.alt}
+                                                width={200}
+                                                height={100}
+                                                style={{
+                                                    objectFit: 'contain',
+                                                    width: 'auto',
+                                                    height: 'auto',
+                                                    maxWidth: '200px',
+                                                    maxHeight: '100px'
+                                                }}
+                                            />
+                                        </a>
+                                    </SwiperSlide>
+                                    ))}
+                                </Swiper>
+                            </div>
                             {/* partners end */}
 
                         </div>
