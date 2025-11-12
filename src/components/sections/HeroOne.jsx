@@ -53,7 +53,7 @@ const HeroOne = () => {
                                         className="mil-scale-img" 
                                         data-value-1="1" 
                                         data-value-2="1.15" 
-                                        style={{'objectPosition': 'center 25%'}}
+                                        style={{'objectPosition': '0% 55%', 'objectFit': 'cover'}}
                                         fill
                                     />
                                 </div>
