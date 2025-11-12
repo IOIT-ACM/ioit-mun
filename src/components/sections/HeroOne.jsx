@@ -29,9 +29,9 @@ const HeroOne = () => {
                             
 
                                 <p className="mil-text-lg mi-suptitle mil-appearance mil-mt-55 mil-mb-60" >
-                                <Link href="https://forms.gle/2eQvXreJDHapQRgQ6" className="mil-mb-20 mil-button mil-button-rounded mil-button-md mil-scale-down-trigger mil-buttons-space">
+                                {/* <Link href="#" className="mil-mb-20 mil-button mil-button-rounded mil-button-md mil-scale-down-trigger mil-buttons-space">
                                         <span style={{fontSize: "15px"}}>Register Now</span>
-                                </Link>
+                                </Link> */}
                                 </p>
 
                             <div className="mil-scroll-animation-1 mil-appearance mil-mb-60">

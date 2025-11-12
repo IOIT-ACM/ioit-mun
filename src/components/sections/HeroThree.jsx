@@ -29,9 +29,9 @@ const HeroThree = ({Event}) => {
                                     <span>{Data.button1.label}</span>
                                 </Link>
                                 {/* <Link href="" className="mil-link-hover"><div data-tf-live="01HBVEED1KMVTW0M7MFH2ES3WX"></div><script src="//embed.typeform.com/next/embed.js"></script></Link> */}
-                                <Link href={Data.button2.link} target="_blank" className="mil-button mil-button-linear mil-button-rounded mil-button-lg mil-scale-down-trigger mil-buttons-space">
+                                {/* <Link href="#" target="_blank" className="mil-button mil-button-linear mil-button-rounded mil-button-lg mil-scale-down-trigger mil-buttons-space">
                                     <span>Register</span>
-                                </Link>     
+                                </Link>      */}
                                  {/* buttons end */}
 
                             </div>
