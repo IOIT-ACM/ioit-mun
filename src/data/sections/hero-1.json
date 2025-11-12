@@ -9,29 +9,69 @@
   "image": "/img/content/mun.jpg",
   "partners": [
   {
-    "image": "/img/partners/abhibus.png",
+    "image": "/img/partners/1.webp",
+    "link": "https://www.punemetrorail.org/",
+    "alt": "Pune Metro logo"
+  },
+  {
+    "image": "/img/partners/2.webp",
+    "link": "https://www.jumboking.co.in/",
+    "alt": "Jumboking logo"
+  },
+  {
+    "image": "/img/partners/3.webp",
+    "link": "https://budhanibros.com/",
+    "alt": "Budhani Bros logo"
+  },
+  {
+    "image": "/img/partners/4.webp",
+    "link": "https://unstop.com/",
+    "alt": "unstop logo"
+  },
+  {
+    "image": "/img/partners/5.webp",
+    "link": "https://gen.xyz/",
+    "alt": ".xyz logo"
+  },
+  {
+    "image": "/img/partners/6.webp",
     "link": "https://www.abhibus.com/",
-    "alt": "AbhiBus logo"
+    "alt": "abhibus logo"
   },
   {
-    "image": "/img/partners/colgate.png",
-    "link": "https://www.colgate.com/",
-    "alt": "Colgate logo"
+    "image": "/img/partners/7.webp",
+    "link": "https://progamingbyisst.com/",
+    "alt": "Pro Gaming By ISST logo"
   },
   {
-    "image": "/img/partners/edwise.png",
-    "link": "https://www.edwise.com/",
-    "alt": "Edwise logo"
+    "image": "/img/partners/8.webp",
+    "link": "https://www.wetnjoy.in/",
+    "alt": "Wet 'n Joy logo"
   },
   {
-    "image": "/img/partners/Evara_3.png",
-    "link": "https://evara3.com/",
-    "alt": "Evara 3 logo"
+    "image": "/img/partners/9.webp",
+    "link": "https://ctf7.com/",
+    "alt": "CTF7 logo"
   },
   {
-    "image": "/img/partners/tata_crucible.png",
-    "link": "https://www.tatacrucible.com/",
-    "alt": "Tata Crucible logo"
+    "image": "/img/partners/10.webp",
+    "link": "https://www.reliancedigital.in/",
+    "alt": "Reliance logo"
+  },
+  {
+    "image": "/img/partners/11.webp",
+    "link": "https://krafton.in/",
+    "alt": "KRAFTON India logo"
+  },
+  {
+    "image": "/img/partners/12.webp",
+    "link": "https://www.casio.com/in/",
+    "alt": "CASIO logo"
+  },
+  {
+    "image": "/img/partners/13.webp",
+    "link": "https://www.dell.com/en-in",
+    "alt": "Dell logo"
   }
 ]
 }
