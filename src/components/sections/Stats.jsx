@@ -3,12 +3,12 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const statsData = [
-    { label: "Committees", value: 6, suffix: "" },
-    { label: "Delegates", value: 90, suffix: "+" },
-    { label: "Website Visits", value: 20000, suffix: "+" },
+    { label: "Attendees", value: 3000, suffix: "+" },
+    { label: "Delegates", value: 300, suffix: "+" },
+    { label: "Website Visits", value: 25000, suffix: "+" },
 ];
 
-const PrizePool = 45000;
+const PrizePool = 300000;
 
 const Stats = () => {
     const [counts, setCounts] = useState(statsData.map(() => 0));
@@ -105,7 +105,7 @@ const Stats = () => {
                             margin: 0,
                         }}
                     >
-                        Last Year Highlights
+                        Past Highlights
                     </h3>
                     <p
                         style={{
@@ -115,7 +115,7 @@ const Stats = () => {
                             lineHeight: 1.3,
                         }}
                     >
-                        Stats from MUN 2024 committees, countries and total participation.
+                        Stats from past MUN committees, countries and total participation.
                     </p>
                 </div>
 
@@ -149,7 +149,7 @@ const Stats = () => {
                                     lineHeight: 1,
                                 }}
                             >
-                                {counts[idx].toLocaleString()}
+                                {counts[idx].toLocaleString(["en-IN"])}
                                 {stat.suffix || ""}
                             </div>
                             <div
