@@ -67,7 +67,7 @@
   "footer": {
     "logo": {
       "text": "AISSMS IOIT",
-      "accent": " MUN' 26",
+      "accent": " MUN' 25",
       "image1": "/img/hero/ioitAcm.png",
       "image2": "/img/hero/mun12.png"
     },
@@ -108,7 +108,7 @@
         "link": "#."
       }
     ],
-    "copy": "© 2026 IOIT MUN. All Rights Reserved.",
+    "copy": "© 2025 IOIT MUN. All Rights Reserved.",
     "dev": "Developed by: IOIT ACM Student Chapter",
     "instagram": {
       "images": [
