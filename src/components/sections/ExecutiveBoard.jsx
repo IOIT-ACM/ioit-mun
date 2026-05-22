@@ -30,4 +30,4 @@ function ExecutiveBoard({ Content }) {
   )
 }
 
-export default ExecutiveBoard
+export default ExecutiveBoard;

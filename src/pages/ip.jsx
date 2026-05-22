@@ -2,9 +2,10 @@ import React from "react";
 import Layouts from "@layouts/Layouts";
 
 import HeroThreeSection from "@components/sections/HeroThree";
-import ExecutiveBoard from "@components/sections/ExecutiveBoard";
+// import ExecutiveBoard from "@components/sections/ExecutiveBoard";
 import AboutFourSection from "@components/sections/AboutFour";
 
+// Data for the Executive Board section
 const IP = {
   "items": [
     {
@@ -26,7 +27,9 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "IP"/>
       <AboutFourSection Event = "IP"/>
-      <ExecutiveBoard Content={IP} />
+
+      {/* Commented out this section */}
+      {/* <ExecutiveBoard Content={IP} />  */}
     </Layouts>
   );
 };

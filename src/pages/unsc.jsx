@@ -2,9 +2,11 @@ import React from "react";
 import Layouts from "@layouts/Layouts";
 
 import HeroThreeSection from "@components/sections/HeroThree";
-import ExecutiveBoard from "@components/sections/ExecutiveBoard";
+// import ExecutiveBoard from "@components/sections/ExecutiveBoard";
 import AboutFourSection from "@components/sections/AboutFour";
 
+
+// Data for the Executive Board section
 const UNSC = {
   "items": [
     {
@@ -26,7 +28,9 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event="UNSC" />
       <AboutFourSection Event = "UNSC"/>
-      <ExecutiveBoard Content={UNSC} />
+
+      {/* Commented out this section */}
+      {/* <ExecutiveBoard Content={UNSC} /> */}
     </Layouts>
   );
 };
