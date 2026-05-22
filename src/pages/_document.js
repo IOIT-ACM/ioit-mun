@@ -16,19 +16,19 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="IOIT MUN 2025 — A premier Model United Nations conference hosted by IOIT, uniting delegates worldwide to debate, negotiate, and shape global policy."
+            content="IOIT MUN 2026 — A premier Model United Nations conference hosted by IOIT, uniting delegates worldwide to debate, negotiate, and shape global policy."
           />
           <meta
             name="keywords"
-            content="IOIT MUN 2025, Model United Nations, IOIT, Debate, Diplomacy, International Relations, Student Conference, Pune"
+            content="IOIT MUN 2026, Model United Nations, IOIT, Debate, Diplomacy, International Relations, Student Conference, Pune"
           />
-          <meta name="author" content="IOIT MUN 2025 Secretariat" />
+          <meta name="author" content="IOIT MUN 2026 Secretariat" />
 
           {/* Open Graph / Facebook */}
-          <meta property="og:title" content="IOIT MUN 2025 | Model United Nations" />
+          <meta property="og:title" content="IOIT MUN 2026 | Model United Nations" />
           <meta
             property="og:description"
-            content="Join IOIT MUN 2025 at IOIT, Pune — experience world-class debate, diplomacy, and leadership with future changemakers."
+            content="Join IOIT MUN 2026 at IOIT, Pune — experience world-class debate, diplomacy, and leadership with future changemakers."
           />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://mun.ioittenet.com" />
@@ -39,10 +39,10 @@ class MyDocument extends Document {
 
           {/* Twitter Cards */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="IOIT MUN 2025 | Model United Nations" />
+          <meta name="twitter:title" content="IOIT MUN 2026 | Model United Nations" />
           <meta
             name="twitter:description"
-            content="Global diplomacy starts here. Be part of IOIT MUN 2025."
+            content="Global diplomacy starts here. Be part of IOIT MUN 2026."
           />
           <meta
             name="twitter:image"
@@ -76,7 +76,7 @@ class MyDocument extends Document {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Event",
-                name: "IOIT MUN 2025",
+                name: "IOIT MUN 2026",
                 startDate: "2025-10-11",
                 endDate: "2025-10-12",
                 eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
@@ -88,7 +88,7 @@ class MyDocument extends Document {
                 },
                 image: ["https://mun.ioittenet.com/img/mockmun.png"],
                 description:
-                  "IOIT MUN 2025 is a premier Model United Nations conference uniting delegates worldwide to debate, negotiate, and shape global policy.",
+                  "IOIT MUN 2026 is a premier Model United Nations conference uniting delegates worldwide to debate, negotiate, and shape global policy.",
                 organizer: {
                   "@type": "Organization",
                   name: "IOIT MUN Secretariat",

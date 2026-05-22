@@ -58,7 +58,7 @@
         ]
       },
       {
-        "label": "TENET 2025",
+        "label": "TENET 2026",
         "link": "https://www.ioittenet.com/",
         "children": []
       }
@@ -67,7 +67,7 @@
   "footer": {
     "logo": {
       "text": "AISSMS IOIT",
-      "accent": " MUN' 25",
+      "accent": " MUN' 26",
       "image1": "/img/hero/ioitAcm.png",
       "image2": "/img/hero/mun12.png"
     },
@@ -86,7 +86,7 @@
         "link": "/gallery"
       },
       {
-        "label": "TENET 2025",
+        "label": "TENET 2026",
         "link": "https://ioittenet.com/"
       }
     ],
@@ -108,7 +108,7 @@
         "link": "#."
       }
     ],
-    "copy": "© 2025 IOIT MUN. All Rights Reserved.",
+    "copy": "© 2026 IOIT MUN. All Rights Reserved.",
     "dev": "Developed by: IOIT ACM Student Chapter",
     "instagram": {
       "images": [
