@@ -43,9 +43,9 @@ const DefaultFooter = ( { instagram } ) => {
                                 <a href={`mailto:${appData.contacts.email}`} className="mil-link mil-link-hover mil-accent mil-hidden-trigger mil-mb-30" style={{fontSize: 15}}>{appData.contacts.email}</a>
                                 {/* phone */}
                                 <p className="mil-light mil-text-xl mil-bold mil-mb-0" style={{fontSize: 17}}>{appData.contacts.name}</p>
-                                <p className="mil-light mil-text-xl mil-bold mil-mb-30">{appData.contacts.tel}</p>
+                                <a href={`tel:${appData.contacts.tel}`} className="mil-link mil-link-hover mil-accent mil-hidden-trigger mil-mb-30" style={{fontSize: 15}}>{appData.contacts.tel}</a>
                                 
-
+                                
                                 {/* social */}
                                 <ul className="mil-social mil-hidden-trigger mil-left">
                                     {appData.social.map((item, key) => (
