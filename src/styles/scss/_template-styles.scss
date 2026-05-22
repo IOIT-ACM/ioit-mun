@@ -251,8 +251,10 @@ hero 2
 
 ***************************/
 .mil-hero-2 {
-    height: 100vh;
-    padding-top: $top-panel-height;
+    height: auto;
+    //Updated to add 10px padding to the top to prevent overlap with the top panel
+    padding-top: calc($top-panel-height + 10px);
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     position: relative;

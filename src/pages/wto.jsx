@@ -2,9 +2,11 @@ import React from "react";
 import Layouts from "@layouts/Layouts";
 
 import HeroThreeSection from "@components/sections/HeroThree";
-import ExecutiveBoard from "@components/sections/ExecutiveBoard";
+// import ExecutiveBoard from "@components/sections/ExecutiveBoard";
 import AboutFourSection from "@components/sections/AboutFour";
 
+
+{/* Commented out this section */}
 const WTO = {
   "items": [
     {
@@ -26,7 +28,9 @@ const Home3 = (props) => {
     <Layouts invert>
       <HeroThreeSection Event = "WTO"/>
       <AboutFourSection Event = "WTO"/>
-      <ExecutiveBoard Content={WTO} />
+
+      {/* Commented out this section */}
+      {/* <ExecutiveBoard Content={WTO} /> */}
     </Layouts>
   );
 };
