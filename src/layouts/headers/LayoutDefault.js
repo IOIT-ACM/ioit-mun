@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import appData from "@data/app.json";
+import appData from "@/src/data/app";
 import Image from "next/image";
 
 const DefaultHeader = ({ transparent, invert, extraClass }) => {
