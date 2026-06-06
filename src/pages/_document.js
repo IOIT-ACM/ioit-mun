@@ -3,7 +3,10 @@ import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 
 class MyDocument extends Document {
+
+
   render() {
+    const year = new Date().getFullYear();
     return (
       <Html lang="en">
         <Head>
@@ -14,24 +17,36 @@ class MyDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1, maximum-scale=5"
           />
+
           <meta
             name="description"
-            content="IOIT MUN 2026 — A premier Model United Nations conference hosted by IOIT, uniting delegates worldwide to debate, negotiate, and shape global policy."
+            content={`IOIT MUN ${year} — A premier Model United Nations conference hosted by IOIT, uniting delegates worldwide to debate, negotiate, and shape global policy.`}
           />
+
           <meta
             name="keywords"
-            content="IOIT MUN 2026, Model United Nations, IOIT, Debate, Diplomacy, International Relations, Student Conference, Pune"
+            content={`IOIT MUN ${year}, Model United Nations, IOIT, Debate, Diplomacy, International Relations, Student Conference, Pune`}
           />
-          <meta name="author" content="IOIT MUN 2026 Secretariat" />
+
+          <meta
+            name="author"
+            content={`IOIT MUN ${year} Secretariat`}
+          />
 
           {/* Open Graph / Facebook */}
-          <meta property="og:title" content="IOIT MUN 2026 | Model United Nations" />
+          <meta
+            property="og:title"
+            content={`IOIT MUN ${year} | Model United Nations`}
+          />
+
           <meta
             property="og:description"
-            content="Join IOIT MUN 2026 at IOIT, Pune — experience world-class debate, diplomacy, and leadership with future changemakers."
+            content={`Join IOIT MUN ${year} at IOIT, Pune — experience world-class debate, diplomacy, and leadership with future changemakers.`}
           />
+
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://mun.ioittenet.com" />
+
           <meta
             property="og:image"
             content="https://mun.ioittenet.com/img/mockmun.png"
@@ -39,15 +54,22 @@ class MyDocument extends Document {
 
           {/* Twitter Cards */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="IOIT MUN 2026 | Model United Nations" />
+
+          <meta
+            name="twitter:title"
+            content={`IOIT MUN ${year} | Model United Nations`}
+          />
+
           <meta
             name="twitter:description"
-            content="Global diplomacy starts here. Be part of IOIT MUN 2026."
+            content={`Global diplomacy starts here. Be part of IOIT MUN ${year}.`}
           />
+
           <meta
             name="twitter:image"
             content="https://mun.ioittenet.com/img/mockmun.png"
           />
+
           <meta name="twitter:site" content="@ioitmun" />
 
           {/* Favicon & Theme */}
@@ -76,24 +98,24 @@ class MyDocument extends Document {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Event",
-                name: "IOIT MUN 2026",
+                name: `IOIT MUN ${year}`,
                 startDate: "2025-10-11",
                 endDate: "2025-10-12",
-                eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+                eventAttendanceMode:
+                  "https://schema.org/OfflineEventAttendanceMode",
                 eventStatus: "https://schema.org/EventScheduled",
                 location: {
                   "@type": "Place",
                   name: "Institute of Information Technology (IOIT), Pune",
-                  address: "IOIT Campus, Pune, India"
+                  address: "IOIT Campus, Pune, India",
                 },
                 image: ["https://mun.ioittenet.com/img/mockmun.png"],
-                description:
-                  "IOIT MUN 2026 is a premier Model United Nations conference uniting delegates worldwide to debate, negotiate, and shape global policy.",
+                description: `IOIT MUN ${year} is a premier Model United Nations conference uniting delegates worldwide to debate, negotiate, and shape global policy.`,
                 organizer: {
                   "@type": "Organization",
                   name: "IOIT MUN Secretariat",
-                  url: "https://mun.ioittenet.com"
-                }
+                  url: "https://mun.ioittenet.com",
+                },
               }),
             }}
           />

@@ -1,4 +1,6 @@
-{
+const year = new Date().getFullYear();
+
+export default {
   "settings": {
     "formspreeURL": "https://formspree.io/f/myyqbpqq",
     "mailchimp": {
@@ -25,26 +27,11 @@
         "label": "Committees",
         "link": "#.",
         "children": [
-          {
-            "label": "UNSC",
-            "link": "/unsc"
-          },
-          {
-            "label": "UNHRC",
-            "link": "/unhrc"
-          },
-          {
-            "label": "AIPPM",
-            "link": "/aippm"
-          },
-          {
-            "label": "WTO",
-            "link": "/wto"
-          },
-          {
-            "label": "IP",
-            "link": "/ip"
-          }
+          { "label": "UNSC", "link": "/unsc" },
+          { "label": "UNHRC", "link": "/unhrc" },
+          { "label": "AIPPM", "link": "/aippm" },
+          { "label": "WTO", "link": "/wto" },
+          { "label": "IP", "link": "/ip" }
         ]
       },
       {
@@ -52,13 +39,13 @@
         "link": "#.",
         "children": [
           {
-            "label": "2023",
+            "label": year.toString(),
             "link": "https://drive.google.com/file/d/13lmwCpRqGLJcrz9oigoFa30jJRpMsgIO/view?usp=share_link"
           }
         ]
       },
       {
-        "label": "TENET 2026",
+        "label": `TENET ${year}`,
         "link": "https://www.ioittenet.com/",
         "children": []
       }
@@ -67,48 +54,24 @@
   "footer": {
     "logo": {
       "text": "AISSMS IOIT",
-      "accent": " MUN' 26",
+      "accent": ` MUN' ${year.toString().slice(-2)}`,
       "image1": "/img/hero/ioitAcm.png",
       "image2": "/img/hero/mun12.png"
     },
     "description": "",
     "menu": [
-      {
-        "label": "Homepage",
-        "link": "/"
-      },
-      {
-        "label": "Secretariat",
-        "link": "/secretariat"
-      },
-      {
-        "label": "Gallery",
-        "link": "/gallery"
-      },
-      {
-        "label": "TENET 2026",
-        "link": "https://ioittenet.com/"
-      }
+      { "label": "Homepage", "link": "/" },
+      { "label": "Secretariat", "link": "/secretariat" },
+      { "label": "Gallery", "link": "/gallery" },
+      { "label": `TENET ${year}`, "link": "https://ioittenet.com/" }
     ],
     "links": [
-      {
-        "label": "Terms",
-        "link": "#."
-      },
-      {
-        "label": "Careers",
-        "link": "#."
-      },
-      {
-        "label": "Privacy Policy",
-        "link": "#."
-      },
-      {
-        "label": "Help Center",
-        "link": "#."
-      }
+      { "label": "Terms", "link": "#." },
+      { "label": "Careers", "link": "#." },
+      { "label": "Privacy Policy", "link": "#." },
+      { "label": "Help Center", "link": "#." }
     ],
-    "copy": "© 2026 IOIT MUN. All Rights Reserved.",
+    "copy": `© ${year} IOIT MUN. All Rights Reserved.`,
     "dev": "Developed by: IOIT ACM Student Chapter",
     "instagram": {
       "images": [

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import appData from "@data/app.json";
+import appData from "@/src/data/app";
 
 const Footer2 = ( { extraClass } ) => {
   return (
