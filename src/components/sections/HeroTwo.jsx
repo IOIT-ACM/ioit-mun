@@ -1,12 +1,38 @@
 import Data from "@data/sections/hero-2.json";
 import Image from "next/image";
 
-const HeroTwo = () => {
+const HeroTwo = ({ year, isLatest, secretaryGeneral, availableYears, onSelectYear }) => {
+    const title = secretaryGeneral
+        ? `A Word From Our Secretary General, ${secretaryGeneral.name}`
+        : "A Word From Our Secretary General";
+    const image = secretaryGeneral ? secretaryGeneral.image : "/img/hero/secretariat.png";
+
     return (
         <header>
             <div className="mil-hero-2">
 
                 <div className="container align-items-center">
+
+                    {availableYears &&
+                    <div className="row" style={{ marginTop: "50px" }}>
+                        <div className="col-12" style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "12px" }}>
+                            <span className="mil-link mil-softened-60">Browse by year:</span>
+                            {availableYears.map((y) => (
+                                <div
+                                    key={y}
+                                    className={`mil-button mil-button-sm mil-button-rounded mil-scale-down-trigger mil-accent-trigger${y === year ? "" : " mil-button-linear"}`}
+                                    onClick={() => onSelectYear(y)}
+                                >
+                                    <span>{y}</span>
+                                </div>
+                            ))}
+                            {!isLatest &&
+                            <span className="mil-link mil-softened-60">— viewing a past secretariat</span>
+                            }
+                        </div>
+                    </div>
+                    }
+
                     <div className="row justify-content-between align-items-center">
 
                         <div className="col-lg-7">
@@ -18,7 +44,7 @@ const HeroTwo = () => {
                                     <h6>{Data.avatar.name}</h6>
                                 </div> */}
 
-                                <h1 className="mil-h3 mil-mb-10" style={{ marginTop: "50px" }}>{Data.title}</h1>
+                                <h1 className="mil-h3 mil-mb-10" style={{ marginTop: availableYears ? "30px" : "50px" }}>{title}</h1>
 
 
                                 {/* buttons */}
@@ -53,7 +79,7 @@ const HeroTwo = () => {
                                     </g>
                                 </svg>
                                 {/* <div className="mil-bg" style={{ backgroundColor: "#03456D" }} /> */}
-                                <Image src={Data.image.url} alt="Secretariat" className="mil-photo-secretariat" fill />
+                                <Image src={image} alt="Secretariat" className="mil-photo-secretariat" fill />
                                 {/* <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"/> */}
                             </div>
 
