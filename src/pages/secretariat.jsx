@@ -1,38 +1,33 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import Layouts from "@layouts/Layouts";
 import Image from "next/image";
 
 import HeroTwoSection from "@components/sections/HeroTwo"
+import secretariatByYear from "@data/secretariat";
 
 
 const Home2 = (props) => {
 
+  const availableYears = useMemo(
+    () => Object.keys(secretariatByYear).map(Number).sort((a, b) => b - a),
+    []
+  );
+
+  const defaultYear = useMemo(() => {
+    const currentYear = new Date().getFullYear();
+    return availableYears.includes(currentYear) ? currentYear : availableYears[0];
+  }, [availableYears]);
+
+  const [selectedYear, setSelectedYear] = useState(defaultYear);
+  const isLatestYear = selectedYear === availableYears[0];
+
   const Content = {
     subtitle: "Team Members",
     title: "Meet Our Team",
-    description: "",
-    items: [
-      {
-        image: "/img/secretariat/aum.jpg",
-        name: "Aum Patil",
-        role: "Deputy Secretary General"
-      },
-      {
-        image: "/img/secretariat/mugdha.jpg",
-        name: "Mugdha Bhaviskar",
-        role: "USG Delegate Affairs"
-      },
-      {
-        image: "/img/secretariat/jeevika.jpg",
-        name: "Jeevika Agrawal",
-        role: "USG Management"
-      },
-      {
-        image: "/img/secretariat/shreyas.jpg",
-        name: "Shreyas Nalle",
-        role: "USG Marketing"
-      }
-    ]
+    description: isLatestYear
+        ? ""
+        : `You're viewing a past edition. This was the IOIT MUN ${selectedYear} secretariat.`,
+    items: secretariatByYear[selectedYear].items,
   };
 
 
@@ -40,7 +35,13 @@ const Home2 = (props) => {
   return (
     <div style={{width: "100%" ,overflowX:"hidden"}}>
     <Layouts invert>
-      <HeroTwoSection />
+      <HeroTwoSection
+        year={selectedYear}
+        isLatest={isLatestYear}
+        secretaryGeneral={secretariatByYear[selectedYear].secretaryGeneral}
+        availableYears={availableYears}
+        onSelectYear={setSelectedYear}
+      />
 
 
 <div className="container mil-content-frame mil-appearance mil-p-120-90">
@@ -59,7 +60,7 @@ const Home2 = (props) => {
 
 <div className="row">
     {Content.items.map((item, key) => (
-    <div className="col-xl-3 col-lg-4 col-md-6" key={`team-item-${key}`}>
+    <div className="col-xl-3 col-lg-4 col-md-6" key={`team-item-${selectedYear}-${key}`}>
 
         {/* team card */}
         <div className="mil-card-1 mil-scale-down-trigger mil-accent-trigger mil-appearance mil-mb-30">
