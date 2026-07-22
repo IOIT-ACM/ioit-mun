@@ -4,7 +4,7 @@ import Layouts from "@layouts/Layouts";
 import HeroOneSection from "@components/sections/HeroOne";
 import Stats from "@components/sections/Stats";
 // import ChiefGuest from "@/src/components/sections/ChiefGuest";
-import ServicesSection from "@components/sections/Services";
+import CommitteesScrollStack from "@components/sections/CommitteesScrollStack";
 // import TeamSection from "@components/sections/Team";
 import VideoSection from "@components/sections/Video";
 import Schedule from "@components/sections/Schedule";
@@ -16,7 +16,7 @@ const Page = (props) => {
     <div style={{width: "100vw", overflowX: "hidden"}}>
       <Layouts transparent>
         <HeroOneSection />
-        <ServicesSection />
+        <CommitteesScrollStack />
         {/* <ChiefGuest /> */}
         {/* <TeamSection /> */}
         <Schedule />

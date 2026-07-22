@@ -69,7 +69,7 @@ hero
         }
 
         & .mil-scroll-animation-1 {
-            float: right;
+            float: left;
 
             @media screen and (max-width: 992px) {
                 float: none;
@@ -77,10 +77,12 @@ hero
         }
 
         & .mil-just-image {
-            padding-bottom: 50%;
+            padding-bottom: 0;
+            height: 500px;
 
             @media screen and (max-width: 992px) {
                 padding-bottom: 80%;
+                height: auto;
             }
         }
 
@@ -100,6 +102,71 @@ hero
             }
         }
     }
+}
+
+/***************************
+
+countdown timer
+
+***************************/
+.mil-countdown {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+
+    @media screen and (max-width: 576px) {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+.mil-countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $dark;
+    border-radius: 12px;
+    padding: 20px 24px;
+    min-width: 90px;
+
+    @media screen and (max-width: 992px) {
+        min-width: 70px;
+        padding: 16px 18px;
+    }
+
+    @media screen and (max-width: 576px) {
+        min-width: calc(50% - 10px);
+        flex: 1 1 calc(50% - 10px);
+        padding: 18px 16px;
+    }
+}
+
+.mil-countdown-number {
+    font-family: $font-1;
+    font-size: 48px;
+    font-weight: 700;
+    color: $accent-1;
+    line-height: 1;
+    letter-spacing: 2px;
+
+    @media screen and (max-width: 992px) {
+        font-size: 36px;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: 32px;
+    }
+}
+
+.mil-countdown-label {
+    font-family: $font-1;
+    font-size: 12px;
+    font-weight: 500;
+    color: $lt-60;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 8px;
 }
 
 /***************************

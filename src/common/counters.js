@@ -17,7 +17,7 @@ export const countersAnimation = () => {
 
         gsap.to(zero, {
             val: num,
-            duration: 2,
+            duration: 3,
             ScrollTrigger: {
                 trigger: count,
                 toggleActions: 'play none none reverse',

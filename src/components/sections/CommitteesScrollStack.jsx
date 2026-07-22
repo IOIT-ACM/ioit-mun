@@ -5,19 +5,15 @@ import committeesData from "@data/sections/services.json";
 import heroData from "@data/sections/hero-3.json";
 
 const cardColors = [
-  "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
-  "linear-gradient(135deg, #0f3460 0%, #16213e 100%)",
-  "linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%)",
-  "linear-gradient(135deg, #16213e 0%, #1a1a2e 100%)",
-  "linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%)",
+  "linear-gradient(135deg, #263238 0%, #2d4a4a 100%)",
 ];
 
 const CommitteesScrollStack = () => {
   return (
-    <section style={{ backgroundColor: "#120F17", position: "relative" }}>
+    <section style={{ backgroundColor: "#ffffff", position: "relative" }}>
       <div style={{ padding: "60px 0 20px", textAlign: "center" }}>
         <h2 style={{
-          color: "#fff",
+          color: "#263238",
           fontSize: "clamp(2rem, 4vw, 3rem)",
           fontWeight: 700,
           marginBottom: "10px"
@@ -25,7 +21,7 @@ const CommitteesScrollStack = () => {
           Our Committees
         </h2>
         <p style={{
-          color: "rgba(255,255,255,0.6)",
+          color: "rgba(38, 50, 56, 0.6)",
           fontSize: "clamp(1rem, 2vw, 1.2rem)",
           maxWidth: "600px",
           margin: "0 auto"
@@ -61,7 +57,7 @@ const CommitteesScrollStack = () => {
                   cursor: "pointer",
                   transition: "border-color 0.3s ease",
                 }}
-                  onMouseEnter={(e) => e.currentTarget.style.borderColor = "rgba(38, 167, 255, 0.3)"}
+                  onMouseEnter={(e) => e.currentTarget.style.borderColor = "rgba(90, 169, 169, 0.4)"}
                   onMouseLeave={(e) => e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)"}
                 >
                   {/* Committee Logo - Top */}
@@ -85,7 +81,7 @@ const CommitteesScrollStack = () => {
                   {/* Committee Info - Below */}
                   <div style={{ width: "100%" }}>
                     <span style={{
-                      color: "rgba(38, 167, 255, 1)",
+                      color: "#5aa9a9",
                       fontSize: "0.8rem",
                       fontWeight: 700,
                       letterSpacing: "2px",
@@ -106,7 +102,7 @@ const CommitteesScrollStack = () => {
                     <h4 style={{
                       color: "rgba(255,255,255,0.85)",
                       fontSize: "clamp(0.9rem, 1.3vw, 1.05rem)",
-                      fontWeight: 500,
+                      fontWeight: 700,
                       margin: "0 0 12px 0",
                     }}>
                       {committee.text}
@@ -130,7 +126,7 @@ const CommitteesScrollStack = () => {
                       display: "inline-flex",
                       alignItems: "center",
                       gap: "8px",
-                      color: "rgba(38, 167, 255, 1)",
+                      color: "#5aa9a9",
                       fontSize: "0.9rem",
                       fontWeight: 600,
                     }}>

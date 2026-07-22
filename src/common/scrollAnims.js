@@ -15,10 +15,12 @@ export const scrollAnimation = () => {
             y: 50,
             scale: .98,
             ease: 'sine',
+            duration: 1.2,
         }, {
             y: 0,
             opacity: 1,
             scale: 1,
+            duration: 1.2,
             scrollTrigger: {
                 trigger: section,
                 toggleActions: 'play none none reverse',
@@ -41,7 +43,7 @@ export const scrollAnimation = () => {
             scale: value2,
             scrollTrigger: {
                 trigger: section,
-                scrub: true,
+                scrub: 2,
                 toggleActions: 'play none none reverse',
             }
         });
@@ -62,7 +64,7 @@ export const scrollAnimation = () => {
             y: value2,
             scrollTrigger: {
                 trigger: section,
-                scrub: true,
+                scrub: 2,
                 toggleActions: 'play none none reverse',
             }
         });
@@ -82,7 +84,7 @@ export const scrollAnimation = () => {
             rotate: value,
             scrollTrigger: {
                 trigger: section,
-                scrub: true,
+                scrub: 2,
                 toggleActions: 'play none none reverse',
             }
         });
@@ -102,7 +104,7 @@ export const scrollAnimation = () => {
             x: value,
             scrollTrigger: {
                 trigger: section,
-                scrub: true,
+                scrub: 2,
                 toggleActions: 'play none none reverse',
             }
         });
@@ -122,7 +124,7 @@ export const scrollAnimation = () => {
             y: value,
             scrollTrigger: {
                 trigger: section,
-                scrub: true,
+                scrub: 2,
                 toggleActions: 'play none none reverse',
             }
         });
@@ -141,7 +143,7 @@ export const scrollAnimation = () => {
             opacity: 0,
             scrollTrigger: {
                 trigger: section,
-                scrub: true,
+                scrub: 2,
                 start: 'top-=600',
                 end: 'bottom-=100',
             }
