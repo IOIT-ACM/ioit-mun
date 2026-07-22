@@ -25,7 +25,7 @@ const HeroThree = ({Event}) => {
                                 <p className="mil-mb-30" style={{fontSize: "25px"}}> {Data[Event].Agenda}{/*Strengthening International Cooperation in Cybersecurity*/}.</p>
 
                                 {/* buttons */}
-                                <Link href={Data[Event].link} target="_blank" className="mil-button mil-button-rounded mil-button-lg mil-scale-down-trigger mil-buttons-space">
+                                <Link href={Data[Event].link} className="mil-button mil-button-rounded mil-button-lg mil-scale-down-trigger mil-buttons-space">
                                     <span>{Data.button1.label}</span>
                                 </Link>
                                 {/* <Link href="" className="mil-link-hover"><div data-tf-live="01HBVEED1KMVTW0M7MFH2ES3WX"></div><script src="//embed.typeform.com/next/embed.js"></script></Link> */}
