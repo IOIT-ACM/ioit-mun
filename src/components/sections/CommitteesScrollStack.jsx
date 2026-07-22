@@ -50,9 +50,10 @@ const CommitteesScrollStack = () => {
                   borderRadius: "32px",
                   padding: "clamp(20px, 3vw, 36px)",
                   display: "flex",
-                  flexDirection: "column",
-                  gap: "clamp(16px, 2vw, 28px)",
-                  minHeight: "340px",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  gap: "clamp(20px, 3vw, 40px)",
+                  minHeight: "500px",
                   border: "1px solid rgba(255,255,255,0.08)",
                   cursor: "pointer",
                   transition: "border-color 0.3s ease",
@@ -60,10 +61,11 @@ const CommitteesScrollStack = () => {
                   onMouseEnter={(e) => e.currentTarget.style.borderColor = "rgba(90, 169, 169, 0.4)"}
                   onMouseLeave={(e) => e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)"}
                 >
-                  {/* Committee Logo - Top */}
+                  {/* Committee Logo - Left (40%) */}
                   <div style={{
-                    width: "100%",
-                    height: "clamp(180px, 25vw, 280px)",
+                    width: "40%",
+                    minWidth: "200px",
+                    height: "clamp(400px, 22vw, 280px)",
                     position: "relative",
                     borderRadius: "20px",
                     overflow: "hidden",
@@ -78,8 +80,8 @@ const CommitteesScrollStack = () => {
                     />
                   </div>
 
-                  {/* Committee Info - Below */}
-                  <div style={{ width: "100%" }}>
+                  {/* Committee Info - Right (60%) */}
+                  <div style={{ width: "60%", flex: 1 }}>
                     <span style={{
                       color: "#5aa9a9",
                       fontSize: "0.8rem",
@@ -111,7 +113,7 @@ const CommitteesScrollStack = () => {
                     <p style={{
                       color: "rgba(255,255,255,0.5)",
                       fontSize: "clamp(0.82rem, 1.1vw, 0.92rem)",
-                      lineHeight: 1.7,
+                      lineHeight: 2,
                       margin: 0,
                       display: "-webkit-box",
                       WebkitLineClamp: 3,
