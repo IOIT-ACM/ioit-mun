@@ -27,11 +27,11 @@ export default {
         "label": "Committees",
         "link": "#.",
         "children": [
+          { "label": "ICW", "link": "/icw" },
+          { "label": "UNCSW", "link": "/uncsw" },
           { "label": "UNSC", "link": "/unsc" },
-          { "label": "UNHRC", "link": "/unhrc" },
           { "label": "AIPPM", "link": "/aippm" },
           { "label": "WTO", "link": "/wto" },
-          { "label": "IP", "link": "/ip" }
         ]
       },
       {

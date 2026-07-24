@@ -4,20 +4,19 @@ import Layouts from "@layouts/Layouts";
 import HeroThreeSection from "@components/sections/HeroThree";
 // import ExecutiveBoard from "@components/sections/ExecutiveBoard";
 import AboutFourSection from "@components/sections/AboutFour";
-
-
+//old data
 // Data for the Executive Board section
-const UNHRC = {
+const ICW = {
   "items": [
     {
-      "image": "/img/team/unhrc-yash.jpg",
-      "name": "Yash Borkar",
-      "role": "Chair, UNHRC"
+      "image": "/img/team/aippm-gauravi.jpg",
+      "name": "Gauravi Dubey",
+      "role": "Co-Moderator, AIPPM"
     },
     {
-      "image": "/img/team/unhrc-rushil.jpg",
-      "name": "Rushil Pujari",
-      "role": "Vice Chair, UNHRC"
+      "image": "/img/team/aippm-aayaan.jpg",
+      "name": "Aayaan Manhas",
+      "role": "CO-Moderator, AIPPM"
     }
   ]
 };
@@ -26,11 +25,11 @@ const UNHRC = {
 const Home3 = (props) => {
   return (
     <Layouts invert>
-      <HeroThreeSection Event = "UNHRC"/>
-      <AboutFourSection Event = "UNHRC"/>
+      <HeroThreeSection Event = "ICW"/>
+      <AboutFourSection Event = "ICW"/>
 
       {/* Commented out this section */}
-      {/* <ExecutiveBoard Content={UNHRC} /> */}
+      {/* <ExecutiveBoard Content={ICW} /> */}
     </Layouts>
   );
 };

@@ -8,7 +8,7 @@ export const navigation = () => {
     const showAnim = gsap.from('.mil-top-panel.mil-animated', {
         yPercent: -100,
         paused: true,
-        duration: 0.4,
+        duration: 0.8,
     }).progress(1);
 
     ScrollTrigger.create({
