@@ -30,6 +30,13 @@
     },
     {
       "num": "05",
+      "title": "MUN",
+      "icon": "/img/hero/mun12.png",
+      "text": "Model United Nations",
+      "id": "/"
+    },
+    {
+      "num": "06",
       "title": "WTO",
       "icon": "/img/com/WTO.png",
       "text": "World Trade Organization",

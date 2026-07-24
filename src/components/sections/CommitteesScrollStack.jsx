@@ -1,151 +1,67 @@
-import ScrollStack, { ScrollStackItem } from "@components/ui/ScrollStack";
+import Data from "@data/sections/services.json";
 import Link from "next/link";
-import Image from "next/image";
-import committeesData from "@data/sections/services.json";
-import heroData from "@data/sections/hero-3.json";
-
-const cardColors = [
-  "linear-gradient(135deg, #263238 0%, #2d4a4a 100%)",
-];
 
 const CommitteesScrollStack = () => {
-  return (
-    <section style={{ backgroundColor: "#ffffff", position: "relative" }}>
-      <div style={{ padding: "60px 0 20px", textAlign: "center" }}>
-        <h2 style={{
-          color: "#263238",
-          fontSize: "clamp(2rem, 4vw, 3rem)",
-          fontWeight: 700,
-          marginBottom: "10px"
-        }}>
-          Our Committees
-        </h2>
-        <p style={{
-          color: "rgba(38, 50, 56, 0.6)",
-          fontSize: "clamp(1rem, 2vw, 1.2rem)",
-          maxWidth: "600px",
-          margin: "0 auto"
-        }}>
-          Scroll through our diverse range of committees
-        </p>
-      </div>
+    return (
+        <div className="mil-services-1 mil-icon-2-trigger mil-accent-trigger mil-pseudo-hover-el">
 
-      <ScrollStack
-        itemDistance={100}
-        itemScale={0.04}
-        itemStackDistance={30}
-        stackPosition="15%"
-        scaleEndPosition="5%"
-        baseScale={0.82}
-        rotationAmount={0}
-        blurAmount={1}
-      >
-        {committeesData.items.map((committee, index) => {
-          const detail = heroData[committee.title] || {};
-          return (
-            <ScrollStackItem key={committee.title}>
-              <Link href={committee.id} style={{ textDecoration: 'none' }}>
-                <div style={{
-                  background: cardColors[index % cardColors.length],
-                  borderRadius: "32px",
-                  padding: "clamp(20px, 3vw, 36px)",
-                  display: "flex",
-                  flexDirection: "row",
-                  alignItems: "center",
-                  gap: "clamp(20px, 3vw, 40px)",
-                  minHeight: "500px",
-                  border: "1px solid rgba(255,255,255,0.08)",
-                  cursor: "pointer",
-                  transition: "border-color 0.3s ease",
+            {/* dark black gradient background */}
+            <div
+                className="mil-just-image mil-section-bg mil-scale-imgmil-gradient-overlay "
+                style={{
+                    height: "150%",
+                    background: "linear-gradient(135deg, #242f35 0%, #1b2730 100%)",
+                    transition: "background 0.3s ease",
                 }}
-                  onMouseEnter={(e) => e.currentTarget.style.borderColor = "rgba(90, 169, 169, 0.4)"}
-                  onMouseLeave={(e) => e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)"}
-                >
-                  {/* Committee Logo - Left (40%) */}
-                  <div style={{
-                    width: "40%",
-                    minWidth: "200px",
-                    height: "clamp(400px, 22vw, 280px)",
-                    position: "relative",
-                    borderRadius: "20px",
-                    overflow: "hidden",
-                    background: "rgba(255,255,255,0.05)",
-                    flexShrink: 0,
-                  }}>
-                    <Image
-                      src={committee.icon}
-                      alt={committee.title}
-                      fill
-                      style={{ objectFit: "contain", padding: "20px" }}
-                    />
-                  </div>
+            ></div>
 
-                  {/* Committee Info - Right (60%) */}
-                  <div style={{ width: "60%", flex: 1 }}>
-                    <span style={{
-                      color: "#5aa9a9",
-                      fontSize: "0.8rem",
-                      fontWeight: 700,
-                      letterSpacing: "2px",
-                      textTransform: "uppercase",
-                    }}>
-                      Committee {committee.num}
-                    </span>
+            <div className="row m-0">
+                {Data.items.map((item, key) => (
+                    <div
+                        className="col-12 col-sm-6 col-lg-4 p-0"
+                        key={`services-item-${key}`}
+                        style={{ height: "150%" }}
+                    >
+                        {/* service card */}
+                        <div className="mil-card-1 mil-complex-hover mil-icon-2-trigger mil-accent-trigger mil-pseudo-hover">
+                            <div className="mil-cover mil-long"></div>
+                            <Link href={item.id} className="mil-overlay mil-inside mil-between">
+                                <div className="mil-mb-10"></div>
 
-                    <h3 style={{
-                      color: "#fff",
-                      fontSize: "clamp(1.4rem, 2.5vw, 2rem)",
-                      fontWeight: 700,
-                      margin: "6px 0 4px 0",
-                    }}>
-                      {committee.title}
-                    </h3>
+                                {/* icon */}
+                                <div
+                                    className="d-flex justify-content-center align-items-center"
+                                    style={{ height: "clamp(220px, 24vw, 340px)" }}
+                                >
+                                    <img
+                                        src={item.icon}
+                                        alt={item.title}
+                                        style={{
+                                            maxWidth: "60%",
+                                            maxHeight: "100%",
+                                            objectFit: "contain",
+                                        }}
+                                    />
+                                </div>
 
-                    <h4 style={{
-                      color: "rgba(255,255,255,0.85)",
-                      fontSize: "clamp(0.9rem, 1.3vw, 1.05rem)",
-                      fontWeight: 700,
-                      margin: "0 0 12px 0",
-                    }}>
-                      {committee.text}
-                    </h4>
-
-                    <p style={{
-                      color: "rgba(255,255,255,0.5)",
-                      fontSize: "clamp(0.82rem, 1.1vw, 0.92rem)",
-                      lineHeight: 2,
-                      margin: 0,
-                      display: "-webkit-box",
-                      WebkitLineClamp: 3,
-                      WebkitBoxOrient: "vertical",
-                      overflow: "hidden",
-                    }}>
-                      {detail.description}
-                    </p>
-
-                    <div style={{
-                      marginTop: "16px",
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "8px",
-                      color: "#5aa9a9",
-                      fontSize: "0.9rem",
-                      fontWeight: 600,
-                    }}>
-                      Explore Committee
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                      </svg>
+                                {/* text content */}
+                                <div className="mil-bottom-part-hidden">
+                                    <h5 className="mil-light">{item.title}</h5>
+                                    <p
+                                        className="mil-hidden-part mil-softened-40 mil-mb-30"
+                                        style={{ fontSize: "15px" }}
+                                    >
+                                        {item.text}
+                                    </p>
+                                </div>
+                            </Link>
+                        </div>
+                        {/* service card end */}
                     </div>
-                  </div>
-                </div>
-              </Link>
-            </ScrollStackItem>
-          );
-        })}
-      </ScrollStack>
-    </section>
-  );
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default CommitteesScrollStack;
