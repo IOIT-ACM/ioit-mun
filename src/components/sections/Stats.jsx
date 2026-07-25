@@ -145,7 +145,7 @@ const Stats = () => {
                                 style={{
                                     fontSize: "2.2rem",
                                     fontWeight: 800,
-                                    color: "rgba(38, 167, 255, 1)",
+                                    color: "rgba(77, 182, 172, 1)",
                                     lineHeight: 1,
                                 }}
                             >
