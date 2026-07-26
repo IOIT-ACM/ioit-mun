@@ -26,7 +26,7 @@ const Schedule = () => {
       <div className="row">
         <div className="col-md-12 col-lg-6">
           <h1 className='mil-h4' style={{
-            padding: "5px 0px", backgroundColor: "rgba(38, 167, 255, 1)", color: "white",
+            padding: "5px 0px", backgroundColor: "rgba(77, 182, 172, 1)", color: "white",
             display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
           }}>
             <span>11th October 2025</span>
@@ -48,7 +48,7 @@ const Schedule = () => {
 
         <div className="col-md-12 col-lg-6">
           <h1 className='mil-h4' style={{
-            padding: "5px 0px", backgroundColor: "rgba(38, 167, 255, 1)", color: "white",
+            padding: "5px 0px", backgroundColor: "rgba(77, 182, 172, 1)", color: "white",
             display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
           }}>
             <span>12th October 2025</span>
