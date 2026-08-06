@@ -1,6 +1,9 @@
 import Data from "@data/sections/hero-3.json";
+import Image from "next/image";
+import executiveBoard from "@data/sections/executive-board";
 
 const AboutFourSection = ({Event}) => {
+  const eb = executiveBoard[Event];
   return (
     <>
         {/* about */}
@@ -8,7 +11,7 @@ const AboutFourSection = ({Event}) => {
 
             <div className="row flex-sm-row-reverse justify-content-between align-items-center">
 
-                <div className="col-xl-12 mil-mb-120">
+                <div className="mil-text-center mil-p-0-120 mil-appearance">
                     <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30" style={{fontSize: 40}}>About {Event}</h3>
                     {/* <h3 className="mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} /> */}
                     <p className="mil-appearance mil-mb-30" style={{textAlign: "justify"}}>{Data[Event].description}</p>
@@ -45,7 +48,21 @@ const AboutFourSection = ({Event}) => {
             </div>
 
         </div>
-        {/* about end */}
+
+        {/* executive board */}
+        {eb && (
+            <div className="mil-text-center mil-p-0-120 mil-appearance">
+                <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30" style={{fontSize: 40}}>Executive Board</h3>
+                <div className="mil-mb-30" style={{position: "relative", width: "100%", maxWidth: 400, margin: "0 auto"}}>
+                    <div className="mil-just-image" style={{paddingBottom: "125%"}}>
+                        <Image src={eb.image} alt={eb.name} fill sizes="(min-width: 768px) 400px, 100vw" style={{objectFit: "cover", objectPosition: "center"}} />
+                    </div>
+                </div>
+                <h5 className="mil-mb-100">{eb.name}</h5>
+                <span className="mil-link mil-softened-50">Executive Board</span>
+            </div>
+        )}
+        {/* executive board end */}
     </>
   );
 };
