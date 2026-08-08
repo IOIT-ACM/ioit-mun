@@ -22,7 +22,7 @@ const Page = (props) => {
         {/* <TeamSection /> */}
         <div style={{ position: "relative" }}>
           {/* curtain spans Schedule -> footer bottom, clipped at footer by Layouts */}
-          <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "calc(100% + 250vh)", zIndex: 0, overflow: "hidden", pointerEvents: "none", backgroundColor: "rgba(10, 22, 36, 1)" }}>
+          <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "calc(95% + 250vh)", zIndex: 0, overflow: "hidden", pointerEvents: "none", backgroundColor: "rgba(10, 22, 36, 1)" }}>
             <style>{`
               @keyframes ctaSilkDrift {
                 0%   { transform: translate(-50%, -50%) rotate(90deg) scale(1) translateY(0); }

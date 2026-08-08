@@ -46,16 +46,20 @@ const Hero2026 = () => {
                     />
                 </div>
 
+                <div className="mil-hero-2026-title">
+                    <h1>IOIT MUN 2026</h1>
+                </div>
+
+                <div className="mil-hero-2026-tagline">
+                    <span className="mil-hero-2026-line" />
+                    <p>Unity Through Diplomacy</p>
+                    <span className="mil-hero-2026-line" />
+                </div>
+
             </section>
 
             <div className="mil-hero-2026-cta mil-appearance">
                 <div className="container">
-
-                    <div className="mil-hero-2026-tagline">
-                        <span className="mil-hero-2026-line" />
-                        <p>Unity Through Diplomacy</p>
-                        <span className="mil-hero-2026-line" />
-                    </div>
 
                     <div className="mil-hero-2026-actions">
                         <Link

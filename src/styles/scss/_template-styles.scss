@@ -108,7 +108,7 @@ hero 2026
     position: relative;
     width: 100%;
     height: auto;
-    aspect-ratio: 1599 / 666;
+    aspect-ratio: 1599 / 760;
     background-color: $dark;
     overflow: hidden;
 
@@ -125,26 +125,48 @@ hero 2026
             object-position: center;
         }
     }
-}
 
-.mil-hero-2026-cta {
-    position: relative;
-    z-index: 2;
-    background-color: $dark;
-    padding: 36px 24px 60px;
-    display: flex;
-    justify-content: center;
+    & .mil-hero-2026-title {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 13%;
+        z-index: 1;
+        text-align: center;
+        pointer-events: none;
 
-    @media screen and (max-width: 576px) {
-        padding: 28px 20px 44px;
+        & h1 {
+            margin: 0;
+            color: #E8C15A;
+            font-family: $font-1;
+            font-weight: 900;
+            font-size: clamp(48px, 9.5vw, 132px);
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            text-shadow: 0 0 40px rgba(232, 193, 90, .45), 0 6px 30px rgba(0, 0, 0, .8);
+        }
+
+        @media screen and (max-width: 576px) {
+            bottom: 16%;
+
+            & h1 {
+                font-size: clamp(28px, 9vw, 48px);
+                letter-spacing: .08em;
+            }
+        }
     }
 
     & .mil-hero-2026-tagline {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 9%;
+        z-index: 1;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 24px;
-        margin-bottom: 30px;
+        pointer-events: none;
 
         & p {
             margin: 0;
@@ -168,7 +190,7 @@ hero 2026
 
         @media screen and (max-width: 576px) {
             gap: 12px;
-            margin-bottom: 22px;
+            bottom: 14%;
 
             & p {
                 font-size: 12px;
@@ -181,19 +203,39 @@ hero 2026
             }
         }
     }
+}
+
+.mil-hero-2026-cta {
+    position: relative;
+    z-index: 2;
+    background-color: $dark;
+    padding: 36px 24px 60px;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 576px) {
+        padding: 28px 20px 44px;
+    }
 
     & .mil-hero-2026-actions {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        gap: 20px;
         width: 100%;
     }
 
     & .mil-hero-2026-btn {
+        font-size: 1.35rem;
+        padding: 22px 56px;
+        background-color: rgba(212, 164, 58, .8);
         box-shadow: 0 0 40px rgba(212, 164, 58, .4), 0 8px 30px rgba(0, 0, 0, .35);
 
         &.mil-button-linear {
+            background-color: transparent;
+            border-color: rgba(212, 164, 58, .65);
+            color: rgba(245, 241, 232, .85);
             box-shadow: 0 0 40px rgba(245, 241, 232, .15), 0 8px 30px rgba(0, 0, 0, .35);
         }
     }
