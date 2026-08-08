@@ -37,7 +37,7 @@ const Schedule = () => {
             {day1Data.map((item, index) => (
               <tr key={index}>
                 <td style={{ width: "20%", padding: "10px 10px" }}>
-                  {isMounted && <Image src={item.logo} alt="logo" width={50} height={50} />}
+                  {isMounted && <Image src={item.logo} alt="logo" width={50} height={50} style={{ filter: "hue-rotate(210deg) saturate(50%) brightness(90%) opacity(0.7)" }} />}
                 </td>
                 <td className='a-80' style={{ padding: "10px 0px" }}>{item.timings}</td>
                 <td className='a-80' style={{ padding: "10px 10px", color: "#F5F1E8" }}>{item.events}</td>
@@ -59,7 +59,7 @@ const Schedule = () => {
             {day2Data.map((item, index) => (
               <tr key={index}>
                 <td style={{ width: "20%", padding: "10px 10px"  }}>
-                  {isMounted && <Image src={item.logo} alt="logo" width={50} height={50} />}
+                  {isMounted && <Image src={item.logo} alt="logo" width={50} height={50} style={{ filter: "hue-rotate(210deg) saturate(50%) brightness(90%) opacity(0.7)" }} />}
                 </td>
                 <td className='a-80' style={{ padding: "10px 0px"}}>{item.timings}</td>
                 <td className='a-80' style={{ padding: "10px 10px", color: "#F5F1E8"}}>{item.events}</td>
