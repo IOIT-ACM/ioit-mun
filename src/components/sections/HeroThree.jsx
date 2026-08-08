@@ -52,7 +52,7 @@ const HeroThree = ({Event}) => {
                                     </g>
                                 </svg>
                                 <div className="" />
-                                <Image src={Data[Event].logo} alt="Event Logo" className="mil-photo"  style={{filter: "invert(60%)", paddingTop: "25%"}} fill/>
+                                <Image src={Data[Event].logo} alt="Event Logo" className="mil-photo"  style={{filter: "brightness(0) invert(1)", paddingTop: "25%"}} fill/>
                                 {/* <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"/> */}
                             </div>
 

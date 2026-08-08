@@ -37,6 +37,7 @@ const ServicesSection = () => {
                                             paddingTop: "10%",
                                             width: "60%",
                                             height: "100%",
+                                            filter: "brightness(0.55) sepia(1) saturate(2.5) hue-rotate(-12deg)",
                                         }}
                                     />
                                 </div>

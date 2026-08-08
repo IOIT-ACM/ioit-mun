@@ -37,7 +37,7 @@ const DefaultHeader = ({ transparent, invert, extraClass, staticNav }) => {
                 <Link href="/" legacyBehavior>
                   <a className="mil-logo mil-scale-down-trigger mil-accent-trigger">
                       <div className="mil-h5">
-                        <span> <Image src={invert ? appData.header.logo.url3 : appData.header.logo.url} width={170} height={60} alt="logo" /> </span> <span className="mil-accent">{appData.header.logo.accent}</span>
+                        <span> <Image src={appData.header.logo.url} width={170} height={60} alt="logo" /> </span> <span className="mil-accent">{appData.header.logo.accent}</span>
                       </div>
                   </a>
                 </Link>

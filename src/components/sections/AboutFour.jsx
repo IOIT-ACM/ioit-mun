@@ -11,7 +11,7 @@ const AboutFourSection = ({Event}) => {
 
             <div className="row flex-sm-row-reverse justify-content-between align-items-center">
 
-                <div className="mil-text-center mil-p-0-120 mil-appearance">
+                <div className="mil-text-center mil-p-0-60 mil-appearance">
                     <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30" style={{fontSize: 40}}>About {Event}</h3>
                     {/* <h3 className="mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} /> */}
                     <p className="mil-appearance mil-mb-30" style={{textAlign: "justify"}}>{Data[Event].description}</p>
@@ -58,7 +58,7 @@ const AboutFourSection = ({Event}) => {
                         <Image src={eb.image} alt={eb.name} fill sizes="(min-width: 768px) 400px, 100vw" style={{objectFit: "cover", objectPosition: "center"}} />
                     </div>
                 </div>
-                <h5 className="mil-mb-100">{eb.name}</h5>
+                <h5 className="mil-mb-100 mil-light" style={{marginTop: 20}}>{eb.name}</h5>
                 <span className="mil-link mil-softened-50">Executive Board</span>
             </div>
         )}

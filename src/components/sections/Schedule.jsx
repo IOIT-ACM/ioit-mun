@@ -29,7 +29,7 @@ const Schedule = () => {
             padding: "5px 0px", backgroundColor: "rgba(212, 164, 58, 1)", color: "#050B14",
             display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
           }}>
-            <span>11th October 2025</span>
+            <span>24th October 2026</span>
             <Link href="#"><FontAwesomeIcon icon={faCalendarAlt} /></Link>
           </h1>
 
@@ -51,7 +51,7 @@ const Schedule = () => {
             padding: "5px 0px", backgroundColor: "rgba(212, 164, 58, 1)", color: "#050B14",
             display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
           }}>
-            <span>12th October 2025</span>
+            <span>25th October 2026</span>
             <Link href="cesaioit.com"><FontAwesomeIcon icon={faCalendarAlt} /></Link>
           </h1>
 

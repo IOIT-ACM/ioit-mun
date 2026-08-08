@@ -75,8 +75,9 @@ const Hero2026 = () => {
                 </div>
             </div>
 
-            <div className="mil-hero-2026-countdown mil-appearance">
+            <div className="mil-hero-2026-countdown">
                 <div className="container">
+                    <p className="mil-hero-2026-countdown-title">The Countdown Begins</p>
                     <div className="mil-countdown">
                         <div className="mil-countdown-item">
                             <span className="mil-countdown-number">{String(days).padStart(2, '0')}</span>
