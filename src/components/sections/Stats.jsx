@@ -49,7 +49,7 @@ const Stats = () => {
         <div
             ref={sectionRef}
             style={{
-                backgroundColor: "rgba(38, 50, 56, 1)",
+                backgroundColor: "rgba(5, 11, 20, 1)",
                 padding: "48px 6%",
                 position: "relative",
             }}
@@ -100,7 +100,7 @@ const Stats = () => {
                     <h3
                         className="stats-heading"
                         style={{
-                            color: "#FFFFFF",
+                            color: "#F5F1E8",
                             fontSize: "1.5rem",
                             margin: 0,
                         }}
@@ -109,7 +109,7 @@ const Stats = () => {
                     </h3>
                     <p
                         style={{
-                            color: "rgba(255,255,255,0.75)",
+                            color: "rgba(245,241,232,0.7)",
                             fontSize: "1rem",
                             marginTop: 8,
                             lineHeight: 1.3,
@@ -140,27 +140,27 @@ const Stats = () => {
                                 alignItems: "center",
                             }}
                         >
-                            <div
-                                className="stats-number"
-                                style={{
-                                    fontSize: "2.2rem",
-                                    fontWeight: 800,
-                                    color: "rgba(77, 182, 172, 1)",
-                                    lineHeight: 1,
-                                }}
-                            >
+                                <div
+                                    className="stats-number"
+                                    style={{
+                                        fontSize: "2.2rem",
+                                        fontWeight: 800,
+                                        color: "#E8C15A",
+                                        lineHeight: 1,
+                                    }}
+                                >
                                 {counts[idx].toLocaleString(["en-IN"])}
                                 {stat.suffix || ""}
                             </div>
-                            <div
-                                className="stats-label"
-                                style={{
-                                    marginTop: 6,
-                                    color: "#FFFFFF",
-                                    fontWeight: 600,
-                                    textAlign: "center",
-                                }}
-                            >
+                                <div
+                                    className="stats-label"
+                                    style={{
+                                        marginTop: 6,
+                                        color: "#F5F1E8",
+                                        fontWeight: 600,
+                                        textAlign: "center",
+                                    }}
+                                >
                                 {stat.label}
                             </div>
                         </div>
@@ -183,7 +183,7 @@ const Stats = () => {
                             style={{
                                 fontSize: "1rem",
                                 fontWeight: 600,
-                                color: "#FFFFFF",
+                                color: "#F5F1E8",
                             }}
                         >
                             Current Prize Pool
@@ -192,7 +192,7 @@ const Stats = () => {
                             style={{
                                 fontSize: "1.8rem",
                                 fontWeight: 800,
-                                color: "rgba(255, 193, 7, 1)",
+                                color: "#E8C15A",
                                 lineHeight: 1.2,
                             }}
                         >

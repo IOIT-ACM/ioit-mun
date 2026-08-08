@@ -10,7 +10,7 @@ const CommitteesScrollStack = () => {
                 className="mil-just-image mil-section-bg mil-scale-imgmil-gradient-overlay "
                 style={{
                     height: "150%",
-                    background: "linear-gradient(135deg, #242f35 0%, #1b2730 100%)",
+                    background: "linear-gradient(135deg, #0F2030 0%, #050B14 100%)",
                     transition: "background 0.3s ease",
                 }}
             ></div>

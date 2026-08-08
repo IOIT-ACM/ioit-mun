@@ -663,14 +663,14 @@ pagination
         font-size: 16px;
         font-weight: 500;
         text-decoration: none;
-        color: $dark;
+        color: $lt-70;
         width: 60px;
         height: 60px;
         margin: 0 5px;
         transition: $t-sm;
 
         &:hover {
-            background-color: $gs-10;
+            background-color: $lt-20;
         }
 
         &--active {
@@ -839,7 +839,6 @@ prices
 ***************************/
 
 .mil-404-frame {
-    padding-top: 100px;
     height: 100vh;
     width: 100%;
     background-color: $site-background;

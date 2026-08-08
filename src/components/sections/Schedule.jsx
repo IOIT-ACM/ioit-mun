@@ -16,17 +16,17 @@ const Schedule = () => {
   if (!isMounted) return null;
 
   return (
-    <div style={{ backgroundColor: "rgba(38, 50, 56, 1)", padding: "0px 8%" }}>
+    <div style={{ backgroundColor: "rgba(5, 11, 20, 1)", padding: "0px 8%" }}>
       <div className="mil-mb-0"></div>
 
       <div className="row">
-        <h3 className="mil-mb-30 mil-appearance" style={{ color: "white", marginTop: "40px" }}>Itinerary</h3>
+        <h3 className="mil-mb-30 mil-appearance" style={{ color: "#F5F1E8", marginTop: "40px" }}>Itinerary</h3>
       </div>
 
       <div className="row">
         <div className="col-md-12 col-lg-6">
           <h1 className='mil-h4' style={{
-            padding: "5px 0px", backgroundColor: "rgba(77, 182, 172, 1)", color: "white",
+            padding: "5px 0px", backgroundColor: "rgba(212, 164, 58, 1)", color: "#050B14",
             display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
           }}>
             <span>11th October 2025</span>
@@ -40,7 +40,7 @@ const Schedule = () => {
                   {isMounted && <Image src={item.logo} alt="logo" width={50} height={50} />}
                 </td>
                 <td className='a-80' style={{ padding: "10px 0px" }}>{item.timings}</td>
-                <td className='a-80' style={{ padding: "10px 10px", color: "white" }}>{item.events}</td>
+                <td className='a-80' style={{ padding: "10px 10px", color: "#F5F1E8" }}>{item.events}</td>
               </tr>
             ))}
           </table>
@@ -48,7 +48,7 @@ const Schedule = () => {
 
         <div className="col-md-12 col-lg-6">
           <h1 className='mil-h4' style={{
-            padding: "5px 0px", backgroundColor: "rgba(77, 182, 172, 1)", color: "white",
+            padding: "5px 0px", backgroundColor: "rgba(212, 164, 58, 1)", color: "#050B14",
             display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
           }}>
             <span>12th October 2025</span>
@@ -62,7 +62,7 @@ const Schedule = () => {
                   {isMounted && <Image src={item.logo} alt="logo" width={50} height={50} />}
                 </td>
                 <td className='a-80' style={{ padding: "10px 0px"}}>{item.timings}</td>
-                <td className='a-80' style={{ padding: "10px 10px", color: "white"}}>{item.events}</td>
+                <td className='a-80' style={{ padding: "10px 10px", color: "#F5F1E8"}}>{item.events}</td>
               </tr>
             ))}
           </table>

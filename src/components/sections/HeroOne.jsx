@@ -34,7 +34,7 @@ const HeroOne = () => {
 
     return (
         <header>
-            <div className="mil-hero-1" style={{backgroundColor: "white"}}>
+            <div className="mil-hero-1" style={{backgroundColor: "#050B14"}}>
 
                 <div className="mil-image-frame">
                     <div className="mil-overay" />
@@ -101,7 +101,7 @@ const HeroOne = () => {
                             {/* partners */}
 
                             <div style={{  padding: '60px 0', paddingTop: '200px', borderTop: '1px solid rgba(255, 255, 255, 0.0)'}}>
-                                <h3 className="mil-appearance mil-mb-40 d-flex justify-content-center align-items-center" style={{fontSize: 28, fontWeight: 400, letterSpacing: '3px', textTransform: 'uppercase', color: '#212c33'}}>Our Partners</h3>
+                                <h3 className="mil-appearance mil-mb-40 d-flex justify-content-center align-items-center" style={{fontSize: 28, fontWeight: 400, letterSpacing: '3px', textTransform: 'uppercase', color: '#D4A43A'}}>Our Partners</h3>
 
                                 <Swiper
                                     {...sliderProps.milInfinitySlider}

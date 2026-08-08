@@ -30,14 +30,14 @@ export const cursorAnimation = () => {
     body.addEventListener('mousedown', (event) => {
       gsap.to(cursor, .2, {
           scale: .7,
-          boxShadow: '0px 0px 0px 10px rgba(255,255,255,.4)',
+          boxShadow: '0px 0px 0px 10px rgba(245,241,232,.4)',
           ease: 'sine',
       });
     });
     body.addEventListener('mouseup', (event) => {
       gsap.to(cursor, .2, {
           scale: 1,
-          boxShadow: '0px 0px 0px 5px rgba(255,255,255,0)',
+          boxShadow: '0px 0px 0px 5px rgba(245,241,232,0)',
           ease: 'sine',
       });
     });

@@ -301,6 +301,19 @@ navigation
     }
 }
 
+.mil-top-panel {
+    &.mil-static-nav {
+        position: relative;
+        background-color: $dark;
+
+        & .mil-logo {
+            & * {
+                color: $accent-1;
+            }
+        }
+    }
+}
+
 // menu button
 
 .mil-menu-btn {

@@ -143,8 +143,6 @@ const Portfolio = () => {
 
   return (
     <Layouts>
-      <div className="mil-spacer-100 mil-spacer-dark" />
-
       <div 
         className="mil-portfolio-fw mil-appearance" 
 

@@ -63,10 +63,10 @@ blockquote {
     padding: 30px;
     background-color: $gs-10;
     font-style: italic;
-    color: $dark;
+    color: $light;
 
     & * {
-        color: $dark !important;
+        color: $light !important;
     }
 }
 
@@ -301,7 +301,7 @@ b {
 
 .mil-first-letter {
     &::first-letter {
-        color: $dark;
+        color: $light;
         font-weight: $titles-font-weight;
         padding-right: 25px;
         line-height: 100%;
@@ -312,12 +312,12 @@ b {
 }
 
 .mil-text-stroke {
-    color: $dark;
+    color: $light;
     text-shadow:
-        -0.4px -0.4px 0 $light,
-        0.4px -0.4px 0 $light,
-        -0.4px 0.4px 0$light,
-        0.4px 0.3px 0 $light;
+        -0.4px -0.4px 0 $dark,
+        0.4px -0.4px 0 $dark,
+        -0.4px 0.4px 0 $dark,
+        0.4px 0.3px 0 $dark;
 }
 
 .mil-text-center {

@@ -18,6 +18,7 @@ const Layouts = ({
   footerInst,
   transparent,
   invert,
+  staticNav = true,
   extraClass,
 }) => {
   useEffect(() => {
@@ -35,6 +36,7 @@ const Layouts = ({
           layout={header}
           transparent={transparent}
           invert={invert}
+          staticNav={staticNav}
           extraClass={extraClass}
         />
       )}
