@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import SpecularButton from "@components/ui/SpecularButton";
 
 const statsData = [
     { label: "Attendees", value: 3000, suffix: "+" },
@@ -121,13 +121,26 @@ const RegisterCta = () => {
                         Be the Change.
                     </h3>
 
-                    <Link
+                    <SpecularButton
                         href="https://unstop.com/conferences/ioit-mun-2026-tenet-aissms-institute-of-information-technology-pune-maharashtra-1699491"
-                        className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"
-                        style={{ borderRadius: 0, fontSize: "1.2rem" }}
+                        className="mil-scale-down-trigger"
+                        size="lg"
+                        radius={8}
+                        tint="#D4A43A"
+                        tintOpacity={0.92}
+                        textColor="#0B0F14"
+                        lineColor="#FFF6DE"
+                        baseColor="#8A6A22"
+                        intensity={1}
+                        shineSize={14}
+                        shineFade={45}
+                        thickness={1.5}
+                        speed={0.3}
+                        followMouse
+                        proximity={260}
                     >
-                        <span>Register Now</span>
-                    </Link>
+                        Register Now
+                    </SpecularButton>
                 </div>
 
                 {/* stats on the side */}

@@ -1,6 +1,7 @@
 import Data from "@data/sections/hero-3.json";
-import Link from "next/link";
 import Image from "next/image";
+import SpecularButton from "@components/ui/SpecularButton";
+import TiltedCard from "@components/ui/TiltedCard";
 
 const HeroThree = ({Event}) => {
     return (
@@ -25,14 +26,26 @@ const HeroThree = ({Event}) => {
                                 <p className="mil-mb-30" style={{fontSize: "25px"}}> {Data[Event].Agenda}{/*Strengthening International Cooperation in Cybersecurity*/}.</p>
 
                                 {/* buttons */}
-                                <Link href={Data[Event].link} className="mil-button mil-button-rounded mil-button-lg mil-scale-down-trigger mil-buttons-space">
-                                    <span>{Data.button1.label}</span>
-                                </Link>
-                                {/* <Link href="" className="mil-link-hover"><div data-tf-live="01HBVEED1KMVTW0M7MFH2ES3WX"></div><script src="//embed.typeform.com/next/embed.js"></script></Link> */}
-                                {/* <Link href="#" target="_blank" className="mil-button mil-button-linear mil-button-rounded mil-button-lg mil-scale-down-trigger mil-buttons-space">
-                                    <span>Register</span>
-                                </Link>      */}
-                                 {/* buttons end */}
+                                <SpecularButton
+                                    href={Data[Event].link}
+                                    className="mil-scale-down-trigger"
+                                    size="lg"
+                                    radius={8}
+                                    tint="#D4A43A"
+                                    tintOpacity={0.92}
+                                    textColor="#0B0F14"
+                                    lineColor="#FFF6DE"
+                                    baseColor="#8A6A22"
+                                    shineSize={14}
+                                    shineFade={45}
+                                    thickness={1.5}
+                                    speed={0.3}
+                                    followMouse
+                                    proximity={260}
+                                >
+                                    {Data.button1.label}
+                                </SpecularButton>
+                                {/* buttons end */}
 
                             </div>
 
@@ -42,8 +55,19 @@ const HeroThree = ({Event}) => {
                                 <div className="mil-hero-illustration mil-hero-curtain">
                                     <div className="mil-gradient" />
                                     <Image src="/img/hero/flying-red-silk.png" alt="Flying Red Silk" width={1472} height={2616} className="mil-curtain-silk" />
-                                    <Image src={Data[Event].logo} alt="Event Logo" className="mil-photo"  style={{paddingTop: "25%"}} fill/>
-                                {/* <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"/> */}
+                                    <TiltedCard
+                                        imageSrc={Data[Event].logo}
+                                        altText="Event Logo"
+                                        className="mil-photo"
+                                        containerWidth="100%"
+                                        containerHeight="60%"
+                                        imageWidth="100%"
+                                        imageHeight="100%"
+                                        rotateAmplitude={10}
+                                        scaleOnHover={1.06}
+                                        showMobileWarning={false}
+                                        showTooltip={false}
+                                    />
                             </div>
 
                         </div>

@@ -59,7 +59,7 @@ const AboutFourSection = ({Event}) => {
                     </div>
                 </div>
                 <h5 className="mil-mb-100 mil-light" style={{marginTop: 20}}>{eb.name}</h5>
-                <span className="mil-link mil-softened-50">Executive Board</span>
+                <span className="mil-link mil-softened-50">{eb.role}</span>
             </div>
         )}
         {/* executive board end */}

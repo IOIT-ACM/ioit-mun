@@ -791,6 +791,15 @@ services
             }
         }
     }
+
+    & .mil-committee-tilt {
+        margin: 0 auto;
+
+        & .tilted-card-img {
+            border-radius: 0;
+            object-fit: contain;
+        }
+    }
 }
 
 /***************************

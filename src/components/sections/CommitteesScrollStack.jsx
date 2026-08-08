@@ -1,5 +1,6 @@
 import Data from "@data/sections/services.json";
 import Link from "next/link";
+import TiltedCard from "@components/ui/TiltedCard";
 
 const CommitteesScrollStack = () => {
     return (
@@ -23,14 +24,18 @@ const CommitteesScrollStack = () => {
                                     className="d-flex justify-content-center align-items-center"
                                     style={{ height: "clamp(220px, 24vw, 340px)" }}
                                 >
-                                    <img
-                                        src={item.icon}
-                                        alt={item.title}
-                                        style={{
-                                            maxWidth: "60%",
-                                            maxHeight: "100%",
-                                            objectFit: "contain",
-                                        }}
+                                    <TiltedCard
+                                        imageSrc={item.icon}
+                                        altText={item.title}
+                                        containerHeight="100%"
+                                        containerWidth="60%"
+                                        imageHeight="100%"
+                                        imageWidth="100%"
+                                        rotateAmplitude={10}
+                                        scaleOnHover={1.08}
+                                        showMobileWarning={false}
+                                        showTooltip={false}
+                                        className="mil-committee-tilt"
                                     />
                                 </div>
 

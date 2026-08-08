@@ -107,10 +107,17 @@ hero 2026
 .mil-hero-2026 {
     position: relative;
     width: 100%;
-    height: auto;
-    aspect-ratio: 1599 / 760;
     background-color: $dark;
     overflow: hidden;
+
+    & .mil-hero-2026-media {
+        position: relative;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1599 / 760;
+        max-height: 82vh;
+        overflow: hidden;
+    }
 
     & .mil-hero-2026-bg {
         position: absolute;
@@ -119,6 +126,7 @@ hero 2026
         width: 100%;
         height: 100%;
         z-index: 0;
+        transform: translateY(-9%);
 
         & img {
             object-fit: cover;
@@ -126,42 +134,74 @@ hero 2026
         }
     }
 
-    & .mil-hero-2026-title {
+    & .mil-hero-2026-scrim {
         position: absolute;
         left: 0;
         right: 0;
-        bottom: 13%;
+        bottom: 0;
+        height: 62%;
         z-index: 1;
+        background: linear-gradient(180deg, transparent 0%, rgba(5, 11, 20, .5) 55%, rgba(5, 11, 20, .86) 100%);
+        pointer-events: none;
+    }
+
+    & .mil-hero-2026-text {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: -230px;
+        padding-bottom: 16px;
+
+        @media screen and (max-width: 992px) {
+            margin-top: -190px;
+        }
+
+        @media screen and (max-width: 576px) {
+            margin-top: -68px;
+            gap: 14px;
+            padding-bottom: 8px;
+        }
+    }
+
+    & .mil-hero-2026-title {
         text-align: center;
         pointer-events: none;
 
         & h1 {
             margin: 0;
-            color: #E8C15A;
-            font-family: $font-1;
-            font-weight: 900;
-            font-size: clamp(48px, 9.5vw, 132px);
-            letter-spacing: .14em;
-            text-transform: uppercase;
-            text-shadow: 0 0 40px rgba(232, 193, 90, .45), 0 6px 30px rgba(0, 0, 0, .8);
+        }
+
+        & .mil-hero-2026-gradienttext {
+            display: inline-flex;
+            margin: 0 auto;
+            border-radius: 0;
+            backdrop-filter: none;
+            cursor: default;
+            overflow: visible;
+
+            & .text-content {
+                font-family: $font-1;
+                font-weight: 900;
+                font-size: clamp(48px, 9.5vw, 132px);
+                line-height: 1;
+                letter-spacing: .04em;
+                text-transform: uppercase;
+                filter: drop-shadow(0 2px 18px rgba(0, 0, 0, .5));
+            }
         }
 
         @media screen and (max-width: 576px) {
-            bottom: 16%;
-
-            & h1 {
+            & .mil-hero-2026-gradienttext .text-content {
                 font-size: clamp(28px, 9vw, 48px);
-                letter-spacing: .08em;
+                letter-spacing: .02em;
             }
         }
     }
 
     & .mil-hero-2026-tagline {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 9%;
-        z-index: 1;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -178,19 +218,18 @@ hero 2026
             letter-spacing: .35em;
             text-transform: uppercase;
             white-space: nowrap;
-            text-shadow: 0 0 18px rgba(245, 241, 232, .4), 0 2px 14px rgba(0, 0, 0, .7);
+            text-shadow: 0 2px 10px rgba(0, 0, 0, .55);
         }
 
         & .mil-hero-2026-line {
             width: 56px;
             height: 1px;
             flex-shrink: 0;
-            background: linear-gradient(90deg, transparent, $lt-90, transparent);
+            background: linear-gradient(90deg, transparent, $lt-40, transparent);
         }
 
         @media screen and (max-width: 576px) {
             gap: 12px;
-            bottom: 14%;
 
             & p {
                 font-size: 12px;
@@ -203,19 +242,6 @@ hero 2026
             }
         }
     }
-}
-
-.mil-hero-2026-cta {
-    position: relative;
-    z-index: 2;
-    background-color: $dark;
-    padding: 36px 24px 60px;
-    display: flex;
-    justify-content: center;
-
-    @media screen and (max-width: 576px) {
-        padding: 28px 20px 44px;
-    }
 
     & .mil-hero-2026-actions {
         display: flex;
@@ -223,20 +249,15 @@ hero 2026
         justify-content: center;
         align-items: center;
         gap: 20px;
-        width: 100%;
-    }
+        padding: 0 24px;
 
-    & .mil-hero-2026-btn {
-        font-size: 1.35rem;
-        padding: 22px 56px;
-        background-color: rgba(212, 164, 58, .8);
-        box-shadow: 0 0 40px rgba(212, 164, 58, .4), 0 8px 30px rgba(0, 0, 0, .35);
+        @media screen and (max-width: 576px) {
+            width: 100%;
+            gap: 14px;
 
-        &.mil-button-linear {
-            background-color: transparent;
-            border-color: rgba(212, 164, 58, .65);
-            color: rgba(245, 241, 232, .85);
-            box-shadow: 0 0 40px rgba(245, 241, 232, .15), 0 8px 30px rgba(0, 0, 0, .35);
+            & .specular-button {
+                width: 100%;
+            }
         }
     }
 }
@@ -251,8 +272,32 @@ hero 2026
         padding: 40px 20px 44px;
     }
 
-    & .mil-hero-2026-countdown-title {
+    & .mil-hero-2026-countdown-heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
         margin: 0 0 40px;
+
+        @media screen and (max-width: 576px) {
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+    }
+
+    & .mil-hero-2026-countdown-line {
+        width: 56px;
+        height: 1px;
+        flex-shrink: 0;
+        background: linear-gradient(90deg, transparent, $lt-40, transparent);
+
+        @media screen and (max-width: 576px) {
+            width: 24px;
+        }
+    }
+
+    & .mil-hero-2026-countdown-title {
+        margin: 0;
         text-align: center;
         color: $accent-1;
         font-family: $font-1;
@@ -265,7 +310,6 @@ hero 2026
         @media screen and (max-width: 576px) {
             font-size: 12px;
             letter-spacing: .2em;
-            margin-bottom: 24px;
         }
     }
 
@@ -279,16 +323,48 @@ hero 2026
     }
 
     & .mil-countdown-item {
-        background-color: rgba(212, 164, 58, .8);
-        box-shadow: 0 0 40px rgba(212, 164, 58, .4), 0 8px 30px rgba(0, 0, 0, .35);
+        position: relative;
+        background-color: $accent-1;
+        border-top: 2px solid rgba(255, 255, 255, .35);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, .3);
+        animation: mil-countdown-pulse 3.5s ease-in-out infinite;
+    }
+
+    & .mil-countdown-number-mask {
+        display: block;
+        overflow: hidden;
+        perspective: 240px;
     }
 
     & .mil-countdown-number {
+        display: inline-block;
         color: $dark;
+        animation: mil-countdown-flip .5s cubic-bezier(.22, 1, .36, 1);
+        transform-origin: 50% 100%;
     }
 
     & .mil-countdown-label {
         color: $dt-60;
+    }
+}
+
+@keyframes mil-countdown-pulse {
+    0%, 100% { box-shadow: 0 6px 20px rgba(0, 0, 0, .3), 0 0 0 rgba(212, 164, 58, 0); }
+    50% { box-shadow: 0 6px 20px rgba(0, 0, 0, .3), 0 0 24px rgba(212, 164, 58, .3); }
+}
+
+@keyframes mil-countdown-flip {
+    0% {
+        transform: rotateX(-90deg) translateY(30%);
+        opacity: 0;
+    }
+    60% {
+        transform: rotateX(8deg);
+        opacity: 1;
+    }
+    100% {
+        transform: rotateX(0deg);
+        opacity: 1;
     }
 }
 
@@ -679,6 +755,11 @@ hero 2
         object-position: top center;
         // border-bottom-left-radius: 300px;
         // border-bottom-right-radius: 300px;
+
+        & .tilted-card-img {
+            border-radius: 0;
+            object-fit: contain;
+        }
     }
 
     &.mil-hero-curtain {
