@@ -1,19 +1,10 @@
 import Data from "@data/sections/services.json";
 import Link from "next/link";
+import TiltedCard from "@components/ui/TiltedCard";
 
 const CommitteesScrollStack = () => {
     return (
         <div className="mil-services-1 mil-icon-2-trigger mil-accent-trigger mil-pseudo-hover-el">
-
-            {/* dark black gradient background */}
-            <div
-                className="mil-just-image mil-section-bg mil-scale-imgmil-gradient-overlay "
-                style={{
-                    height: "150%",
-                    background: "linear-gradient(135deg, #242f35 0%, #1b2730 100%)",
-                    transition: "background 0.3s ease",
-                }}
-            ></div>
 
             <div className="row m-0">
                 {Data.items.map((item, key) => (
@@ -33,14 +24,18 @@ const CommitteesScrollStack = () => {
                                     className="d-flex justify-content-center align-items-center"
                                     style={{ height: "clamp(220px, 24vw, 340px)" }}
                                 >
-                                    <img
-                                        src={item.icon}
-                                        alt={item.title}
-                                        style={{
-                                            maxWidth: "60%",
-                                            maxHeight: "100%",
-                                            objectFit: "contain",
-                                        }}
+                                    <TiltedCard
+                                        imageSrc={item.icon}
+                                        altText={item.title}
+                                        containerHeight="100%"
+                                        containerWidth="60%"
+                                        imageHeight="100%"
+                                        imageWidth="100%"
+                                        rotateAmplitude={10}
+                                        scaleOnHover={1.08}
+                                        showMobileWarning={false}
+                                        showTooltip={false}
+                                        className="mil-committee-tilt"
                                     />
                                 </div>
 

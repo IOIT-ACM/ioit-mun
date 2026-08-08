@@ -3,7 +3,7 @@ import { useState } from "react";
 import appData from "@/src/data/app";
 import Image from "next/image";
 
-const DefaultHeader = ({ transparent, invert, extraClass }) => {
+const DefaultHeader = ({ transparent, invert, extraClass, staticNav }) => {
   const [toggle, setToggle] = useState(false);
 
   const navItems = [];
@@ -18,13 +18,26 @@ const DefaultHeader = ({ transparent, invert, extraClass }) => {
     navItems.push(newobj);
   });
 
+  let panelClass = 'mil-top-panel mil-animated';
+
+  if ( staticNav ) {
+    panelClass += ' mil-static-nav mil-invert-nav';
+  } else {
+    panelClass += transparent ? ' mil-transparent-nav' : '';
+    panelClass += !invert ? ' mil-invert-nav' : '';
+  }
+
+  if ( extraClass ) {
+    panelClass += ` ${extraClass}`;
+  }
+
   return (
-        <div className={`mil-top-panel${transparent ? " mil-transparent-nav" : "" }${!invert ? " mil-invert-nav" : "" } mil-animated ${extraClass ? extraClass : ""}`} style={{zIndex: 10}}>
+        <div className={panelClass} style={{zIndex: 10}}>
             <div className="container">
                 <Link href="/" legacyBehavior>
                   <a className="mil-logo mil-scale-down-trigger mil-accent-trigger">
                       <div className="mil-h5">
-                        <span> <Image src={invert ? appData.header.logo.url3 : appData.header.logo.url} width={170} height={60} alt="logo" /> </span> <span className="mil-accent">{appData.header.logo.accent}</span>
+                        <span> <Image src={appData.header.logo.url} width={170} height={60} alt="logo" /> </span> <span className="mil-accent">{appData.header.logo.accent}</span>
                       </div>
                   </a>
                 </Link>

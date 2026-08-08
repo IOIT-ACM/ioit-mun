@@ -25,7 +25,7 @@ export const navigation = () => {
         gsap.fromTo(
             section, {
                 ease: 'sine',
-                backgroundColor: 'rgba(38, 50, 56, 0)',
+                backgroundColor: 'rgba(5, 11, 20, 0)',
             }, {
                 backgroundColor: variables.darkColor,
                 scrollTrigger: {

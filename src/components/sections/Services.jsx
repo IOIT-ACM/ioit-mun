@@ -5,16 +5,6 @@ const ServicesSection = () => {
     return (
         <div className="mil-services-1 mil-icon-2-trigger mil-accent-trigger mil-pseudo-hover-el">
 
-            {/* dark black gradient background */}
-            <div
-                className="mil-just-image mil-section-bg mil-scale-imgmil-gradient-overlay "
-                style={{
-                    height: "150%",
-                    background: "linear-gradient(135deg, #242f35 0%, #1b2730 100%)",
-                    transition: "background 0.3s ease",
-                }}
-            ></div>
-
             <div className="row m-0">
                 {Data.items.map((item, key) => (
                     <div

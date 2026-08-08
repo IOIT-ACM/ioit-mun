@@ -69,7 +69,7 @@ Content
 
 .mil-content-frame+.single-post-text>p:first-child {
     &::first-letter {
-        color: $dark;
+        color: $light;
         font-weight: $titles-font-weight;
         padding-right: 25px;
         line-height: 100%;
@@ -199,7 +199,7 @@ swiper
         width: auto;
 
         & .swiper-pagination-bullet {
-            background-color: $dark;
+            background-color: $lt-60;
             transition: $t-sm;
             margin: 0 6px;
 

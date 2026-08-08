@@ -19,7 +19,7 @@ const DefaultFooter = ( { instagram } ) => {
                         <p className="mil-mb-30">{appData.footer.description}</p>
                         <div style={{display:"flex", justifyContent:"space-around"}}>
                         <Image src={appData.footer.logo.image2} alt="logo" className="mil-mb-0 pt-2" width={130} height={110}/>
-                        <Image src={appData.footer.logo.image1} alt="logo" className="mil-mb-0" width={140} height={130}/>
+                        <Image src={appData.footer.logo.image1} alt="logo" className="mil-mb-0" width={90} height={108}/>
                         </div>
                     </div>
                     <div className="col-lg-12 col-xl-8">
@@ -84,10 +84,7 @@ const DefaultFooter = ( { instagram } ) => {
             }
         </div>
         <div className="mil-footer-bottom">
-            <div className="container">
-                {/* copyright */}
-                <p className="mil-text-xs mil-softened-20">{appData.footer.copy}</p>
-            </div>
+            <p className="mil-text-xs mil-softened-20">{appData.footer.copy}</p>
         </div>
     </footer>
   );

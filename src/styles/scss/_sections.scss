@@ -301,6 +301,19 @@ navigation
     }
 }
 
+.mil-top-panel {
+    &.mil-static-nav {
+        position: relative;
+        background-color: $dark;
+
+        & .mil-logo {
+            & * {
+                color: $light;
+            }
+        }
+    }
+}
+
 // menu button
 
 .mil-menu-btn {
@@ -611,31 +624,30 @@ footers
 
 .mil-footer-1 {
     position: relative;
+    background-color: transparent;
+
+    & .mil-image-frame {
+        background-color: transparent;
+    }
+
+    & .mil-overay {
+        background-color: transparent;
+    }
 }
 
 .mil-footer-content {
     position: relative;
+    z-index: 1;
+    padding-bottom: 0;
 }
 
 .mil-footer-bottom {
-    filter: brightness(90%);
     position: relative;
-    height: 100px;
-    background-color: $dark;
+    padding: 24px 0;
+    text-align: center;
     display: flex;
     align-items: center;
-
-    & .container {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-
-        @media screen and (max-width: 992px) {
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-        }
-    }
+    justify-content: center;
 
     & a {
         transition: $t-sm;
@@ -777,6 +789,15 @@ services
             & .mil-cover {
                 padding-bottom: 70% !important;
             }
+        }
+    }
+
+    & .mil-committee-tilt {
+        margin: 0 auto;
+
+        & .tilted-card-img {
+            border-radius: 0;
+            object-fit: contain;
         }
     }
 }

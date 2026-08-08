@@ -18,6 +18,7 @@ const Layouts = ({
   footerInst,
   transparent,
   invert,
+  staticNav = true,
   extraClass,
 }) => {
   useEffect(() => {
@@ -35,17 +36,19 @@ const Layouts = ({
           layout={header}
           transparent={transparent}
           invert={invert}
+          staticNav={staticNav}
           extraClass={extraClass}
         />
       )}
 
       <div id="swupMain" className="mil-main-transition">
         <div id="smooth-content" className="mil-content">
-          {children}
+          <div className="mil-page-curtain" style={{ position: "relative", overflow: "hidden" }}>
+            {children}
+            {!noFooter && <Footer layout={footer} bg={footerBg} instagram={footerInst} />}
+          </div>
         </div>
       </div>
-      
-      {!noFooter && <Footer layout={footer} bg={footerBg} instagram={footerInst} />}
     </div>
   );
 };

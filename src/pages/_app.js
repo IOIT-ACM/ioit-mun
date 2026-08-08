@@ -6,6 +6,9 @@ import "../styles/globals.css";
 import '../../public/css/plugins/bootstrap-grid.css';
 import '../../public/css/plugins/font-awesome.min.css';
 import '../../public/css/plugins/swiper.min.css';
+import '../components/ui/GradientText.css';
+import '../components/ui/SpecularButton.css';
+import '../components/ui/TiltedCard.css';
 
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements
