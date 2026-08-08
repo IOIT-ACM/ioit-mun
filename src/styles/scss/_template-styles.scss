@@ -626,6 +626,27 @@ hero 2
         // border-bottom-right-radius: 300px;
     }
 
+    &.mil-hero-curtain {
+        & .mil-gradient {
+            opacity: 0;
+        }
+
+        & .mil-curtain-silk {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: auto;
+            height: 115%;
+            object-fit: contain;
+            z-index: 2;
+        }
+
+        & .mil-photo {
+            z-index: 3;
+        }
+    }
+
     & .mil-photo-secretariat {
         position: absolute;
         top: 70px;
