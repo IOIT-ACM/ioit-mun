@@ -277,6 +277,19 @@ hero 2026
             width: 100%;
         }
     }
+
+    & .mil-countdown-item {
+        background-color: rgba(212, 164, 58, .8);
+        box-shadow: 0 0 40px rgba(212, 164, 58, .4), 0 8px 30px rgba(0, 0, 0, .35);
+    }
+
+    & .mil-countdown-number {
+        color: $dark;
+    }
+
+    & .mil-countdown-label {
+        color: $dt-60;
+    }
 }
 
 .mil-hero-2026-partners {

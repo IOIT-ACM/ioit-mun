@@ -6,6 +6,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
 import Image from "next/image";
 
+const dateBoxStyle = {
+  padding: "5px 5%",
+  backgroundColor: "rgba(212, 164, 58, 0.8)",
+  color: "#050B14",
+  display: "flex",
+  justifyContent: "space-between",
+  borderRadius: "30px",
+  boxShadow: "0 0 40px rgba(212, 164, 58, 0.4), 0 8px 30px rgba(0, 0, 0, 0.35)",
+};
+
 const Schedule = () => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -25,10 +35,7 @@ const Schedule = () => {
 
       <div className="row">
         <div className="col-md-12 col-lg-6">
-          <h1 className='mil-h4' style={{
-            padding: "5px 0px", backgroundColor: "rgba(212, 164, 58, 1)", color: "#050B14",
-            display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
-          }}>
+          <h1 className='mil-h4' style={dateBoxStyle}>
             <span>24th October 2026</span>
             <Link href="#"><FontAwesomeIcon icon={faCalendarAlt} /></Link>
           </h1>
@@ -47,10 +54,7 @@ const Schedule = () => {
         </div>
 
         <div className="col-md-12 col-lg-6">
-          <h1 className='mil-h4' style={{
-            padding: "5px 0px", backgroundColor: "rgba(212, 164, 58, 1)", color: "#050B14",
-            display: "flex", justifyContent: "space-between", borderRadius: "30px", padding: "5px 5%"
-          }}>
+          <h1 className='mil-h4' style={dateBoxStyle}>
             <span>25th October 2026</span>
             <Link href="cesaioit.com"><FontAwesomeIcon icon={faCalendarAlt} /></Link>
           </h1>
