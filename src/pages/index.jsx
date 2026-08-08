@@ -13,13 +13,13 @@ import Schedule from "@components/sections/Schedule";
 
 const Page = (props) => {
   return (
-    <div style={{width: "100vw", overflowX: "hidden"}}>
+    <div style={{ width: "100vw", overflowX: "hidden" }}>
       <Layouts transparent>
         <HeroOneSection />
         <CommitteesScrollStack />
         {/* <ChiefGuest /> */}
         {/* <TeamSection /> */}
-        <Schedule />
+        {/*<Schedule />*/}
         <VideoSection />
         <Stats />
       </Layouts>
