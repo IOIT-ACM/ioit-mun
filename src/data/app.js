@@ -98,8 +98,8 @@ export default {
   },
   "contacts": {
     "email": "ioit.mun@aissmsioit.org",
-    "tel": "+91 9321571075",
-    "name": "Tanisha Londhe"
+    "tel": "+91 8275167708",
+    "name": "Jeevika Agrawal"
   },
   "social": [
     {
