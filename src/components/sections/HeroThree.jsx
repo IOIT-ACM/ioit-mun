@@ -42,7 +42,7 @@ const HeroThree = ({Event}) => {
                                 <div className="mil-hero-illustration mil-hero-curtain">
                                     <div className="mil-gradient" />
                                     <Image src="/img/hero/flying-red-silk.png" alt="Flying Red Silk" width={1472} height={2616} className="mil-curtain-silk" />
-                                    <Image src={Data[Event].logo} alt="Event Logo" className="mil-photo"  style={{filter: "brightness(0) invert(1)", paddingTop: "25%"}} fill/>
+                                    <Image src={Data[Event].logo} alt="Event Logo" className="mil-photo"  style={{paddingTop: "25%"}} fill/>
                                 {/* <img src={Data[Event].logo} alt="Event Logo" className="mil-photo"/> */}
                             </div>
 

@@ -84,10 +84,7 @@ const DefaultFooter = ( { instagram } ) => {
             }
         </div>
         <div className="mil-footer-bottom">
-            <div className="container">
-                {/* copyright */}
-                <p className="mil-text-xs mil-softened-20">{appData.footer.copy}</p>
-            </div>
+            <p className="mil-text-xs mil-softened-20">{appData.footer.copy}</p>
         </div>
     </footer>
   );
