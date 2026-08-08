@@ -57,7 +57,7 @@ const Page = (props) => {
             </div>
           </div>
           <div style={{ position: "relative", zIndex: 1 }}>
-            <Schedule />
+            {/*<Schedule />*/}
             <VideoSection />
             <div style={{ marginTop: 100 }}>
               <RegisterCta />
