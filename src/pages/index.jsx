@@ -44,7 +44,7 @@ const Page = (props) => {
               }}
             >
               <Image
-                src="/img/hero/flying-red-silk.png"
+                src="/img/hero/flying-red-silk.webp"
                 alt="Curtain"
                 fill
                 sizes="100vw"

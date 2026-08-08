@@ -1,26 +1,26 @@
 const executiveBoard = {
   ICW: {
-    image: "/img/ebs/chair.ICW.png",
+    image: "/img/ebs/chair.ICW.webp",
     name: "Atreyee Mukherjee",
     role: "Chair",
   },
   UNCSW: {
-    image: "/img/ebs/chair.UNSCW.png",
+    image: "/img/ebs/chair.UNSCW.webp",
     name: "Abuzar Shaikh",
     role: "Chair",
   },
   WTO: {
-    image: "/img/ebs/chair.WTO.png",
+    image: "/img/ebs/chair.WTO.webp",
     name: "Mehek Singh",
     role: "Chair",
   },
   AIPPM: {
-    image: "/img/ebs/moderator.aippm.png",
+    image: "/img/ebs/moderator.aippm.webp",
     name: "Rishabh Singh",
     role: "Moderator",
   },
   UNSC: {
-    image: "/img/ebs/president.UNSC.png",
+    image: "/img/ebs/president.UNSC.webp",
     name: "Om Handibag",
     role: "President",
   },

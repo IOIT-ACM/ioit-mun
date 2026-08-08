@@ -25,35 +25,35 @@
     "title": "United Nations Security Council",
     "description": "The United Nations Security Council (UNSC) is the primary body responsible for maintaining international peace and security. Empowered to adopt legally binding resolutions, authorize sanctions, establish peacekeeping operations, and, when necessary, approve the use of force, the UNSC addresses the world's most pressing security challenges. Delegates must navigate high-stakes diplomacy, geopolitical rivalries, and rapidly evolving crises while striving to build consensus among member states. .",
     "Agenda": "The Situation in the Strait of Hormuz: Addressing Maritime Security, Regional Stability, and Global Energy Supply. ",
-    "logo": "/img/logos/UNSC.png",
+    "logo": "/img/logos/UNSC.webp",
     "link": "/comingsoon"
   },
   "ICW": {
     "title": "International Confederation of Wizards",
     "description": "The International Confederation of Wizards (ICW) is the highest international governing body of the global wizarding community, responsible for fostering cooperation among magical governments while safeguarding the International Statute of Wizarding Secrecy. In times of crisis, the ICW serves as the forum where influential witches and wizards shape the future of the wizarding world through diplomacy, intelligence sharing, and strategic decision-making. Delegates must navigate political alliances, magical conflicts, and rapidly unfolding events where every decision has the potential to alter the course of wizarding history. ",
     "Agenda": "The Gathering Storm: The International Wizarding Summit on the Rise of Voldemort.",
-    "logo": "/img/logos/ICW.png",
+    "logo": "/img/logos/ICW.webp",
     "link": "/comingsoon"
   },
   "UNCSW": {
     "title": "United Nations Commission on the Status of Women",
     "description": "The United Nations Commission on the Status of Women (UNCSW) is the principal global intergovernmental body dedicated to promoting gender equality and the empowerment of women. The committee examines challenges affecting women worldwide and works toward policies that advance equal rights, inclusive development, and social justice. Delegates must balance cultural, legal, economic, and human rights perspectives while drafting solutions that strengthen the status of women across diverse societies. ",
     "Agenda": "Addressing the Intersection of Healthcare Infrastructure and Restrictive Legal Frameworks on Women’s Reproductive Autonomy. ",
-    "logo": "/img/logos/UNSCW.png",
+    "logo": "/img/logos/UNSCW.webp",
     "link": "/comingsoon"
   },
   "AIPPM": {
     "title": "All India Political Parties Meet",
     "description": "The All India Political Parties Meet (AIPPM) brings together leaders from across India's political spectrum to deliberate on matters of national importance. Unlike international committees, AIPPM simulates the realities of Indian politics, where ideology, coalition-building, parliamentary strategy, and public opinion play a central role. Delegates are expected to defend their party's position while negotiating practical and politically viable solutions to contemporary national issues.",
     "Agenda": "Deliberation upon Simultaneous Elections and the Delimitation Exercise: Assessing their Constitutional, Federal, and Democratic Implications.",
-    "logo": "/img/logos/AIPPM.png",
+    "logo": "/img/logos/AIPPM.webp",
     "link": "/comingsoon"
   },
   "WTO": {
     "title": "World Trade Organization",
     "description": "The World Trade Organization (WTO) serves as the cornerstone of the global trading system, promoting fair, predictable, and rules-based international commerce. It provides a platform for negotiating trade agreements, resolving disputes, and addressing emerging economic challenges. Delegates will negotiate complex issues involving international trade, economic development, technology, and market access while balancing national interests with global economic cooperation..",
     "Agenda": "Reviewing Post-MC14 Digital Trade: Balancing Developing Nations' Fiscal Space and Digital Industrial Policy with Global Market Predictability.",
-    "logo": "/img/logos/WTO.png",
+    "logo": "/img/logos/WTO.webp",
     "link": "/comingsoon"
   }
 }

@@ -3,42 +3,42 @@
     {
       "num": "01",
       "title": "UNSC",
-      "icon": "/img/logos/UNSC.png",
+      "icon": "/img/logos/UNSC.webp",
       "text": "United Nations Security Council",
       "id": "/unsc"
     },
     {
       "num": "02",
       "title": "ICW",
-      "icon": "/img/logos/ICW.png",
+      "icon": "/img/logos/ICW.webp",
       "text": "International Confederation of Wizards",
       "id": "/icw"
     },
     {
       "num": "03",
       "title": "UNCSW",
-      "icon": "/img/logos/UNSCW.png",
+      "icon": "/img/logos/UNSCW.webp",
       "text": "United Nations Commission on the Status of Women",
       "id": "/uncsw"
     },
     {
       "num": "04",
       "title": "AIPPM",
-      "icon": "/img/logos/AIPPM.png",
+      "icon": "/img/logos/AIPPM.webp",
       "text": "All India Political Parties Meet",
       "id": "/aippm"
     },
     {
       "num": "05",
       "title": "MUN",
-      "icon": "/img/logos/Mun.png",
+      "icon": "/img/logos/Mun.webp",
       "text": "Model United Nations",
       "id": "/"
     },
     {
       "num": "06",
       "title": "WTO",
-      "icon": "/img/logos/WTO.png",
+      "icon": "/img/logos/WTO.webp",
       "text": "World Trade Organization",
       "id": "/wto"
     }

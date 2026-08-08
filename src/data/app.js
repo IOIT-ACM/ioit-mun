@@ -63,7 +63,7 @@ export default {
     "logo": {
       "text": "AISSMS IOIT",
       "accent": ` MUN' ${year.toString().slice(-2)}`,
-      "image1": "/img/hero/ioitAcm.png",
+      "image1": "/img/hero/ioitAcm.webp",
       "image2": "/img/hero/mun12.png"
     },
     "description": "",
