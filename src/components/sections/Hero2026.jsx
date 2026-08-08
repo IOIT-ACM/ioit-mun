@@ -63,13 +63,13 @@ const Hero2026 = () => {
 
                     <div className="mil-hero-2026-actions">
                         <Link
-                            href="url"
+                            href="https://unstop.com/conferences/ioit-mun-2026-tenet-aissms-institute-of-information-technology-pune-maharashtra-1699491"
                             className="mil-button mil-button-rounded mil-button-lg mil-scale-down-trigger mil-buttons-space mil-hero-2026-btn"
                         >
                             <span>Register Now</span>
                         </Link>
                         <Link
-                            href="url"
+                            href="/comingsoon"
                             className="mil-button mil-button-rounded mil-button-lg mil-button-linear mil-scale-down-trigger mil-buttons-space mil-hero-2026-btn"
                         >
                             <span>Download Brochure</span>

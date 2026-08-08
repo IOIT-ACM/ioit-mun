@@ -122,9 +122,9 @@ const RegisterCta = () => {
                     </h3>
 
                     <Link
-                        href="url"
+                        href="https://unstop.com/conferences/ioit-mun-2026-tenet-aissms-institute-of-information-technology-pune-maharashtra-1699491"
                         className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"
-                        style={{ borderRadius: 0 }}
+                        style={{ borderRadius: 0, fontSize: "1.2rem" }}
                     >
                         <span>Register Now</span>
                     </Link>
