@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Data from "@data/sections/hero-1.json";
@@ -45,13 +44,6 @@ function CountdownUnit({ value, label }) {
 
 const Hero2026 = () => {
     const { days, hours, minutes, seconds } = useCountdown(EVENT_DATE);
-    const router = useRouter();
-
-    const handleBrochureClick = (e) => {
-        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
-        e.preventDefault();
-        router.push("/comingsoon");
-    };
 
     return (
         <header>
@@ -113,8 +105,9 @@ const Hero2026 = () => {
                             Register Now
                         </SpecularButton>
                         <SpecularButton
-                            href="/comingsoon"
-                            onClick={handleBrochureClick}
+                            href="/brochures/delegate-brochure.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="mil-scale-down-trigger"
                             size="lg"
                             radius={8}
