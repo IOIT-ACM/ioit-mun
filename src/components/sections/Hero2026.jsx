@@ -85,6 +85,10 @@ const Hero2026 = () => {
                         </h1>
                     </div>
 
+                    <div className="mil-hero-2026-dates">
+                        <p>24TH-25TH OCTOBER 2026</p>
+                    </div>
+
                     <div className="mil-hero-2026-tagline">
                         <span className="mil-hero-2026-line" />
                         <p>Unity Through Diplomacy</p>
