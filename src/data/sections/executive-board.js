@@ -21,7 +21,7 @@ const executiveBoard = {
   },
   UNSC: {
     image: "/img/ebs/president.UNSC.webp",
-    name: "Om Handibag",
+    name: "Omkar Handibag",
     role: "President",
   },
 };
