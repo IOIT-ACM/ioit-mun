@@ -103,6 +103,11 @@ export default {
   },
   "social": [
     {
+      "link": "https://ioit.acm.org/",
+      "icon": "fas fa-globe",
+      "title": "ACM IOIT"
+    },
+    {
       "link": "https://www.linkedin.com/company/ioit-mun/",
       "icon": "fab fa-linkedin-in",
       "title": "Facebook"
