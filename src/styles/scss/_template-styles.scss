@@ -201,6 +201,31 @@ hero 2026
         }
     }
 
+    & .mil-hero-2026-dates {
+        pointer-events: none;
+        margin: -14px 0 -4px;
+
+        & p {
+            margin: 0;
+            color: $light;
+            font-family: $font-1;
+            font-weight: 400;
+            font-size: clamp(20px, 3.2vw, 44px);
+            letter-spacing: .10em;
+            text-transform: uppercase;
+            white-space: nowrap;
+            text-shadow: 0 2px 14px rgba(0, 0, 0, .7);
+        }
+
+        @media screen and (max-width: 576px) {
+            & p {
+                font-size: 16px;
+                letter-spacing: .14em;
+            }
+            margin-top: -6px;
+        }
+    }
+
     & .mil-hero-2026-tagline {
         display: flex;
         align-items: center;
