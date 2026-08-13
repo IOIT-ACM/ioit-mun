@@ -197,18 +197,25 @@ const RegisterCta = () => {
                             alignItems: "center",
                         }}
                     >
-                        <div style={{ fontSize: "1rem", fontWeight: 600, color: "#F5F1E8" }}>
-                            Current Prize Pool
-                        </div>
                         <div
                             style={{
-                                fontSize: "1.8rem",
+                                fontSize: "2.2rem",
                                 fontWeight: 800,
                                 color: "#E8C15A",
-                                lineHeight: 1.2,
+                                lineHeight: 1,
                             }}
                         >
                             ₹{prizeAmount.toLocaleString(["en-IN"])}
+                        </div>
+                        <div
+                            style={{
+                                marginTop: 6,
+                                color: "#F5F1E8",
+                                fontWeight: 600,
+                                textAlign: "center",
+                            }}
+                        >
+                            Current Prize Pool
                         </div>
                     </div>
                 </div>
