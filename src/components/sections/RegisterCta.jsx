@@ -110,7 +110,7 @@ const RegisterCta = () => {
                     <h3
                         style={{
                             color: "#E8C15A",
-                            fontSize: "5.5rem",
+                            fontSize: "clamp(2.5rem, 8vw, 5.5rem)",
                             fontWeight: 800,
                             margin: "16px 0 32px",
                             lineHeight: 1,
