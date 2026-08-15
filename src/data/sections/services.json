@@ -30,10 +30,10 @@
     },
     {
       "num": "05",
-      "title": "MUN",
-      "icon": "/img/logos/Mun.webp",
-      "text": "Model United Nations",
-      "id": "/"
+      "title": "IP",
+      "icon": "/img/logos/IP.png",
+      "text": "International Press",
+      "id": "/comingsoon"
     },
     {
       "num": "06",
