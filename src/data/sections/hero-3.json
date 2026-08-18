@@ -49,6 +49,13 @@
     "logo": "/img/logos/AIPPM.webp",
     "link": "/comingsoon"
   },
+  "IP":{
+    "title": "International Press",
+    "description": "The International Press is a global platform for news dissemination and media cooperation. It facilitates the exchange of information, coordinates reporting efforts, and supports member countries in addressing pressing issues. Delegates must navigate complex legal frameworks, jurisdictional challenges, and international collaboration while addressing issues such as misinformation, press freedom, and media regulation.",
+    "Agenda": "The Global Fight Against Misinformation: Strengthening International Cooperation and Legal Frameworks to Combat Digital Threats",
+    "logo": "/img/logos/IP.png",
+    "link": "/comingsoon"
+  },
   "WTO": {
     "title": "World Trade Organization",
     "description": "The World Trade Organization (WTO) serves as the cornerstone of the global trading system, promoting fair, predictable, and rules-based international commerce. It provides a platform for negotiating trade agreements, resolving disputes, and addressing emerging economic challenges. Delegates will negotiate complex issues involving international trade, economic development, technology, and market access while balancing national interests with global economic cooperation.",
