@@ -16,7 +16,7 @@ const executiveBoard = {
   },
   AIPPM: {
     image: "/img/ebs/moderator.aippm.webp",
-    name: "Rishabh Singh",
+    name: "Riya Vaidya",
     role: "Moderator",
   },
   UNSC: {
