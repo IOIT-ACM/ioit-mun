@@ -99,7 +99,11 @@ export default {
   "contacts": {
     "email": "ioit.mun@aissmsioit.org",
     "tel": "+91 8275167708",
-    "name": "Jeevika Agrawal"
+    "name": "Jeevika Agrawal",
+    "persons": [
+      { "name": "Atharv Pednekar", "tel": "+91 9130912373" },
+      { "name": "Krushna Dhawale", "tel": "+91 9112443121" }
+    ]
   },
   "social": [
     {
