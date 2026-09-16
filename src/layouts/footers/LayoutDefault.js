@@ -10,21 +10,19 @@ const DefaultFooter = ( { instagram } ) => {
         </div>
         <div className="container">
             <div className="mil-footer-content mil-p-120-90">
-                <div className="row justify-content-between">
-                    <div className="col-lg-6 col-xl-4 mil-mb-10">
+                <div className="row g-5">
+                    <div className="col-md-6 col-lg-3 mil-mb-10">
                         <h4 className="mil-light mil-mb-30"> 
                             <span dangerouslySetInnerHTML={{__html : appData.footer.logo.text}} />
                             <span className="mil-accent">{appData.footer.logo.accent}</span>
                         </h4>
                         <p className="mil-mb-30">{appData.footer.description}</p>
-                        <div style={{display:"flex", justifyContent:"space-around"}}>
+                        <div style={{display:"flex", flexWrap:"wrap", justifyContent:"flex-start", gap:"20px"}}>
                         <Image src={appData.footer.logo.image2} alt="logo" className="mil-mb-0 pt-2" width={130} height={110}/>
                         <a href="https://ioit.acm.org/" target="_blank"><Image src={appData.footer.logo.image1} alt="logo" className="mil-mb-0" width={90} height={108}/></a>
                         </div>
                     </div>
-                    <div className="col-lg-12 col-xl-8">
-                        <div className="row justify-content-xl-end">
-                            <div className="col-lg-4 col-xl-5 mil-mb-30">
+                    <div className="col-md-6 col-lg-3 mil-mb-30">
                                 <h6 className="mil-light mil-mb-30">Menu</h6>
                                 {/* menu list */}
                                 <ul>
@@ -35,10 +33,9 @@ const DefaultFooter = ( { instagram } ) => {
                                     ))}
                                 </ul>
                                 {/* menu list end */}
-                            </div>
-                            
-                            <div className="col-lg-4 col-xl-4 mil-mb-30">
-                                <h6 className="mil-light mil-mb-30">Contact us</h6>
+                    </div>
+                    <div className="col-md-6 col-lg-3 mil-mb-30">
+                                <h6 className="mil-light mil-mb-10">Contact us</h6>
                                 {/* email */}
                                 <a href={`mailto:${appData.contacts.email}`} className="mil-link mil-link-hover mil-accent mil-hidden-trigger mil-mb-30" style={{fontSize: 15}}>{appData.contacts.email}</a>
                                 {/* phone */}
@@ -57,9 +54,15 @@ const DefaultFooter = ( { instagram } ) => {
                                     ))}
                                 </ul>
                                 {/* social end */}
-
-                            </div>
-                        </div>
+                    </div>
+                    <div className="col-md-6 col-lg-3 mil-mb-30">
+                                {/* phone */}
+                                {appData.contacts.persons.map((person, key) => (
+                                <div key={`contact-person-${key}`} className="mil-mb-30">
+                                    <p className="mil-light mil-text-xl mil-bold mil-mb-0" style={{fontSize: 17}}>{person.name}</p>
+                                    <a href={`tel:${person.tel}`} className="mil-link mil-link-hover mil-accent mil-hidden-trigger" style={{fontSize: 15}}>{person.tel}</a>
+                                </div>
+                                ))}
                     </div>
                 </div>
             </div>
