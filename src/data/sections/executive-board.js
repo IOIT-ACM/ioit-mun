@@ -8,6 +8,8 @@ const executiveBoard = {
     image: "/img/ebs/chair.UNSCW.webp",
     name: "Abuzar Shaikh",
     role: "Chairperson",
+    objectPosition: "center bottom",
+    zoom: 1.2,
   },
   WTO: {
     image: "/img/ebs/chair.WTO.webp",
