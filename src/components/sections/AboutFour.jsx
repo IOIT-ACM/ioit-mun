@@ -55,7 +55,7 @@ const AboutFourSection = ({Event}) => {
                 <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30" style={{fontSize: 40}}>Executive Board</h3>
                 <div className="mil-mb-30" style={{position: "relative", width: "100%", maxWidth: 400, margin: "0 auto"}}>
                     <div className="mil-just-image" style={{paddingBottom: "125%"}}>
-                        <Image src={eb.image} alt={eb.name} fill sizes="(min-width: 768px) 400px, 100vw" style={{objectFit: "cover", objectPosition: "center"}} />
+                        <Image src={eb.image} alt={eb.name} fill sizes="(min-width: 768px) 400px, 100vw" style={{objectFit: "cover", objectPosition: eb.objectPosition || "center", transform: eb.zoom ? `scale(${eb.zoom})` : undefined}} />
                     </div>
                 </div>
                 <h5 className="mil-mb-100 mil-light" style={{marginTop: 20}}>{eb.name}</h5>
