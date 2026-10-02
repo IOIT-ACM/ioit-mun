@@ -26,25 +26,53 @@ const HeroThree = ({Event}) => {
                                 <p className="mil-mb-30" style={{fontSize: "25px"}}> {Data[Event].Agenda}{/*Strengthening International Cooperation in Cybersecurity*/}.</p>
 
                                 {/* buttons */}
-                                <SpecularButton
-                                    href={Data[Event].link}
-                                    className="mil-scale-down-trigger"
-                                    size="lg"
-                                    radius={8}
-                                    tint="#D4A43A"
-                                    tintOpacity={0.92}
-                                    textColor="#0B0F14"
-                                    lineColor="#FFF6DE"
-                                    baseColor="#8A6A22"
-                                    shineSize={14}
-                                    shineFade={45}
-                                    thickness={1.5}
-                                    speed={0.3}
-                                    followMouse
-                                    proximity={260}
-                                >
-                                    {Data.button1.label}
-                                </SpecularButton>
+                                <div style={{ display: "flex", gap: "15px", flexWrap: "wrap", alignItems: "center" }}>
+                                    <SpecularButton
+                                        href={Data[Event].link}
+                                        target={Data[Event].link?.startsWith("http") ? "_blank" : undefined}
+                                        rel={Data[Event].link?.startsWith("http") ? "noopener noreferrer" : undefined}
+                                        className="mil-scale-down-trigger"
+                                        size="lg"
+                                        radius={8}
+                                        tint="#D4A43A"
+                                        tintOpacity={0.92}
+                                        textColor="#0B0F14"
+                                        lineColor="#FFF6DE"
+                                        baseColor="#8A6A22"
+                                        shineSize={14}
+                                        shineFade={45}
+                                        thickness={1.5}
+                                        speed={0.3}
+                                        followMouse
+                                        proximity={260}
+                                    >
+                                        {Data.button1.label}
+                                    </SpecularButton>
+
+                                    {(Data[Event].statuteLink || Data[Event].statuelink) && (
+                                        <SpecularButton
+                                            href={Data[Event].statuteLink || Data[Event].statuelink}
+                                            target={(Data[Event].statuteLink || Data[Event].statuelink)?.startsWith("http") ? "_blank" : undefined}
+                                            rel={(Data[Event].statuteLink || Data[Event].statuelink)?.startsWith("http") ? "noopener noreferrer" : undefined}
+                                            className="mil-scale-down-trigger"
+                                            size="lg"
+                                            radius={8}
+                                            tint="#D4A43A"
+                                            tintOpacity={0.92}
+                                            textColor="#0B0F14"
+                                            lineColor="#FFF6DE"
+                                            baseColor="#8A6A22"
+                                            shineSize={14}
+                                            shineFade={45}
+                                            thickness={1.5}
+                                            speed={0.3}
+                                            followMouse
+                                            proximity={260}
+                                        >
+                                            Statute
+                                        </SpecularButton>
+                                    )}
+                                </div>
                                 {/* buttons end */}
 
                             </div>
